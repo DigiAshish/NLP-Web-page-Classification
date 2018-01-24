@@ -1,0 +1,2077 @@
+Data : ['Tianjin', ' Travel']
+Tokenizing Words : 
+['tianjin', '(', '[', 'tʰjɛ́n.tɕín', ']', '(', 'listen', ')', ')', ',', 'formerly', 'known', 'in', 'english', 'as', 'tientsin', ',', 'is', 'a', 'metropolis', 'in', 'northern', 'coastal', 'mainland', 'china', 'and', 'one', 'of', 'the', 'four', 'national', 'central', 'cities', 'of', 'the', 'country', ',', 'with', 'a', 'total', 'population', 'of', '15,469,500', ',', 'and', 'is', 'also', 'the', 'world', "'s", '6th-most', 'populous', 'city', 'proper', '.', 'it', 'is', 'governed', 'as', 'one', 'of', 'the', 'four', 'direct-controlled', 'municipalities', 'of', 'the', 'prc', 'and', 'is', 'thus', 'under', 'direct', 'administration', 'of', 'the', 'central', 'government', '.', 'tianjin', 'borders', 'hebei', 'province', 'and', 'beijing', 'municipality', ',', 'bounded', 'to', 'the', 'east', 'by', 'the', 'bohai', 'gulf', 'portion', 'of', 'the', 'yellow', 'sea', '.', 'part', 'of', 'the', 'bohai', 'economic', 'rim', ',', 'it', 'is', 'the', 'largest', 'coastal', 'city', 'in', 'northern', 'china', '.', 'in', 'terms', 'of', 'urban', 'population', ',', 'tianjin', 'is', 'the', 'fourth', 'largest', 'in', 'china', ',', 'after', 'shanghai', ',', 'beijing', ',', 'and', 'guangzhou', '.', 'in', 'terms', 'of', 'administrative', 'area', 'population', ',', 'tianjin', 'ranks', 'fifth', 'in', 'mainland', 'china', '.', 'the', 'walled', 'city', 'of', 'tianjin', 'was', 'built', 'in', '1404.', 'as', 'a', 'treaty', 'port', 'since', '1860', ',', 'tianjin', 'has', 'been', 'a', 'major', 'seaport', 'and', 'gateway', 'to', 'beijing', '.', 'during', 'the', 'boxer', 'rebellion', 'the', 'city', 'was', 'the', 'seat', 'of', 'the', 'tianjin', 'provisional', 'government', '.', 'under', 'the', 'qing', 'dynasty', 'and', 'the', 'republic', 'of', 'china', ',', 'tianjin', 'became', 'one', 'of', 'the', 'largest', 'cities', 'in', 'the', 'region', '.', 'at', 'that', 'time', ',', 'numerous', 'european-style', 'buildings', 'and', 'mansions', 'were', 'constructed', 'in', 'concessions', ',', 'many', 'of', 'which', 'are', 'well-preserved', 'today', '.', 'after', 'the', 'founding', 'of', 'the', 'people', "'s", 'republic', 'of', 'china', ',', 'tianjin', 'suffered', 'a', 'depression', 'due', 'to', 'the', 'policy', 'of', 'the', 'central', 'government', 'and', 'tangshan', 'earthquake', ',', 'but', 'recovered', 'from', '1990s', '.', 'nowadays', 'tianjin', 'is', 'a', 'dual-core', 'city', ',', 'with', 'its', 'main', 'urban', 'area', '(', 'including', 'the', 'old', 'city', ')', 'located', 'along', 'the', 'hai', 'river', ',', 'which', 'connects', 'to', 'the', 'yellow', 'and', 'yangtze', 'rivers', 'via', 'the', 'grand', 'canal', ';', 'and', 'binhai', ',', 'a', 'new', 'area', 'urban', 'core', 'located', 'east', 'of', 'the', 'old', 'city', ',', 'on', 'the', 'coast', 'of', 'bohai', 'sea', '.', 'as', 'of', 'the', 'end', 'of', '2010', ',', 'around', '285', 'fortune', '500', 'companies', 'have', 'set', 'up', 'base', 'in', 'binhai', ',', 'which', 'is', 'a', 'new', 'growth', 'pole', 'in', 'china', 'and', 'is', 'a', 'hub', 'of', 'advanced', 'industry', 'and', 'financial', 'activity', '.']
+
+
+After Removing stopwords : 
+['tianjin', 'tʰjɛ́n.tɕín', 'listen', 'formerly', 'known', 'english', 'tientsin', 'metropolis', 'northern', 'coastal', 'mainland', 'china', 'one', 'four', 'national', 'central', 'cities', 'country', 'total', 'population', '15,469,500', 'also', 'world', '6th-most', 'populous', 'city', 'proper', 'governed', 'one', 'four', 'direct-controlled', 'municipalities', 'prc', 'thus', 'direct', 'administration', 'central', 'government', 'tianjin', 'borders', 'hebei', 'province', 'beijing', 'municipality', 'bounded', 'east', 'bohai', 'gulf', 'portion', 'yellow', 'sea', 'part', 'bohai', 'economic', 'rim', 'largest', 'coastal', 'city', 'northern', 'china', 'terms', 'urban', 'population', 'tianjin', 'fourth', 'largest', 'china', 'shanghai', 'beijing', 'guangzhou', 'terms', 'administrative', 'area', 'population', 'tianjin', 'ranks', 'fifth', 'mainland', 'china', 'walled', 'city', 'tianjin', 'built', '1404.', 'treaty', 'port', 'since', '1860', 'tianjin', 'major', 'seaport', 'gateway', 'beijing', 'boxer', 'rebellion', 'city', 'seat', 'tianjin', 'provisional', 'government', 'qing', 'dynasty', 'republic', 'china', 'tianjin', 'became', 'one', 'largest', 'cities', 'region', 'time', 'numerous', 'european-style', 'buildings', 'mansions', 'constructed', 'concessions', 'many', 'well-preserved', 'today', 'founding', 'people', 'republic', 'china', 'tianjin', 'suffered', 'depression', 'due', 'policy', 'central', 'government', 'tangshan', 'earthquake', 'recovered', '1990s', 'nowadays', 'tianjin', 'dual-core', 'city', 'main', 'urban', 'area', 'including', 'old', 'city', 'located', 'along', 'hai', 'river', 'connects', 'yellow', 'yangtze', 'rivers', 'via', 'grand', 'canal', 'binhai', 'new', 'area', 'urban', 'core', 'located', 'east', 'old', 'city', 'coast', 'bohai', 'sea', 'end', '2010', 'around', '285', 'fortune', '500', 'companies', 'set', 'base', 'binhai', 'new', 'growth', 'pole', 'china', 'hub', 'advanced', 'industry', 'financial', 'activity']
+
+
+Lemmatization :
+['tianjin', 'tʰjɛ́n.tɕín', 'listen', 'formerly', 'known', 'english', 'tientsin', 'metropolis', 'northern', 'coastal', 'mainland', 'china', 'one', 'four', 'national', 'central', 'city', 'country', 'total', 'population', '15,469,500', 'also', 'world', '6th-most', 'populous', 'city', 'proper', 'governed', 'one', 'four', 'direct-controlled', 'municipality', 'prc', 'thus', 'direct', 'administration', 'central', 'government', 'tianjin', 'border', 'hebei', 'province', 'beijing', 'municipality', 'bounded', 'east', 'bohai', 'gulf', 'portion', 'yellow', 'sea', 'part', 'bohai', 'economic', 'rim', 'largest', 'coastal', 'city', 'northern', 'china', 'term', 'urban', 'population', 'tianjin', 'fourth', 'largest', 'china', 'shanghai', 'beijing', 'guangzhou', 'term', 'administrative', 'area', 'population', 'tianjin', 'rank', 'fifth', 'mainland', 'china', 'walled', 'city', 'tianjin', 'built', '1404.', 'treaty', 'port', 'since', '1860', 'tianjin', 'major', 'seaport', 'gateway', 'beijing', 'boxer', 'rebellion', 'city', 'seat', 'tianjin', 'provisional', 'government', 'qing', 'dynasty', 'republic', 'china', 'tianjin', 'became', 'one', 'largest', 'city', 'region', 'time', 'numerous', 'european-style', 'building', 'mansion', 'constructed', 'concession', 'many', 'well-preserved', 'today', 'founding', 'people', 'republic', 'china', 'tianjin', 'suffered', 'depression', 'due', 'policy', 'central', 'government', 'tangshan', 'earthquake', 'recovered', '1990s', 'nowadays', 'tianjin', 'dual-core', 'city', 'main', 'urban', 'area', 'including', 'old', 'city', 'located', 'along', 'hai', 'river', 'connects', 'yellow', 'yangtze', 'river', 'via', 'grand', 'canal', 'binhai', 'new', 'area', 'urban', 'core', 'located', 'east', 'old', 'city', 'coast', 'bohai', 'sea', 'end', '2010', 'around', '285', 'fortune', '500', 'company', 'set', 'base', 'binhai', 'new', 'growth', 'pole', 'china', 'hub', 'advanced', 'industry', 'financial', 'activity']
+
+
+POS Tagging :
+[('tianjin', 'NN'), ('tʰjɛ́n.tɕín', 'NN'), ('listen', 'VBD'), ('formerly', 'RB'), ('known', 'VBN'), ('english', 'JJ'), ('tientsin', 'NN'), ('metropolis', 'NNS'), ('northern', 'JJ'), ('coastal', 'JJ'), ('mainland', 'NN'), ('china', 'VBD'), ('one', 'CD'), ('four', 'CD'), ('national', 'JJ'), ('central', 'JJ'), ('city', 'NN'), ('country', 'NN'), ('total', 'JJ'), ('population', 'NN'), ('15,469,500', 'CD'), ('also', 'RB'), ('world', 'NN'), ('6th-most', 'JJ'), ('populous', 'JJ'), ('city', 'NN'), ('proper', 'NN'), ('governed', 'VBD'), ('one', 'CD'), ('four', 'CD'), ('direct-controlled', 'JJ'), ('municipality', 'NN'), ('prc', 'NN'), ('thus', 'RB'), ('direct', 'JJ'), ('administration', 'NN'), ('central', 'JJ'), ('government', 'NN'), ('tianjin', 'NN'), ('border', 'NN'), ('hebei', 'NN'), ('province', 'NN'), ('beijing', 'VBG'), ('municipality', 'NN'), ('bounded', 'VBD'), ('east', 'JJ'), ('bohai', 'NN'), ('gulf', 'NN'), ('portion', 'NN'), ('yellow', 'IN'), ('sea', 'NN'), ('part', 'NN'), ('bohai', 'VBP'), ('economic', 'JJ'), ('rim', 'NN'), ('largest', 'JJS'), ('coastal', 'JJ'), ('city', 'NN'), ('northern', 'JJ'), ('china', 'JJ'), ('term', 'NN'), ('urban', 'JJ'), ('population', 'NN'), ('tianjin', 'VBD'), ('fourth', 'JJ'), ('largest', 'JJS'), ('china', 'NN'), ('shanghai', 'NN'), ('beijing', 'VBG'), ('guangzhou', 'JJ'), ('term', 'NN'), ('administrative', 'JJ'), ('area', 'NN'), ('population', 'NN'), ('tianjin', 'IN'), ('rank', 'NN'), ('fifth', 'JJ'), ('mainland', 'NN'), ('china', 'NN'), ('walled', 'VBD'), ('city', 'NN'), ('tianjin', 'NN'), ('built', 'VBD'), ('1404.', 'CD'), ('treaty', 'NN'), ('port', 'NN'), ('since', 'IN'), ('1860', 'CD'), ('tianjin', 'NN'), ('major', 'JJ'), ('seaport', 'NN'), ('gateway', 'NN'), ('beijing', 'VBG'), ('boxer', 'JJ'), ('rebellion', 'NN'), ('city', 'NN'), ('seat', 'NN'), ('tianjin', 'JJ'), ('provisional', 'JJ'), ('government', 'NN'), ('qing', 'VBG'), ('dynasty', 'JJ'), ('republic', 'JJ'), ('china', 'NN'), ('tianjin', 'NN'), ('became', 'VBD'), ('one', 'CD'), ('largest', 'JJS'), ('city', 'NN'), ('region', 'NN'), ('time', 'NN'), ('numerous', 'JJ'), ('european-style', 'JJ'), ('building', 'NN'), ('mansion', 'NN'), ('constructed', 'VBD'), ('concession', 'NN'), ('many', 'JJ'), ('well-preserved', 'JJ'), ('today', 'NN'), ('founding', 'VBG'), ('people', 'NNS'), ('republic', 'JJ'), ('china', 'VBP'), ('tianjin', 'NN'), ('suffered', 'VBN'), ('depression', 'NN'), ('due', 'JJ'), ('policy', 'NN'), ('central', 'JJ'), ('government', 'NN'), ('tangshan', 'NNS'), ('earthquake', 'NN'), ('recovered', 'VBD'), ('1990s', 'CD'), ('nowadays', 'NNS'), ('tianjin', 'JJ'), ('dual-core', 'JJ'), ('city', 'NN'), ('main', 'JJ'), ('urban', 'JJ'), ('area', 'NN'), ('including', 'VBG'), ('old', 'JJ'), ('city', 'NN'), ('located', 'VBN'), ('along', 'IN'), ('hai', 'NN'), ('river', 'NN'), ('connects', 'NNS'), ('yellow', 'JJ'), ('yangtze', 'RB'), ('river', 'NN'), ('via', 'IN'), ('grand', 'JJ'), ('canal', 'JJ'), ('binhai', 'NN'), ('new', 'JJ'), ('area', 'NN'), ('urban', 'JJ'), ('core', 'NN'), ('located', 'VBN'), ('east', 'JJ'), ('old', 'JJ'), ('city', 'NN'), ('coast', 'NN'), ('bohai', 'NN'), ('sea', 'NN'), ('end', 'NN'), ('2010', 'CD'), ('around', 'IN'), ('285', 'CD'), ('fortune', 'NN'), ('500', 'CD'), ('company', 'NN'), ('set', 'VBN'), ('base', 'NN'), ('binhai', 'NN'), ('new', 'JJ'), ('growth', 'NN'), ('pole', 'JJ'), ('china', 'NN'), ('hub', 'NN'), ('advanced', 'VBD'), ('industry', 'NN'), ('financial', 'JJ'), ('activity', 'NN')]
+
+
+Chunked Tree:
+(S
+  (NP tianjin/NN)
+  (NP tʰjɛ́n.tɕín/NN)
+  listen/VBD
+  formerly/RB
+  known/VBN
+  (NP english/JJ tientsin/NN)
+  metropolis/NNS
+  (NP northern/JJ coastal/JJ mainland/NN)
+  china/VBD
+  one/CD
+  four/CD
+  (NP national/JJ central/JJ city/NN)
+  (NP country/NN)
+  (NP total/JJ population/NN)
+  15,469,500/CD
+  also/RB
+  (NP world/NN)
+  (NP 6th-most/JJ populous/JJ city/NN)
+  (NP proper/NN)
+  governed/VBD
+  one/CD
+  four/CD
+  (NP direct-controlled/JJ municipality/NN)
+  (NP prc/NN)
+  thus/RB
+  (NP direct/JJ administration/NN)
+  (NP central/JJ government/NN)
+  (NP tianjin/NN)
+  (NP border/NN)
+  (NP hebei/NN)
+  (NP province/NN)
+  beijing/VBG
+  (NP municipality/NN)
+  bounded/VBD
+  (NP east/JJ bohai/NN)
+  (NP gulf/NN)
+  (NP portion/NN)
+  yellow/IN
+  (NP sea/NN)
+  (NP part/NN)
+  bohai/VBP
+  (NP economic/JJ rim/NN)
+  largest/JJS
+  (NP coastal/JJ city/NN)
+  (NP northern/JJ china/JJ term/NN)
+  (NP urban/JJ population/NN)
+  tianjin/VBD
+  fourth/JJ
+  largest/JJS
+  (NP china/NN)
+  (NP shanghai/NN)
+  beijing/VBG
+  (NP guangzhou/JJ term/NN)
+  (NP administrative/JJ area/NN)
+  (NP population/NN)
+  tianjin/IN
+  (NP rank/NN)
+  (NP fifth/JJ mainland/NN)
+  (NP china/NN)
+  walled/VBD
+  (NP city/NN)
+  (NP tianjin/NN)
+  built/VBD
+  1404./CD
+  (NP treaty/NN)
+  (NP port/NN)
+  since/IN
+  1860/CD
+  (NP tianjin/NN)
+  (NP major/JJ seaport/NN)
+  (NP gateway/NN)
+  beijing/VBG
+  (NP boxer/JJ rebellion/NN)
+  (NP city/NN)
+  (NP seat/NN)
+  (NP tianjin/JJ provisional/JJ government/NN)
+  qing/VBG
+  (NP dynasty/JJ republic/JJ china/NN)
+  (NP tianjin/NN)
+  became/VBD
+  one/CD
+  largest/JJS
+  (NP city/NN)
+  (NP region/NN)
+  (NP time/NN)
+  (NP numerous/JJ european-style/JJ building/NN)
+  (NP mansion/NN)
+  constructed/VBD
+  (NP concession/NN)
+  (NP many/JJ well-preserved/JJ today/NN)
+  founding/VBG
+  people/NNS
+  republic/JJ
+  china/VBP
+  (NP tianjin/NN)
+  suffered/VBN
+  (NP depression/NN)
+  (NP due/JJ policy/NN)
+  (NP central/JJ government/NN)
+  tangshan/NNS
+  (NP earthquake/NN)
+  recovered/VBD
+  1990s/CD
+  nowadays/NNS
+  (NP tianjin/JJ dual-core/JJ city/NN)
+  (NP main/JJ urban/JJ area/NN)
+  including/VBG
+  (NP old/JJ city/NN)
+  located/VBN
+  along/IN
+  (NP hai/NN)
+  (NP river/NN)
+  connects/NNS
+  yellow/JJ
+  yangtze/RB
+  (NP river/NN)
+  via/IN
+  (NP grand/JJ canal/JJ binhai/NN)
+  (NP new/JJ area/NN)
+  (NP urban/JJ core/NN)
+  located/VBN
+  (NP east/JJ old/JJ city/NN)
+  (NP coast/NN)
+  (NP bohai/NN)
+  (NP sea/NN)
+  (NP end/NN)
+  2010/CD
+  around/IN
+  285/CD
+  (NP fortune/NN)
+  500/CD
+  (NP company/NN)
+  set/VBN
+  (NP base/NN)
+  (NP binhai/NN)
+  (NP new/JJ growth/NN)
+  (NP pole/JJ china/NN)
+  (NP hub/NN)
+  advanced/VBD
+  (NP industry/NN)
+  (NP financial/JJ activity/NN))
+
+
+Shallow Parsing :
+['tianjin', 'tʰjɛ́n.tɕín', 'tientsin', 'mainland', 'city', 'country', 'population', 'world', 'city', 'proper', 'municipality', 'prc', 'administration', 'government', 'tianjin', 'border', 'hebei', 'province', 'municipality', 'bohai', 'gulf', 'portion', 'sea', 'part', 'rim', 'city', 'term', 'population', 'china', 'shanghai', 'term', 'area', 'population', 'rank', 'mainland', 'china', 'city', 'tianjin', 'treaty', 'port', 'tianjin', 'seaport', 'gateway', 'rebellion', 'city', 'seat', 'government', 'china', 'tianjin', 'city', 'region', 'time', 'building', 'mansion', 'concession', 'today', 'tianjin', 'depression', 'policy', 'government', 'earthquake', 'city', 'area', 'city', 'hai', 'river', 'river', 'binhai', 'area', 'core', 'city', 'coast', 'bohai', 'sea', 'end', 'fortune', 'company', 'base', 'binhai', 'growth', 'china', 'hub', 'industry', 'activity']
+
+
+Hypernym :
+['tianjin', 'tʰjɛ́n.tɕín', 'tientsin', 'mainland', 'city', 'country', 'population', 'world', 'city', 'proper', 'municipality', 'prc', 'administration', 'government', 'tianjin', 'border', 'hebei', 'province', 'municipality', 'bohai', 'gulf', 'portion', 'sea', 'part', 'rim', 'city', 'term', 'population', 'china', 'shanghai', 'term', 'area', 'population', 'rank', 'mainland', 'china', 'city', 'tianjin', 'treaty', 'port', 'tianjin', 'seaport', 'gateway', 'rebellion', 'city', 'seat', 'government', 'china', 'tianjin', 'city', 'region', 'time', 'building', 'mansion', 'concession', 'today', 'tianjin', 'depression', 'policy', 'government', 'earthquake', 'city', 'area', 'city', 'hai', 'river', 'river', 'binhai', 'area', 'core', 'city', 'coast', 'bohai', 'sea', 'end', 'fortune', 'company', 'base', 'binhai', 'growth', 'china', 'hub', 'industry', 'activity']
+
+
+Meronym matching : 
+['tianjin', 'tʰjɛ́n.tɕín', 'tientsin', 'mainland', 'city', 'country', 'population', 'world', 'city', 'proper', 'municipality', 'prc', 'administration', 'government', 'tianjin', 'border', 'hebei', 'province', 'municipality', 'bohai', 'gulf', 'portion', 'sea', 'part', 'rim', 'city', 'term', 'population', 'china', 'shanghai', 'term', 'area', 'population', 'rank', 'mainland', 'china', 'city', 'tianjin', 'treaty', 'port', 'tianjin', 'seaport', 'gateway', 'rebellion', 'city', 'seat', 'government', 'china', 'tianjin', 'city', 'region', 'time', 'building', 'mansion', 'concession', 'today', 'tianjin', 'depression', 'policy', 'government', 'earthquake', 'city', 'area', 'city', 'hai', 'river', 'river', 'binhai', 'area', 'core', 'city', 'coast', 'bohai', 'sea', 'end', 'fortune', 'company', 'base', 'binhai', 'growth', 'china', 'hub', 'industry', 'activity']
+
+
+Data : ['Tim Cook', ' Business']
+Tokenizing Words : 
+['timothy', 'donald', 'cook', '(', 'born', 'november', '1', ',', '1960', ')', 'is', 'an', 'american', 'business', 'executive', ',', 'industrial', 'engineer', ',', 'and', 'developer', '.', 'cook', 'is', 'the', 'chief', 'executive', 'officer', 'of', 'apple', 'inc.', ',', 'previously', 'serving', 'as', 'the', 'company', "'s", 'chief', 'operating', 'officer', ',', 'under', 'its', 'founder', 'steve', 'jobs', '.', 'cook', 'joined', 'apple', 'in', 'march', '1998', 'as', 'senior', 'vice', 'president', 'of', 'worldwide', 'operations', 'and', 'then', 'served', 'as', 'executive', 'vice', 'president', 'of', 'worldwide', 'sales', 'and', 'operations', '.', 'he', 'was', 'made', 'chief', 'executive', 'on', 'august', '24', ',', '2011', 'following', 'jobs', "'", 'death', '.', 'during', 'his', 'tenure', 'as', 'the', 'chief', 'executive', 'he', 'has', 'advocated', 'for', 'the', 'political', 'reformation', 'of', 'international', 'and', 'domestic', 'surveillance', ',', 'cybersecurity', ',', 'corporate', 'taxation', 'both', 'nationally', 'and', 'abroad', ',', 'american', 'manufacturing', ',', 'and', 'environmental', 'preservation', '.', 'in', '2014', ',', 'cook', 'became', 'the', 'first', 'chief', 'executive', 'of', 'a', 'fortune', '500', 'company', 'to', 'publicly', 'identify', 'as', 'gay', '.', 'cook', 'also', 'serves', 'on', 'the', 'boards', 'of', 'directors', 'of', 'nike', ',', 'inc.', ',', 'the', 'national', 'football', 'foundation', ',', 'and', 'is', 'a', 'trustee', 'of', 'duke', 'university', '.', 'in', 'early', '2012', ',', 'he', 'was', 'awarded', 'compensation', 'of', 'one', 'million', 'shares', ',', 'vesting', 'in', '2016', 'and', '2021', ',', 'by', 'apple', "'s", 'board', 'of', 'directors', ',', 'and', 'in', 'march', '2015', ',', 'he', 'said', 'he', 'planned', 'to', 'donate', 'his', 'entire', 'stock', 'fortune', 'to', 'charity', '.']
+
+
+After Removing stopwords : 
+['timothy', 'donald', 'cook', 'born', 'november', '1960', 'american', 'business', 'executive', 'industrial', 'engineer', 'developer', 'cook', 'chief', 'executive', 'officer', 'apple', 'inc.', 'previously', 'serving', 'company', 'chief', 'operating', 'officer', 'founder', 'steve', 'jobs', 'cook', 'joined', 'apple', 'march', '1998', 'senior', 'vice', 'president', 'worldwide', 'operations', 'served', 'executive', 'vice', 'president', 'worldwide', 'sales', 'operations', 'made', 'chief', 'executive', 'august', '2011', 'following', 'jobs', 'death', 'tenure', 'chief', 'executive', 'advocated', 'political', 'reformation', 'international', 'domestic', 'surveillance', 'cybersecurity', 'corporate', 'taxation', 'nationally', 'abroad', 'american', 'manufacturing', 'environmental', 'preservation', '2014', 'cook', 'became', 'first', 'chief', 'executive', 'fortune', '500', 'company', 'publicly', 'identify', 'gay', 'cook', 'also', 'serves', 'boards', 'directors', 'nike', 'inc.', 'national', 'football', 'foundation', 'trustee', 'duke', 'university', 'early', '2012', 'awarded', 'compensation', 'one', 'million', 'shares', 'vesting', '2016', '2021', 'apple', 'board', 'directors', 'march', '2015', 'said', 'planned', 'donate', 'entire', 'stock', 'fortune', 'charity']
+
+
+Lemmatization :
+['timothy', 'donald', 'cook', 'born', 'november', '1960', 'american', 'business', 'executive', 'industrial', 'engineer', 'developer', 'cook', 'chief', 'executive', 'officer', 'apple', 'inc.', 'previously', 'serving', 'company', 'chief', 'operating', 'officer', 'founder', 'steve', 'job', 'cook', 'joined', 'apple', 'march', '1998', 'senior', 'vice', 'president', 'worldwide', 'operation', 'served', 'executive', 'vice', 'president', 'worldwide', 'sale', 'operation', 'made', 'chief', 'executive', 'august', '2011', 'following', 'job', 'death', 'tenure', 'chief', 'executive', 'advocated', 'political', 'reformation', 'international', 'domestic', 'surveillance', 'cybersecurity', 'corporate', 'taxation', 'nationally', 'abroad', 'american', 'manufacturing', 'environmental', 'preservation', '2014', 'cook', 'became', 'first', 'chief', 'executive', 'fortune', '500', 'company', 'publicly', 'identify', 'gay', 'cook', 'also', 'serf', 'board', 'director', 'nike', 'inc.', 'national', 'football', 'foundation', 'trustee', 'duke', 'university', 'early', '2012', 'awarded', 'compensation', 'one', 'million', 'share', 'vesting', '2016', '2021', 'apple', 'board', 'director', 'march', '2015', 'said', 'planned', 'donate', 'entire', 'stock', 'fortune', 'charity']
+
+
+POS Tagging :
+[('timothy', 'JJ'), ('donald', 'NN'), ('cook', 'NN'), ('born', 'VBN'), ('november', 'RB'), ('1960', 'CD'), ('american', 'JJ'), ('business', 'NN'), ('executive', 'NN'), ('industrial', 'JJ'), ('engineer', 'NN'), ('developer', 'NN'), ('cook', 'NN'), ('chief', 'JJ'), ('executive', 'JJ'), ('officer', 'NN'), ('apple', 'NN'), ('inc.', 'NN'), ('previously', 'RB'), ('serving', 'VBG'), ('company', 'NN'), ('chief', 'NN'), ('operating', 'VBG'), ('officer', 'NN'), ('founder', 'NN'), ('steve', 'VBD'), ('job', 'NN'), ('cook', 'NN'), ('joined', 'VBD'), ('apple', 'NN'), ('march', 'NN'), ('1998', 'CD'), ('senior', 'JJ'), ('vice', 'NN'), ('president', 'NN'), ('worldwide', 'IN'), ('operation', 'NN'), ('served', 'VBD'), ('executive', 'JJ'), ('vice', 'NN'), ('president', 'NN'), ('worldwide', 'IN'), ('sale', 'NN'), ('operation', 'NN'), ('made', 'VBD'), ('chief', 'JJ'), ('executive', 'NN'), ('august', 'NN'), ('2011', 'CD'), ('following', 'VBG'), ('job', 'NN'), ('death', 'NN'), ('tenure', 'NN'), ('chief', 'JJ'), ('executive', 'NN'), ('advocated', 'VBD'), ('political', 'JJ'), ('reformation', 'NN'), ('international', 'JJ'), ('domestic', 'JJ'), ('surveillance', 'NN'), ('cybersecurity', 'NN'), ('corporate', 'JJ'), ('taxation', 'NN'), ('nationally', 'RB'), ('abroad', 'RB'), ('american', 'JJ'), ('manufacturing', 'NN'), ('environmental', 'JJ'), ('preservation', 'NN'), ('2014', 'CD'), ('cook', 'NN'), ('became', 'VBD'), ('first', 'JJ'), ('chief', 'JJ'), ('executive', 'NN'), ('fortune', 'VBD'), ('500', 'CD'), ('company', 'NN'), ('publicly', 'RB'), ('identify', 'VB'), ('gay', 'NN'), ('cook', 'NN'), ('also', 'RB'), ('serf', 'VBZ'), ('board', 'NN'), ('director', 'NN'), ('nike', 'IN'), ('inc.', 'JJ'), ('national', 'JJ'), ('football', 'NN'), ('foundation', 'NN'), ('trustee', 'NN'), ('duke', 'NN'), ('university', 'NN'), ('early', 'JJ'), ('2012', 'CD'), ('awarded', 'VBD'), ('compensation', 'NN'), ('one', 'CD'), ('million', 'CD'), ('share', 'NN'), ('vesting', 'VBG'), ('2016', 'CD'), ('2021', 'CD'), ('apple', 'NN'), ('board', 'NN'), ('director', 'NN'), ('march', 'NN'), ('2015', 'CD'), ('said', 'VBD'), ('planned', 'VBN'), ('donate', 'NN'), ('entire', 'JJ'), ('stock', 'NN'), ('fortune', 'NN'), ('charity', 'NN')]
+
+
+Chunked Tree:
+(S
+  (NP timothy/JJ donald/NN)
+  (NP cook/NN)
+  born/VBN
+  november/RB
+  1960/CD
+  (NP american/JJ business/NN)
+  (NP executive/NN)
+  (NP industrial/JJ engineer/NN)
+  (NP developer/NN)
+  (NP cook/NN)
+  (NP chief/JJ executive/JJ officer/NN)
+  (NP apple/NN)
+  (NP inc./NN)
+  previously/RB
+  serving/VBG
+  (NP company/NN)
+  (NP chief/NN)
+  operating/VBG
+  (NP officer/NN)
+  (NP founder/NN)
+  steve/VBD
+  (NP job/NN)
+  (NP cook/NN)
+  joined/VBD
+  (NP apple/NN)
+  (NP march/NN)
+  1998/CD
+  (NP senior/JJ vice/NN)
+  (NP president/NN)
+  worldwide/IN
+  (NP operation/NN)
+  served/VBD
+  (NP executive/JJ vice/NN)
+  (NP president/NN)
+  worldwide/IN
+  (NP sale/NN)
+  (NP operation/NN)
+  made/VBD
+  (NP chief/JJ executive/NN)
+  (NP august/NN)
+  2011/CD
+  following/VBG
+  (NP job/NN)
+  (NP death/NN)
+  (NP tenure/NN)
+  (NP chief/JJ executive/NN)
+  advocated/VBD
+  (NP political/JJ reformation/NN)
+  (NP international/JJ domestic/JJ surveillance/NN)
+  (NP cybersecurity/NN)
+  (NP corporate/JJ taxation/NN)
+  nationally/RB
+  abroad/RB
+  (NP american/JJ manufacturing/NN)
+  (NP environmental/JJ preservation/NN)
+  2014/CD
+  (NP cook/NN)
+  became/VBD
+  (NP first/JJ chief/JJ executive/NN)
+  fortune/VBD
+  500/CD
+  (NP company/NN)
+  publicly/RB
+  identify/VB
+  (NP gay/NN)
+  (NP cook/NN)
+  also/RB
+  serf/VBZ
+  (NP board/NN)
+  (NP director/NN)
+  nike/IN
+  (NP inc./JJ national/JJ football/NN)
+  (NP foundation/NN)
+  (NP trustee/NN)
+  (NP duke/NN)
+  (NP university/NN)
+  early/JJ
+  2012/CD
+  awarded/VBD
+  (NP compensation/NN)
+  one/CD
+  million/CD
+  (NP share/NN)
+  vesting/VBG
+  2016/CD
+  2021/CD
+  (NP apple/NN)
+  (NP board/NN)
+  (NP director/NN)
+  (NP march/NN)
+  2015/CD
+  said/VBD
+  planned/VBN
+  (NP donate/NN)
+  (NP entire/JJ stock/NN)
+  (NP fortune/NN)
+  (NP charity/NN))
+
+
+Shallow Parsing :
+['donald', 'cook', 'business', 'executive', 'engineer', 'developer', 'cook', 'officer', 'apple', 'inc.', 'company', 'chief', 'officer', 'founder', 'job', 'cook', 'apple', 'march', 'vice', 'president', 'operation', 'vice', 'president', 'sale', 'operation', 'executive', 'august', 'job', 'death', 'tenure', 'executive', 'reformation', 'surveillance', 'cybersecurity', 'taxation', 'manufacturing', 'preservation', 'cook', 'executive', 'company', 'gay', 'cook', 'board', 'director', 'football', 'foundation', 'trustee', 'duke', 'university', 'compensation', 'share', 'apple', 'board', 'director', 'march', 'donate', 'stock', 'fortune', 'charity']
+
+
+Hypernym :
+['donald', 'cook', 'business', 'executive', 'engineer', 'developer', 'cook', 'officer', 'apple', 'inc.', 'company', 'chief', 'officer', 'founder', 'job', 'cook', 'apple', 'march', 'vice', 'president', 'operation', 'vice', 'president', 'sale', 'operation', 'executive', 'august', 'job', 'death', 'tenure', 'executive', 'reformation', 'surveillance', 'cybersecurity', 'taxation', 'manufacturing', 'preservation', 'cook', 'executive', 'company', 'gay', 'cook', 'board', 'director', 'football', 'foundation', 'trustee', 'duke', 'university', 'compensation', 'share', 'apple', 'board', 'director', 'march', 'donate', 'stock', 'fortune', 'charity']
+
+
+Meronym matching : 
+['donald', 'cook', 'business', 'executive', 'engineer', 'developer', 'cook', 'officer', 'apple', 'inc.', 'company', 'chief', 'officer', 'founder', 'job', 'cook', 'apple', 'march', 'vice', 'president', 'operation', 'vice', 'president', 'sale', 'operation', 'executive', 'august', 'job', 'death', 'tenure', 'executive', 'reformation', 'surveillance', 'cybersecurity', 'taxation', 'manufacturing', 'preservation', 'cook', 'executive', 'company', 'gay', 'cook', 'board', 'director', 'football', 'foundation', 'trustee', 'duke', 'university', 'compensation', 'share', 'apple', 'board', 'director', 'march', 'donate', 'stock', 'fortune', 'charity']
+
+
+Data : ['Tokyo', ' Travel']
+Tokenizing Words : 
+['tokyo', '(', ',', 'japanese', ':', '[', 'toːkʲoː', ']', '(', 'listen', ')', ')', ',', 'officially', 'tokyo', 'metropolis', ',', 'is', 'the', 'capital', 'city', 'of', 'japan', 'and', 'one', 'of', 'its', '47', 'prefectures', '.', 'the', 'greater', 'tokyo', 'area', 'is', 'the', 'most', 'populous', 'metropolitan', 'area', 'in', 'the', 'world', '.', 'it', 'is', 'the', 'seat', 'of', 'the', 'emperor', 'of', 'japan', 'and', 'the', 'japanese', 'government', '.', 'tokyo', 'is', 'in', 'the', 'kantō', 'region', 'on', 'the', 'southeastern', 'side', 'of', 'the', 'main', 'island', 'honshu', 'and', 'includes', 'the', 'izu', 'islands', 'and', 'ogasawara', 'islands', '.', 'formerly', 'known', 'as', 'edo', ',', 'it', 'has', 'been', 'the', 'de', 'facto', 'seat', 'of', 'government', 'since', '1603', 'when', 'shogun', 'tokugawa', 'ieyasu', 'made', 'the', 'city', 'his', 'headquarters', '.', 'it', 'officially', 'became', 'the', 'capital', 'after', 'emperor', 'meiji', 'moved', 'his', 'seat', 'to', 'the', 'city', 'from', 'the', 'old', 'capital', 'of', 'kyoto', 'in', '1868', ';', 'at', 'that', 'time', 'edo', 'was', 'renamed', 'tokyo', '.', 'tokyo', 'metropolis', 'was', 'formed', 'in', '1943', 'from', 'the', 'merger', 'of', 'the', 'former', 'tokyo', 'prefecture', '(', '東京府', ',', 'tōkyō-fu', ')', 'and', 'the', 'city', 'of', 'tokyo', '(', '東京市', ',', 'tōkyō-shi', ')', '.', 'tokyo', 'is', 'often', 'referred', 'to', 'as', 'a', 'city', ',', 'but', 'is', 'officially', 'known', 'and', 'governed', 'as', 'a', '``', 'metropolitan', 'prefecture', "''", ',', 'which', 'differs', 'from', 'and', 'combines', 'elements', 'of', 'a', 'city', 'and', 'a', 'prefecture', ',', 'a', 'characteristic', 'unique', 'to', 'tokyo', '.', 'the', 'tokyo', 'metropolitan', 'government', 'administers', 'the', '23', 'special', 'wards', 'of', 'tokyo', '(', 'each', 'governed', 'as', 'an', 'individual', 'city', ')', ',', 'which', 'cover', 'the', 'area', 'that', 'was', 'the', 'city', 'of', 'tokyo', 'before', 'it', 'merged', 'and', 'became', 'the', 'metropolitan', 'prefecture', 'in', '1943.', 'the', 'metropolitan', 'government', 'also', 'administers', '39', 'municipalities', 'in', 'the', 'western', 'part', 'of', 'the', 'prefecture', 'and', 'the', 'two', 'outlying', 'island', 'chains', '.', 'the', 'population', 'of', 'the', 'special', 'wards', 'is', 'over', '9', 'million', 'people', ',', 'with', 'the', 'total', 'population', 'of', 'the', 'prefecture', 'exceeding', '13', 'million', '.', 'the', 'prefecture', 'is', 'part', 'of', 'the', 'world', "'s", 'most', 'populous', 'metropolitan', 'area', 'with', 'upwards', 'of', '37.8', 'million', 'people', 'and', 'the', 'world', "'s", 'largest', 'urban', 'agglomeration', 'economy', '.', 'in', '2011', ',', 'the', 'city', 'hosted', '51', 'of', 'the', 'fortune', 'global', '500', 'companies', ',', 'the', 'highest', 'number', 'of', 'any', 'city', 'in', 'the', 'world', ',', 'at', 'that', 'time', '.', 'tokyo', 'ranked', 'third', '(', 'twice', ')', 'in', 'the', 'international', 'financial', 'centres', 'development', 'indexedit', '.', 'the', 'city', 'is', 'also', 'home', 'to', 'various', 'television', 'networks', 'such', 'as', 'fuji', 'tv', ',', 'tokyo', 'mx', ',', 'tv', 'tokyo', ',', 'tv', 'asahi', ',', 'nippon', 'television', ',', 'nhk', 'and', 'the', 'tokyo', 'broadcasting', 'system', '.', 'tokyo', 'ranked', 'first', 'in', 'the', 'global', 'economic', 'power', 'index', 'and', 'fourth', 'in', 'the', 'global', 'cities', 'index', '.', 'the', 'city', 'is', 'considered', 'an', 'alpha+', 'world', 'city', '–', 'as', 'listed', 'by', 'the', 'gawc', "'s", '2008', 'inventory', '–', 'and', 'in', '2014', ',', 'tokyo', 'was', 'ranked', 'first', 'in', 'the', '``', 'best', 'overall', 'experience', "''", 'category', 'of', 'tripadvisor', "'s", 'world', 'city', 'survey', '(', 'the', 'city', 'also', 'ranked', 'first', 'in', 'the', 'following', 'categories', ':', '``', 'helpfulness', 'of', 'locals', "''", ',', '``', 'nightlife', "''", ',', '``', 'shopping', "''", ',', '``', 'local', 'public', 'transportation', "''", 'and', '``', 'cleanliness', 'of', 'streets', "''", ')', '.', 'in', '2015', ',', 'tokyo', 'was', 'ranked', 'as', 'the', '11th', 'most', 'expensive', 'city', 'for', 'expatriates', ',', 'according', 'to', 'the', 'mercer', 'consulting', 'firm', ',', 'and', 'also', 'the', 'world', "'s", '11th', 'most', 'expensive', 'city', ',', 'according', 'to', 'the', 'economist', 'intelligence', 'unit', "'s", 'cost-of-living', 'survey', '.', 'in', '2015', ',', 'tokyo', 'was', 'named', 'the', 'most', 'liveable', 'city', 'in', 'the', 'world', 'by', 'the', 'magazine', 'monocle', '.', 'the', 'michelin', 'guide', 'has', 'awarded', 'tokyo', 'by', 'far', 'the', 'most', 'michelin', 'stars', 'of', 'any', 'city', 'in', 'the', 'world', '.', 'tokyo', 'was', 'ranked', 'first', 'out', 'of', 'all', 'fifty', 'cities', 'in', 'the', '2015', 'safe', 'cities', 'index', '.', 'the', '2016', 'edition', 'of', 'qs', 'best', 'student', 'cities', 'ranked', 'tokyo', 'as', 'the', '3rd-best', 'city', 'in', 'the', 'world', 'to', 'be', 'a', 'university', 'student', '.', 'tokyo', 'hosted', 'the', '1964', 'summer', 'olympics', ',', 'the', '1979', 'g-7', 'summit', ',', 'the', '1986', 'g-7', 'summit', ',', 'and', 'the', '1993', 'g-7', 'summit', ',', 'and', 'will', 'host', 'the', '2020', 'summer', 'olympics', 'and', 'the', '2020', 'summer', 'paralympics', '.']
+
+
+After Removing stopwords : 
+['tokyo', 'japanese', 'toːkʲoː', 'listen', 'officially', 'tokyo', 'metropolis', 'capital', 'city', 'japan', 'one', 'prefectures', 'greater', 'tokyo', 'area', 'populous', 'metropolitan', 'area', 'world', 'seat', 'emperor', 'japan', 'japanese', 'government', 'tokyo', 'kantō', 'region', 'southeastern', 'side', 'main', 'island', 'honshu', 'includes', 'izu', 'islands', 'ogasawara', 'islands', 'formerly', 'known', 'edo', 'facto', 'seat', 'government', 'since', '1603', 'shogun', 'tokugawa', 'ieyasu', 'made', 'city', 'headquarters', 'officially', 'became', 'capital', 'emperor', 'meiji', 'moved', 'seat', 'city', 'old', 'capital', 'kyoto', '1868', 'time', 'edo', 'renamed', 'tokyo', 'tokyo', 'metropolis', 'formed', '1943', 'merger', 'former', 'tokyo', 'prefecture', '東京府', 'tōkyō-fu', 'city', 'tokyo', '東京市', 'tōkyō-shi', 'tokyo', 'often', 'referred', 'city', 'officially', 'known', 'governed', 'metropolitan', 'prefecture', 'differs', 'combines', 'elements', 'city', 'prefecture', 'characteristic', 'unique', 'tokyo', 'tokyo', 'metropolitan', 'government', 'administers', 'special', 'wards', 'tokyo', 'governed', 'individual', 'city', 'cover', 'area', 'city', 'tokyo', 'merged', 'became', 'metropolitan', 'prefecture', '1943.', 'metropolitan', 'government', 'also', 'administers', 'municipalities', 'western', 'part', 'prefecture', 'two', 'outlying', 'island', 'chains', 'population', 'special', 'wards', 'million', 'people', 'total', 'population', 'prefecture', 'exceeding', 'million', 'prefecture', 'part', 'world', 'populous', 'metropolitan', 'area', 'upwards', '37.8', 'million', 'people', 'world', 'largest', 'urban', 'agglomeration', 'economy', '2011', 'city', 'hosted', 'fortune', 'global', '500', 'companies', 'highest', 'number', 'city', 'world', 'time', 'tokyo', 'ranked', 'third', 'twice', 'international', 'financial', 'centres', 'development', 'indexedit', 'city', 'also', 'home', 'various', 'television', 'networks', 'fuji', 'tokyo', 'tokyo', 'asahi', 'nippon', 'television', 'nhk', 'tokyo', 'broadcasting', 'system', 'tokyo', 'ranked', 'first', 'global', 'economic', 'power', 'index', 'fourth', 'global', 'cities', 'index', 'city', 'considered', 'alpha+', 'world', 'city', 'listed', 'gawc', '2008', 'inventory', '2014', 'tokyo', 'ranked', 'first', 'best', 'overall', 'experience', 'category', 'tripadvisor', 'world', 'city', 'survey', 'city', 'also', 'ranked', 'first', 'following', 'categories', 'helpfulness', 'locals', 'nightlife', 'shopping', 'local', 'public', 'transportation', 'cleanliness', 'streets', '2015', 'tokyo', 'ranked', '11th', 'expensive', 'city', 'expatriates', 'according', 'mercer', 'consulting', 'firm', 'also', 'world', '11th', 'expensive', 'city', 'according', 'economist', 'intelligence', 'unit', 'cost-of-living', 'survey', '2015', 'tokyo', 'named', 'liveable', 'city', 'world', 'magazine', 'monocle', 'michelin', 'guide', 'awarded', 'tokyo', 'far', 'michelin', 'stars', 'city', 'world', 'tokyo', 'ranked', 'first', 'fifty', 'cities', '2015', 'safe', 'cities', 'index', '2016', 'edition', 'best', 'student', 'cities', 'ranked', 'tokyo', '3rd-best', 'city', 'world', 'university', 'student', 'tokyo', 'hosted', '1964', 'summer', 'olympics', '1979', 'g-7', 'summit', '1986', 'g-7', 'summit', '1993', 'g-7', 'summit', 'host', '2020', 'summer', 'olympics', '2020', 'summer', 'paralympics']
+
+
+Lemmatization :
+['tokyo', 'japanese', 'toːkʲoː', 'listen', 'officially', 'tokyo', 'metropolis', 'capital', 'city', 'japan', 'one', 'prefecture', 'greater', 'tokyo', 'area', 'populous', 'metropolitan', 'area', 'world', 'seat', 'emperor', 'japan', 'japanese', 'government', 'tokyo', 'kantō', 'region', 'southeastern', 'side', 'main', 'island', 'honshu', 'includes', 'izu', 'island', 'ogasawara', 'island', 'formerly', 'known', 'edo', 'facto', 'seat', 'government', 'since', '1603', 'shogun', 'tokugawa', 'ieyasu', 'made', 'city', 'headquarters', 'officially', 'became', 'capital', 'emperor', 'meiji', 'moved', 'seat', 'city', 'old', 'capital', 'kyoto', '1868', 'time', 'edo', 'renamed', 'tokyo', 'tokyo', 'metropolis', 'formed', '1943', 'merger', 'former', 'tokyo', 'prefecture', '東京府', 'tōkyō-fu', 'city', 'tokyo', '東京市', 'tōkyō-shi', 'tokyo', 'often', 'referred', 'city', 'officially', 'known', 'governed', 'metropolitan', 'prefecture', 'differs', 'combine', 'element', 'city', 'prefecture', 'characteristic', 'unique', 'tokyo', 'tokyo', 'metropolitan', 'government', 'administers', 'special', 'ward', 'tokyo', 'governed', 'individual', 'city', 'cover', 'area', 'city', 'tokyo', 'merged', 'became', 'metropolitan', 'prefecture', '1943.', 'metropolitan', 'government', 'also', 'administers', 'municipality', 'western', 'part', 'prefecture', 'two', 'outlying', 'island', 'chain', 'population', 'special', 'ward', 'million', 'people', 'total', 'population', 'prefecture', 'exceeding', 'million', 'prefecture', 'part', 'world', 'populous', 'metropolitan', 'area', 'upwards', '37.8', 'million', 'people', 'world', 'largest', 'urban', 'agglomeration', 'economy', '2011', 'city', 'hosted', 'fortune', 'global', '500', 'company', 'highest', 'number', 'city', 'world', 'time', 'tokyo', 'ranked', 'third', 'twice', 'international', 'financial', 'centre', 'development', 'indexedit', 'city', 'also', 'home', 'various', 'television', 'network', 'fuji', 'tokyo', 'tokyo', 'asahi', 'nippon', 'television', 'nhk', 'tokyo', 'broadcasting', 'system', 'tokyo', 'ranked', 'first', 'global', 'economic', 'power', 'index', 'fourth', 'global', 'city', 'index', 'city', 'considered', 'alpha+', 'world', 'city', 'listed', 'gawc', '2008', 'inventory', '2014', 'tokyo', 'ranked', 'first', 'best', 'overall', 'experience', 'category', 'tripadvisor', 'world', 'city', 'survey', 'city', 'also', 'ranked', 'first', 'following', 'category', 'helpfulness', 'local', 'nightlife', 'shopping', 'local', 'public', 'transportation', 'cleanliness', 'street', '2015', 'tokyo', 'ranked', '11th', 'expensive', 'city', 'expatriate', 'according', 'mercer', 'consulting', 'firm', 'also', 'world', '11th', 'expensive', 'city', 'according', 'economist', 'intelligence', 'unit', 'cost-of-living', 'survey', '2015', 'tokyo', 'named', 'liveable', 'city', 'world', 'magazine', 'monocle', 'michelin', 'guide', 'awarded', 'tokyo', 'far', 'michelin', 'star', 'city', 'world', 'tokyo', 'ranked', 'first', 'fifty', 'city', '2015', 'safe', 'city', 'index', '2016', 'edition', 'best', 'student', 'city', 'ranked', 'tokyo', '3rd-best', 'city', 'world', 'university', 'student', 'tokyo', 'hosted', '1964', 'summer', 'olympics', '1979', 'g-7', 'summit', '1986', 'g-7', 'summit', '1993', 'g-7', 'summit', 'host', '2020', 'summer', 'olympics', '2020', 'summer', 'paralympics']
+
+
+POS Tagging :
+[('tokyo', 'JJ'), ('japanese', 'JJ'), ('toːkʲoː', 'NN'), ('listen', 'RBR'), ('officially', 'RB'), ('tokyo', 'JJ'), ('metropolis', 'JJ'), ('capital', 'NN'), ('city', 'NN'), ('japan', 'NN'), ('one', 'CD'), ('prefecture', 'NN'), ('greater', 'JJR'), ('tokyo', 'JJ'), ('area', 'NN'), ('populous', 'JJ'), ('metropolitan', 'JJ'), ('area', 'NN'), ('world', 'NN'), ('seat', 'NN'), ('emperor', 'NN'), ('japan', 'IN'), ('japanese', 'JJ'), ('government', 'NN'), ('tokyo', 'NN'), ('kantō', 'NN'), ('region', 'NN'), ('southeastern', 'JJ'), ('side', 'NN'), ('main', 'JJ'), ('island', 'NN'), ('honshu', 'NN'), ('includes', 'VBZ'), ('izu', 'JJ'), ('island', 'NN'), ('ogasawara', 'NN'), ('island', 'VBP'), ('formerly', 'RB'), ('known', 'VBN'), ('edo', 'JJ'), ('facto', 'JJ'), ('seat', 'NN'), ('government', 'NN'), ('since', 'IN'), ('1603', 'CD'), ('shogun', 'NN'), ('tokugawa', 'NN'), ('ieyasu', 'NN'), ('made', 'VBD'), ('city', 'NN'), ('headquarters', 'NNS'), ('officially', 'RB'), ('became', 'VBD'), ('capital', 'NN'), ('emperor', 'NN'), ('meiji', 'NN'), ('moved', 'VBD'), ('seat', 'JJ'), ('city', 'NN'), ('old', 'JJ'), ('capital', 'NN'), ('kyoto', 'NN'), ('1868', 'CD'), ('time', 'NN'), ('edo', 'NN'), ('renamed', 'VBD'), ('tokyo', 'JJ'), ('tokyo', 'NN'), ('metropolis', 'NN'), ('formed', 'VBD'), ('1943', 'CD'), ('merger', 'NN'), ('former', 'JJ'), ('tokyo', 'NN'), ('prefecture', 'NN'), ('東京府', 'VBZ'), ('tōkyō-fu', 'JJ'), ('city', 'NN'), ('tokyo', 'NN'), ('東京市', 'NNP'), ('tōkyō-shi', 'JJ'), ('tokyo', 'NN'), ('often', 'RB'), ('referred', 'VBD'), ('city', 'NN'), ('officially', 'RB'), ('known', 'VBN'), ('governed', 'JJ'), ('metropolitan', 'JJ'), ('prefecture', 'NN'), ('differs', 'NNS'), ('combine', 'VBP'), ('element', 'JJ'), ('city', 'NN'), ('prefecture', 'NN'), ('characteristic', 'JJ'), ('unique', 'JJ'), ('tokyo', 'NN'), ('tokyo', 'NN'), ('metropolitan', 'JJ'), ('government', 'NN'), ('administers', 'NNS'), ('special', 'JJ'), ('ward', 'JJ'), ('tokyo', 'NN'), ('governed', 'VBD'), ('individual', 'JJ'), ('city', 'NN'), ('cover', 'NN'), ('area', 'NN'), ('city', 'NN'), ('tokyo', 'RB'), ('merged', 'VBD'), ('became', 'VBD'), ('metropolitan', 'JJ'), ('prefecture', 'NN'), ('1943.', 'CD'), ('metropolitan', 'JJ'), ('government', 'NN'), ('also', 'RB'), ('administers', 'VBZ'), ('municipality', 'NN'), ('western', 'JJ'), ('part', 'NN'), ('prefecture', 'NN'), ('two', 'CD'), ('outlying', 'VBG'), ('island', 'NN'), ('chain', 'NN'), ('population', 'NN'), ('special', 'JJ'), ('ward', 'JJ'), ('million', 'CD'), ('people', 'NNS'), ('total', 'JJ'), ('population', 'NN'), ('prefecture', 'NN'), ('exceeding', 'VBG'), ('million', 'CD'), ('prefecture', 'NN'), ('part', 'NN'), ('world', 'NN'), ('populous', 'JJ'), ('metropolitan', 'JJ'), ('area', 'NN'), ('upwards', 'NNS'), ('37.8', 'CD'), ('million', 'CD'), ('people', 'NNS'), ('world', 'NN'), ('largest', 'JJS'), ('urban', 'JJ'), ('agglomeration', 'NN'), ('economy', 'NN'), ('2011', 'CD'), ('city', 'NN'), ('hosted', 'VBN'), ('fortune', 'JJ'), ('global', 'JJ'), ('500', 'CD'), ('company', 'NN'), ('highest', 'JJS'), ('number', 'NN'), ('city', 'NN'), ('world', 'NN'), ('time', 'NN'), ('tokyo', 'NN'), ('ranked', 'VBD'), ('third', 'JJ'), ('twice', 'RB'), ('international', 'JJ'), ('financial', 'JJ'), ('centre', 'NN'), ('development', 'NN'), ('indexedit', 'NN'), ('city', 'NN'), ('also', 'RB'), ('home', 'VBP'), ('various', 'JJ'), ('television', 'NN'), ('network', 'NN'), ('fuji', 'JJ'), ('tokyo', 'NN'), ('tokyo', 'NN'), ('asahi', 'NN'), ('nippon', 'IN'), ('television', 'NN'), ('nhk', 'IN'), ('tokyo', 'NN'), ('broadcasting', 'NN'), ('system', 'NN'), ('tokyo', 'NN'), ('ranked', 'VBD'), ('first', 'JJ'), ('global', 'JJ'), ('economic', 'JJ'), ('power', 'NN'), ('index', 'NN'), ('fourth', 'JJ'), ('global', 'JJ'), ('city', 'NN'), ('index', 'NN'), ('city', 'NN'), ('considered', 'VBN'), ('alpha+', 'JJ'), ('world', 'NN'), ('city', 'NN'), ('listed', 'VBN'), ('gawc', 'JJ'), ('2008', 'CD'), ('inventory', 'NN'), ('2014', 'CD'), ('tokyo', 'NN'), ('ranked', 'VBD'), ('first', 'JJ'), ('best', 'JJS'), ('overall', 'JJ'), ('experience', 'NN'), ('category', 'NN'), ('tripadvisor', 'NN'), ('world', 'NN'), ('city', 'NN'), ('survey', 'NN'), ('city', 'NN'), ('also', 'RB'), ('ranked', 'VBD'), ('first', 'JJ'), ('following', 'VBG'), ('category', 'NN'), ('helpfulness', 'JJ'), ('local', 'JJ'), ('nightlife', 'NN'), ('shopping', 'VBG'), ('local', 'JJ'), ('public', 'JJ'), ('transportation', 'NN'), ('cleanliness', 'NN'), ('street', 'NN'), ('2015', 'CD'), ('tokyo', 'NN'), ('ranked', 'VBD'), ('11th', 'CD'), ('expensive', 'JJ'), ('city', 'NN'), ('expatriate', 'NN'), ('according', 'VBG'), ('mercer', 'NN'), ('consulting', 'NN'), ('firm', 'NN'), ('also', 'RB'), ('world', 'NN'), ('11th', 'CD'), ('expensive', 'JJ'), ('city', 'NN'), ('according', 'VBG'), ('economist', 'NN'), ('intelligence', 'NN'), ('unit', 'NN'), ('cost-of-living', 'JJ'), ('survey', 'NN'), ('2015', 'CD'), ('tokyo', 'NN'), ('named', 'VBN'), ('liveable', 'JJ'), ('city', 'NN'), ('world', 'NN'), ('magazine', 'NN'), ('monocle', 'NN'), ('michelin', 'NNP'), ('guide', 'NN'), ('awarded', 'VBD'), ('tokyo', 'NN'), ('far', 'RB'), ('michelin', 'JJ'), ('star', 'NN'), ('city', 'NN'), ('world', 'NN'), ('tokyo', 'NN'), ('ranked', 'VBD'), ('first', 'JJ'), ('fifty', 'JJ'), ('city', 'NN'), ('2015', 'CD'), ('safe', 'JJ'), ('city', 'NN'), ('index', 'NN'), ('2016', 'CD'), ('edition', 'NN'), ('best', 'RBS'), ('student', 'NN'), ('city', 'NN'), ('ranked', 'VBD'), ('tokyo', 'JJ'), ('3rd-best', 'JJ'), ('city', 'NN'), ('world', 'NN'), ('university', 'NN'), ('student', 'NN'), ('tokyo', 'NN'), ('hosted', 'VBD'), ('1964', 'CD'), ('summer', 'NN'), ('olympics', 'NNS'), ('1979', 'CD'), ('g-7', 'JJ'), ('summit', 'NN'), ('1986', 'CD'), ('g-7', 'JJ'), ('summit', 'NN'), ('1993', 'CD'), ('g-7', 'JJ'), ('summit', 'NN'), ('host', 'NN'), ('2020', 'CD'), ('summer', 'NN'), ('olympics', 'NNS'), ('2020', 'CD'), ('summer', 'NN'), ('paralympics', 'NNS')]
+
+
+Chunked Tree:
+(S
+  (NP tokyo/JJ japanese/JJ toːkʲoː/NN)
+  listen/RBR
+  officially/RB
+  (NP tokyo/JJ metropolis/JJ capital/NN)
+  (NP city/NN)
+  (NP japan/NN)
+  one/CD
+  (NP prefecture/NN)
+  greater/JJR
+  (NP tokyo/JJ area/NN)
+  (NP populous/JJ metropolitan/JJ area/NN)
+  (NP world/NN)
+  (NP seat/NN)
+  (NP emperor/NN)
+  japan/IN
+  (NP japanese/JJ government/NN)
+  (NP tokyo/NN)
+  (NP kantō/NN)
+  (NP region/NN)
+  (NP southeastern/JJ side/NN)
+  (NP main/JJ island/NN)
+  (NP honshu/NN)
+  includes/VBZ
+  (NP izu/JJ island/NN)
+  (NP ogasawara/NN)
+  island/VBP
+  formerly/RB
+  known/VBN
+  (NP edo/JJ facto/JJ seat/NN)
+  (NP government/NN)
+  since/IN
+  1603/CD
+  (NP shogun/NN)
+  (NP tokugawa/NN)
+  (NP ieyasu/NN)
+  made/VBD
+  (NP city/NN)
+  headquarters/NNS
+  officially/RB
+  became/VBD
+  (NP capital/NN)
+  (NP emperor/NN)
+  (NP meiji/NN)
+  moved/VBD
+  (NP seat/JJ city/NN)
+  (NP old/JJ capital/NN)
+  (NP kyoto/NN)
+  1868/CD
+  (NP time/NN)
+  (NP edo/NN)
+  renamed/VBD
+  (NP tokyo/JJ tokyo/NN)
+  (NP metropolis/NN)
+  formed/VBD
+  1943/CD
+  (NP merger/NN)
+  (NP former/JJ tokyo/NN)
+  (NP prefecture/NN)
+  東京府/VBZ
+  (NP tōkyō-fu/JJ city/NN)
+  (NP tokyo/NN)
+  (NP 東京市/NNP)
+  (NP tōkyō-shi/JJ tokyo/NN)
+  often/RB
+  referred/VBD
+  (NP city/NN)
+  officially/RB
+  known/VBN
+  (NP governed/JJ metropolitan/JJ prefecture/NN)
+  (NP differs/NNS combine/VBP)
+  (NP element/JJ city/NN)
+  (NP prefecture/NN)
+  (NP characteristic/JJ unique/JJ tokyo/NN)
+  (NP tokyo/NN)
+  (NP metropolitan/JJ government/NN)
+  administers/NNS
+  (NP special/JJ ward/JJ tokyo/NN)
+  governed/VBD
+  (NP individual/JJ city/NN)
+  (NP cover/NN)
+  (NP area/NN)
+  (NP city/NN)
+  tokyo/RB
+  merged/VBD
+  became/VBD
+  (NP metropolitan/JJ prefecture/NN)
+  1943./CD
+  (NP metropolitan/JJ government/NN)
+  also/RB
+  administers/VBZ
+  (NP municipality/NN)
+  (NP western/JJ part/NN)
+  (NP prefecture/NN)
+  two/CD
+  outlying/VBG
+  (NP island/NN)
+  (NP chain/NN)
+  (NP population/NN)
+  special/JJ
+  ward/JJ
+  million/CD
+  people/NNS
+  (NP total/JJ population/NN)
+  (NP prefecture/NN)
+  exceeding/VBG
+  million/CD
+  (NP prefecture/NN)
+  (NP part/NN)
+  (NP world/NN)
+  (NP populous/JJ metropolitan/JJ area/NN)
+  upwards/NNS
+  37.8/CD
+  million/CD
+  people/NNS
+  (NP world/NN)
+  largest/JJS
+  (NP urban/JJ agglomeration/NN)
+  (NP economy/NN)
+  2011/CD
+  (NP city/NN)
+  hosted/VBN
+  fortune/JJ
+  global/JJ
+  500/CD
+  (NP company/NN)
+  highest/JJS
+  (NP number/NN)
+  (NP city/NN)
+  (NP world/NN)
+  (NP time/NN)
+  (NP tokyo/NN)
+  ranked/VBD
+  third/JJ
+  twice/RB
+  (NP international/JJ financial/JJ centre/NN)
+  (NP development/NN)
+  (NP indexedit/NN)
+  (NP city/NN)
+  also/RB
+  home/VBP
+  (NP various/JJ television/NN)
+  (NP network/NN)
+  (NP fuji/JJ tokyo/NN)
+  (NP tokyo/NN)
+  (NP asahi/NN)
+  nippon/IN
+  (NP television/NN)
+  nhk/IN
+  (NP tokyo/NN)
+  (NP broadcasting/NN)
+  (NP system/NN)
+  (NP tokyo/NN)
+  ranked/VBD
+  (NP first/JJ global/JJ economic/JJ power/NN)
+  (NP index/NN)
+  (NP fourth/JJ global/JJ city/NN)
+  (NP index/NN)
+  (NP city/NN)
+  considered/VBN
+  (NP alpha+/JJ world/NN)
+  (NP city/NN)
+  listed/VBN
+  gawc/JJ
+  2008/CD
+  (NP inventory/NN)
+  2014/CD
+  (NP tokyo/NN)
+  ranked/VBD
+  first/JJ
+  best/JJS
+  (NP overall/JJ experience/NN)
+  (NP category/NN)
+  (NP tripadvisor/NN)
+  (NP world/NN)
+  (NP city/NN)
+  (NP survey/NN)
+  (NP city/NN)
+  also/RB
+  ranked/VBD
+  first/JJ
+  following/VBG
+  (NP category/NN)
+  (NP helpfulness/JJ local/JJ nightlife/NN)
+  shopping/VBG
+  (NP local/JJ public/JJ transportation/NN)
+  (NP cleanliness/NN)
+  (NP street/NN)
+  2015/CD
+  (NP tokyo/NN)
+  ranked/VBD
+  11th/CD
+  (NP expensive/JJ city/NN)
+  (NP expatriate/NN)
+  according/VBG
+  (NP mercer/NN)
+  (NP consulting/NN)
+  (NP firm/NN)
+  also/RB
+  (NP world/NN)
+  11th/CD
+  (NP expensive/JJ city/NN)
+  according/VBG
+  (NP economist/NN)
+  (NP intelligence/NN)
+  (NP unit/NN)
+  (NP cost-of-living/JJ survey/NN)
+  2015/CD
+  (NP tokyo/NN)
+  named/VBN
+  (NP liveable/JJ city/NN)
+  (NP world/NN)
+  (NP magazine/NN)
+  (NP monocle/NN)
+  (NP michelin/NNP)
+  (NP guide/NN)
+  awarded/VBD
+  (NP tokyo/NN)
+  far/RB
+  (NP michelin/JJ star/NN)
+  (NP city/NN)
+  (NP world/NN)
+  (NP tokyo/NN)
+  ranked/VBD
+  (NP first/JJ fifty/JJ city/NN)
+  2015/CD
+  (NP safe/JJ city/NN)
+  (NP index/NN)
+  2016/CD
+  (NP edition/NN)
+  best/RBS
+  (NP student/NN)
+  (NP city/NN)
+  ranked/VBD
+  (NP tokyo/JJ 3rd-best/JJ city/NN)
+  (NP world/NN)
+  (NP university/NN)
+  (NP student/NN)
+  (NP tokyo/NN)
+  hosted/VBD
+  1964/CD
+  (NP summer/NN)
+  olympics/NNS
+  1979/CD
+  (NP g-7/JJ summit/NN)
+  1986/CD
+  (NP g-7/JJ summit/NN)
+  1993/CD
+  (NP g-7/JJ summit/NN)
+  (NP host/NN)
+  2020/CD
+  (NP summer/NN)
+  olympics/NNS
+  2020/CD
+  (NP summer/NN)
+  paralympics/NNS)
+
+
+Shallow Parsing :
+['toːkʲoː', 'capital', 'city', 'japan', 'prefecture', 'area', 'area', 'world', 'seat', 'emperor', 'government', 'tokyo', 'kantō', 'region', 'side', 'island', 'honshu', 'island', 'ogasawara', 'seat', 'government', 'shogun', 'tokugawa', 'ieyasu', 'city', 'capital', 'emperor', 'meiji', 'city', 'capital', 'kyoto', 'time', 'edo', 'tokyo', 'metropolis', 'merger', 'tokyo', 'prefecture', 'city', 'tokyo', '東京市', 'tokyo', 'city', 'prefecture', 'differs', 'city', 'prefecture', 'tokyo', 'tokyo', 'government', 'tokyo', 'city', 'cover', 'area', 'city', 'prefecture', 'government', 'municipality', 'part', 'prefecture', 'island', 'chain', 'population', 'population', 'prefecture', 'prefecture', 'part', 'world', 'area', 'world', 'agglomeration', 'economy', 'city', 'company', 'number', 'city', 'world', 'time', 'tokyo', 'centre', 'development', 'indexedit', 'city', 'television', 'network', 'tokyo', 'tokyo', 'asahi', 'television', 'tokyo', 'broadcasting', 'system', 'tokyo', 'power', 'index', 'city', 'index', 'city', 'world', 'city', 'inventory', 'tokyo', 'experience', 'category', 'tripadvisor', 'world', 'city', 'survey', 'city', 'category', 'nightlife', 'transportation', 'cleanliness', 'street', 'tokyo', 'city', 'expatriate', 'mercer', 'consulting', 'firm', 'world', 'city', 'economist', 'intelligence', 'unit', 'survey', 'tokyo', 'city', 'world', 'magazine', 'monocle', 'michelin', 'guide', 'tokyo', 'star', 'city', 'world', 'tokyo', 'city', 'city', 'index', 'edition', 'student', 'city', 'city', 'world', 'university', 'student', 'tokyo', 'summer', 'summit', 'summit', 'summit', 'host', 'summer', 'summer']
+
+
+Hypernym :
+['toːkʲoː', 'capital', 'city', 'japan', 'prefecture', 'area', 'area', 'world', 'seat', 'emperor', 'government', 'tokyo', 'kantō', 'region', 'side', 'island', 'honshu', 'island', 'ogasawara', 'seat', 'government', 'shogun', 'tokugawa', 'ieyasu', 'city', 'capital', 'emperor', 'meiji', 'city', 'capital', 'kyoto', 'time', 'edo', 'tokyo', 'metropolis', 'merger', 'tokyo', 'prefecture', 'city', 'tokyo', '東京市', 'tokyo', 'city', 'prefecture', 'differs', 'city', 'prefecture', 'tokyo', 'tokyo', 'government', 'tokyo', 'city', 'cover', 'area', 'city', 'prefecture', 'government', 'municipality', 'part', 'prefecture', 'island', 'chain', 'population', 'population', 'prefecture', 'prefecture', 'part', 'world', 'area', 'world', 'agglomeration', 'economy', 'city', 'company', 'number', 'city', 'world', 'time', 'tokyo', 'centre', 'development', 'indexedit', 'city', 'television', 'network', 'tokyo', 'tokyo', 'asahi', 'television', 'tokyo', 'broadcasting', 'system', 'tokyo', 'power', 'index', 'city', 'index', 'city', 'world', 'city', 'inventory', 'tokyo', 'experience', 'category', 'tripadvisor', 'world', 'city', 'survey', 'city', 'category', 'nightlife', 'transportation', 'cleanliness', 'street', 'tokyo', 'city', 'expatriate', 'mercer', 'consulting', 'firm', 'world', 'city', 'economist', 'intelligence', 'unit', 'survey', 'tokyo', 'city', 'world', 'magazine', 'monocle', 'michelin', 'guide', 'tokyo', 'star', 'city', 'world', 'tokyo', 'city', 'city', 'index', 'edition', 'student', 'city', 'city', 'world', 'university', 'student', 'tokyo', 'summer', 'summit', 'summit', 'summit', 'host', 'summer', 'summer']
+
+
+Meronym matching : 
+['toːkʲoː', 'capital', 'city', 'japan', 'prefecture', 'area', 'area', 'world', 'seat', 'emperor', 'government', 'tokyo', 'kantō', 'region', 'side', 'island', 'honshu', 'island', 'ogasawara', 'seat', 'government', 'shogun', 'tokugawa', 'ieyasu', 'city', 'capital', 'emperor', 'meiji', 'city', 'capital', 'kyoto', 'time', 'edo', 'tokyo', 'metropolis', 'merger', 'tokyo', 'prefecture', 'city', 'tokyo', '東京市', 'tokyo', 'city', 'prefecture', 'differs', 'city', 'prefecture', 'tokyo', 'tokyo', 'government', 'tokyo', 'city', 'cover', 'area', 'city', 'prefecture', 'government', 'municipality', 'part', 'prefecture', 'island', 'chain', 'population', 'population', 'prefecture', 'prefecture', 'part', 'world', 'area', 'world', 'agglomeration', 'economy', 'city', 'company', 'number', 'city', 'world', 'time', 'tokyo', 'centre', 'development', 'indexedit', 'city', 'television', 'network', 'tokyo', 'tokyo', 'asahi', 'television', 'tokyo', 'broadcasting', 'system', 'tokyo', 'power', 'index', 'city', 'index', 'city', 'world', 'city', 'inventory', 'tokyo', 'experience', 'category', 'tripadvisor', 'world', 'city', 'survey', 'city', 'category', 'nightlife', 'transportation', 'cleanliness', 'street', 'tokyo', 'city', 'expatriate', 'mercer', 'consulting', 'firm', 'world', 'city', 'economist', 'intelligence', 'unit', 'survey', 'tokyo', 'city', 'world', 'magazine', 'monocle', 'michelin', 'guide', 'tokyo', 'star', 'city', 'world', 'tokyo', 'city', 'city', 'index', 'edition', 'student', 'city', 'city', 'world', 'university', 'student', 'tokyo', 'summer', 'summit', 'summit', 'summit', 'host', 'summer', 'summer']
+
+
+Data : ['Toronto', ' Travel']
+Tokenizing Words : 
+['toronto', '(', '(', 'listen', ')', ',', 'locally', '(', 'listen', ')', ')', 'is', 'the', 'capital', 'of', 'the', 'canadian', 'province', 'of', 'ontario', '.', 'it', 'is', 'located', 'within', 'the', 'golden', 'horseshoe', 'in', 'southern', 'ontario', 'on', 'the', 'northern', 'shore', 'of', 'lake', 'ontario', '.', 'with', '2,731,571', 'residents', 'in', '2016', ',', 'it', 'is', 'the', 'largest', 'city', 'in', 'canada', 'and', 'fourth-largest', 'city', 'in', 'north', 'america', 'by', 'population', '.', 'also', 'in', '2016', ',', 'the', 'toronto', 'census', 'metropolitan', 'area', '(', 'cma', ')', ',', 'the', 'majority', 'of', 'which', 'is', 'within', 'the', 'greater', 'toronto', 'area', '(', 'gta', ')', ',', 'had', 'a', 'population', 'of', '5,928,040', ',', 'making', 'it', 'canada', '’', 's', 'most', 'populous', 'cma', '.', 'a', 'global', 'city', ',', 'toronto', 'is', 'a', 'centre', 'of', 'business', ',', 'finance', ',', 'arts', ',', 'and', 'culture', ',', 'and', 'is', 'recognized', 'as', 'one', 'of', 'the', 'most', 'multicultural', 'and', 'cosmopolitan', 'cities', 'in', 'the', 'world', '.', 'indigenous', 'peoples', 'have', 'travelled', 'through', 'and', 'inhabited', 'the', 'toronto', 'area', ',', 'situated', 'on', 'a', 'broad', 'sloping', 'plateau', 'interspersed', 'with', 'rivers', ',', 'deep', 'ravines', ',', 'and', 'urban', 'forest', ',', 'for', 'more', 'than', '10,000', 'years', '.', 'after', 'the', 'broadly', 'disputed', 'toronto', 'purchase', ',', 'when', 'the', 'mississaugas', 'surrendered', 'the', 'area', 'to', 'the', 'british', 'crown', ',', 'the', 'british', 'established', 'the', 'town', 'of', 'york', 'in', '1793', 'and', 'later', 'designated', 'it', 'as', 'the', 'capital', 'of', 'upper', 'canada', '.', 'during', 'the', 'war', 'of', '1812', ',', 'the', 'town', 'was', 'the', 'site', 'of', 'the', 'battle', 'of', 'york', 'and', 'suffered', 'heavy', 'damage', 'by', 'u.s.', 'troops', '.', 'york', 'was', 'renamed', 'and', 'incorporated', 'as', 'the', 'city', 'of', 'toronto', 'in', '1834', ',', 'and', 'became', 'the', 'capital', 'of', 'the', 'province', 'of', 'ontario', 'during', 'canadian', 'confederation', 'in', '1867.', 'the', 'city', 'proper', 'has', 'since', 'expanded', 'past', 'its', 'original', 'borders', 'through', 'both', 'annexation', 'and', 'amalgamation', 'to', 'its', 'current', 'area', 'of', '630.2', 'km2', '(', '243.3', 'sq', 'mi', ')', '.', 'the', 'diverse', 'population', 'of', 'toronto', 'reflects', 'its', 'current', 'and', 'historical', 'role', 'as', 'an', 'important', 'destination', 'for', 'immigrants', 'to', 'canada', ',', 'with', 'over', '50', '%', 'of', 'residents', 'belonging', 'to', 'a', 'visible', 'minority', 'population', 'group', ',', 'and', 'over', '200', 'distinct', 'ethnic', 'origins', 'represented', 'among', 'its', 'inhabitants', '.', 'while', 'the', 'majority', 'of', 'torontonians', 'speak', 'english', 'as', 'their', 'primary', 'language', ',', 'there', 'are', 'over', '160', 'different', 'languages', 'spoken', 'in', 'the', 'city', '.', 'toronto', 'is', 'a', 'prominent', 'centre', 'for', 'music', ',', 'theatre', ',', 'motion', 'picture', 'production', ',', 'and', 'television', 'production', ',', 'and', 'is', 'home', 'to', 'the', 'headquarters', 'of', 'canada', "'s", 'major', 'national', 'broadcast', 'networks', 'and', 'media', 'outlets', '.', 'its', 'varied', 'cultural', 'institutions', ',', 'which', 'include', 'numerous', 'museums', 'and', 'galleries', ',', 'festivals', 'and', 'public', 'events', ',', 'entertainment', 'districts', ',', 'national', 'historic', 'sites', ',', 'and', 'sports', 'activities', ',', 'attract', 'over', '25', 'million', 'tourists', 'each', 'year', '.', 'toronto', 'is', 'known', 'for', 'its', 'many', 'skyscrapers', 'and', 'high-rise', 'buildings', ',', 'in', 'particular', 'the', 'tallest', 'free-standing', 'structure', 'in', 'the', 'western', 'hemisphere', ',', 'the', 'cn', 'tower', '.', 'the', 'city', 'is', 'home', 'to', 'the', 'toronto', 'stock', 'exchange', ',', 'the', 'headquarters', 'of', 'canada', "'s", 'five', 'largest', 'banks', ',', 'and', 'the', 'headquarters', 'of', 'many', 'large', 'canadian', 'and', 'multinational', 'corporations', '.', 'its', 'economy', 'is', 'highly', 'diversified', 'with', 'strengths', 'in', 'technology', ',', 'design', ',', 'financial', 'services', ',', 'life', 'sciences', ',', 'education', ',', 'arts', ',', 'fashion', ',', 'business', 'services', ',', 'environmental', 'innovation', ',', 'food', 'services', ',', 'and', 'tourism', '.']
+
+
+After Removing stopwords : 
+['toronto', 'listen', 'locally', 'listen', 'capital', 'canadian', 'province', 'ontario', 'located', 'within', 'golden', 'horseshoe', 'southern', 'ontario', 'northern', 'shore', 'lake', 'ontario', '2,731,571', 'residents', '2016', 'largest', 'city', 'canada', 'fourth-largest', 'city', 'north', 'america', 'population', 'also', '2016', 'toronto', 'census', 'metropolitan', 'area', 'cma', 'majority', 'within', 'greater', 'toronto', 'area', 'gta', 'population', '5,928,040', 'making', 'canada', 'populous', 'cma', 'global', 'city', 'toronto', 'centre', 'business', 'finance', 'arts', 'culture', 'recognized', 'one', 'multicultural', 'cosmopolitan', 'cities', 'world', 'indigenous', 'peoples', 'travelled', 'inhabited', 'toronto', 'area', 'situated', 'broad', 'sloping', 'plateau', 'interspersed', 'rivers', 'deep', 'ravines', 'urban', 'forest', '10,000', 'years', 'broadly', 'disputed', 'toronto', 'purchase', 'mississaugas', 'surrendered', 'area', 'british', 'crown', 'british', 'established', 'town', 'york', '1793', 'later', 'designated', 'capital', 'upper', 'canada', 'war', '1812', 'town', 'site', 'battle', 'york', 'suffered', 'heavy', 'damage', 'u.s.', 'troops', 'york', 'renamed', 'incorporated', 'city', 'toronto', '1834', 'became', 'capital', 'province', 'ontario', 'canadian', 'confederation', '1867.', 'city', 'proper', 'since', 'expanded', 'past', 'original', 'borders', 'annexation', 'amalgamation', 'current', 'area', '630.2', 'km2', '243.3', 'diverse', 'population', 'toronto', 'reflects', 'current', 'historical', 'role', 'important', 'destination', 'immigrants', 'canada', 'residents', 'belonging', 'visible', 'minority', 'population', 'group', '200', 'distinct', 'ethnic', 'origins', 'represented', 'among', 'inhabitants', 'majority', 'torontonians', 'speak', 'english', 'primary', 'language', '160', 'different', 'languages', 'spoken', 'city', 'toronto', 'prominent', 'centre', 'music', 'theatre', 'motion', 'picture', 'production', 'television', 'production', 'home', 'headquarters', 'canada', 'major', 'national', 'broadcast', 'networks', 'media', 'outlets', 'varied', 'cultural', 'institutions', 'include', 'numerous', 'museums', 'galleries', 'festivals', 'public', 'events', 'entertainment', 'districts', 'national', 'historic', 'sites', 'sports', 'activities', 'attract', 'million', 'tourists', 'year', 'toronto', 'known', 'many', 'skyscrapers', 'high-rise', 'buildings', 'particular', 'tallest', 'free-standing', 'structure', 'western', 'hemisphere', 'tower', 'city', 'home', 'toronto', 'stock', 'exchange', 'headquarters', 'canada', 'five', 'largest', 'banks', 'headquarters', 'many', 'large', 'canadian', 'multinational', 'corporations', 'economy', 'highly', 'diversified', 'strengths', 'technology', 'design', 'financial', 'services', 'life', 'sciences', 'education', 'arts', 'fashion', 'business', 'services', 'environmental', 'innovation', 'food', 'services', 'tourism']
+
+
+Lemmatization :
+['toronto', 'listen', 'locally', 'listen', 'capital', 'canadian', 'province', 'ontario', 'located', 'within', 'golden', 'horseshoe', 'southern', 'ontario', 'northern', 'shore', 'lake', 'ontario', '2,731,571', 'resident', '2016', 'largest', 'city', 'canada', 'fourth-largest', 'city', 'north', 'america', 'population', 'also', '2016', 'toronto', 'census', 'metropolitan', 'area', 'cma', 'majority', 'within', 'greater', 'toronto', 'area', 'gta', 'population', '5,928,040', 'making', 'canada', 'populous', 'cma', 'global', 'city', 'toronto', 'centre', 'business', 'finance', 'art', 'culture', 'recognized', 'one', 'multicultural', 'cosmopolitan', 'city', 'world', 'indigenous', 'people', 'travelled', 'inhabited', 'toronto', 'area', 'situated', 'broad', 'sloping', 'plateau', 'interspersed', 'river', 'deep', 'ravine', 'urban', 'forest', '10,000', 'year', 'broadly', 'disputed', 'toronto', 'purchase', 'mississaugas', 'surrendered', 'area', 'british', 'crown', 'british', 'established', 'town', 'york', '1793', 'later', 'designated', 'capital', 'upper', 'canada', 'war', '1812', 'town', 'site', 'battle', 'york', 'suffered', 'heavy', 'damage', 'u.s.', 'troop', 'york', 'renamed', 'incorporated', 'city', 'toronto', '1834', 'became', 'capital', 'province', 'ontario', 'canadian', 'confederation', '1867.', 'city', 'proper', 'since', 'expanded', 'past', 'original', 'border', 'annexation', 'amalgamation', 'current', 'area', '630.2', 'km2', '243.3', 'diverse', 'population', 'toronto', 'reflects', 'current', 'historical', 'role', 'important', 'destination', 'immigrant', 'canada', 'resident', 'belonging', 'visible', 'minority', 'population', 'group', '200', 'distinct', 'ethnic', 'origin', 'represented', 'among', 'inhabitant', 'majority', 'torontonians', 'speak', 'english', 'primary', 'language', '160', 'different', 'language', 'spoken', 'city', 'toronto', 'prominent', 'centre', 'music', 'theatre', 'motion', 'picture', 'production', 'television', 'production', 'home', 'headquarters', 'canada', 'major', 'national', 'broadcast', 'network', 'medium', 'outlet', 'varied', 'cultural', 'institution', 'include', 'numerous', 'museum', 'gallery', 'festival', 'public', 'event', 'entertainment', 'district', 'national', 'historic', 'site', 'sport', 'activity', 'attract', 'million', 'tourist', 'year', 'toronto', 'known', 'many', 'skyscraper', 'high-rise', 'building', 'particular', 'tallest', 'free-standing', 'structure', 'western', 'hemisphere', 'tower', 'city', 'home', 'toronto', 'stock', 'exchange', 'headquarters', 'canada', 'five', 'largest', 'bank', 'headquarters', 'many', 'large', 'canadian', 'multinational', 'corporation', 'economy', 'highly', 'diversified', 'strength', 'technology', 'design', 'financial', 'service', 'life', 'science', 'education', 'art', 'fashion', 'business', 'service', 'environmental', 'innovation', 'food', 'service', 'tourism']
+
+
+POS Tagging :
+[('toronto', 'NN'), ('listen', 'VBZ'), ('locally', 'RB'), ('listen', 'JJ'), ('capital', 'NN'), ('canadian', 'JJ'), ('province', 'NN'), ('ontario', 'NN'), ('located', 'VBN'), ('within', 'IN'), ('golden', 'JJ'), ('horseshoe', 'NN'), ('southern', 'JJ'), ('ontario', 'NN'), ('northern', 'JJ'), ('shore', 'RB'), ('lake', 'VBP'), ('ontario', 'JJ'), ('2,731,571', 'CD'), ('resident', 'NN'), ('2016', 'CD'), ('largest', 'JJS'), ('city', 'NN'), ('canada', 'NN'), ('fourth-largest', 'JJ'), ('city', 'NN'), ('north', 'NN'), ('america', 'JJ'), ('population', 'NN'), ('also', 'RB'), ('2016', 'CD'), ('toronto', 'IN'), ('census', 'NN'), ('metropolitan', 'JJ'), ('area', 'NN'), ('cma', 'NN'), ('majority', 'NN'), ('within', 'IN'), ('greater', 'JJR'), ('toronto', 'JJ'), ('area', 'NN'), ('gta', 'NN'), ('population', 'NN'), ('5,928,040', 'CD'), ('making', 'VBG'), ('canada', 'NNS'), ('populous', 'JJ'), ('cma', 'NN'), ('global', 'JJ'), ('city', 'NN'), ('toronto', 'NN'), ('centre', 'NN'), ('business', 'NN'), ('finance', 'NN'), ('art', 'NN'), ('culture', 'NN'), ('recognized', 'VBD'), ('one', 'CD'), ('multicultural', 'JJ'), ('cosmopolitan', 'NN'), ('city', 'NN'), ('world', 'NN'), ('indigenous', 'JJ'), ('people', 'NNS'), ('travelled', 'VBD'), ('inhabited', 'JJ'), ('toronto', 'IN'), ('area', 'NN'), ('situated', 'VBN'), ('broad', 'JJ'), ('sloping', 'VBG'), ('plateau', 'NN'), ('interspersed', 'VBD'), ('river', 'RB'), ('deep', 'JJ'), ('ravine', 'NN'), ('urban', 'JJ'), ('forest', 'JJS'), ('10,000', 'CD'), ('year', 'NN'), ('broadly', 'RB'), ('disputed', 'VBD'), ('toronto', 'JJ'), ('purchase', 'NN'), ('mississaugas', 'NN'), ('surrendered', 'VBD'), ('area', 'NN'), ('british', 'JJ'), ('crown', 'JJ'), ('british', 'JJ'), ('established', 'VBN'), ('town', 'NN'), ('york', 'NN'), ('1793', 'CD'), ('later', 'RB'), ('designated', 'VBN'), ('capital', 'NN'), ('upper', 'IN'), ('canada', 'NNS'), ('war', 'NN'), ('1812', 'CD'), ('town', 'NN'), ('site', 'NN'), ('battle', 'NN'), ('york', 'NN'), ('suffered', 'VBD'), ('heavy', 'JJ'), ('damage', 'NN'), ('u.s.', 'JJ'), ('troop', 'NN'), ('york', 'NN'), ('renamed', 'VBD'), ('incorporated', 'JJ'), ('city', 'NN'), ('toronto', 'NN'), ('1834', 'CD'), ('became', 'VBD'), ('capital', 'NN'), ('province', 'NN'), ('ontario', 'NN'), ('canadian', 'JJ'), ('confederation', 'NN'), ('1867.', 'CD'), ('city', 'NN'), ('proper', 'NN'), ('since', 'IN'), ('expanded', 'VBN'), ('past', 'IN'), ('original', 'JJ'), ('border', 'NN'), ('annexation', 'NN'), ('amalgamation', 'NN'), ('current', 'JJ'), ('area', 'NN'), ('630.2', 'CD'), ('km2', 'NN'), ('243.3', 'CD'), ('diverse', 'JJ'), ('population', 'NN'), ('toronto', 'NN'), ('reflects', 'VBZ'), ('current', 'JJ'), ('historical', 'JJ'), ('role', 'NN'), ('important', 'JJ'), ('destination', 'NN'), ('immigrant', 'NN'), ('canada', 'NN'), ('resident', 'NN'), ('belonging', 'VBG'), ('visible', 'JJ'), ('minority', 'NN'), ('population', 'NN'), ('group', 'NN'), ('200', 'CD'), ('distinct', 'NN'), ('ethnic', 'JJ'), ('origin', 'NN'), ('represented', 'VBN'), ('among', 'IN'), ('inhabitant', 'JJ'), ('majority', 'NN'), ('torontonians', 'NNS'), ('speak', 'VBP'), ('english', 'JJ'), ('primary', 'JJ'), ('language', 'NN'), ('160', 'CD'), ('different', 'JJ'), ('language', 'NN'), ('spoken', 'VBN'), ('city', 'NN'), ('toronto', 'NN'), ('prominent', 'JJ'), ('centre', 'NN'), ('music', 'NN'), ('theatre', 'NN'), ('motion', 'NN'), ('picture', 'NN'), ('production', 'NN'), ('television', 'NN'), ('production', 'NN'), ('home', 'NN'), ('headquarters', 'NN'), ('canada', 'VBP'), ('major', 'JJ'), ('national', 'JJ'), ('broadcast', 'NN'), ('network', 'NN'), ('medium', 'NN'), ('outlet', 'NN'), ('varied', 'VBD'), ('cultural', 'JJ'), ('institution', 'NN'), ('include', 'VBP'), ('numerous', 'JJ'), ('museum', 'NN'), ('gallery', 'NN'), ('festival', 'JJ'), ('public', 'JJ'), ('event', 'NN'), ('entertainment', 'NN'), ('district', 'NN'), ('national', 'JJ'), ('historic', 'JJ'), ('site', 'NN'), ('sport', 'NN'), ('activity', 'NN'), ('attract', 'NN'), ('million', 'CD'), ('tourist', 'NN'), ('year', 'NN'), ('toronto', 'IN'), ('known', 'VBN'), ('many', 'JJ'), ('skyscraper', 'JJR'), ('high-rise', 'NN'), ('building', 'NN'), ('particular', 'JJ'), ('tallest', 'JJS'), ('free-standing', 'JJ'), ('structure', 'NN'), ('western', 'NN'), ('hemisphere', 'RB'), ('tower', 'JJR'), ('city', 'NN'), ('home', 'NN'), ('toronto', 'IN'), ('stock', 'NN'), ('exchange', 'NN'), ('headquarters', 'NN'), ('canada', 'VBP'), ('five', 'CD'), ('largest', 'JJS'), ('bank', 'NN'), ('headquarters', 'NN'), ('many', 'JJ'), ('large', 'JJ'), ('canadian', 'JJ'), ('multinational', 'JJ'), ('corporation', 'NN'), ('economy', 'NN'), ('highly', 'RB'), ('diversified', 'JJ'), ('strength', 'NN'), ('technology', 'NN'), ('design', 'NN'), ('financial', 'JJ'), ('service', 'NN'), ('life', 'NN'), ('science', 'NN'), ('education', 'NN'), ('art', 'NN'), ('fashion', 'NN'), ('business', 'NN'), ('service', 'NN'), ('environmental', 'JJ'), ('innovation', 'NN'), ('food', 'NN'), ('service', 'NN'), ('tourism', 'NN')]
+
+
+Chunked Tree:
+(S
+  (NP toronto/NN)
+  listen/VBZ
+  locally/RB
+  (NP listen/JJ capital/NN)
+  (NP canadian/JJ province/NN)
+  (NP ontario/NN)
+  located/VBN
+  within/IN
+  (NP golden/JJ horseshoe/NN)
+  (NP southern/JJ ontario/NN)
+  northern/JJ
+  shore/RB
+  lake/VBP
+  ontario/JJ
+  2,731,571/CD
+  (NP resident/NN)
+  2016/CD
+  largest/JJS
+  (NP city/NN)
+  (NP canada/NN)
+  (NP fourth-largest/JJ city/NN)
+  (NP north/NN)
+  (NP america/JJ population/NN)
+  also/RB
+  2016/CD
+  toronto/IN
+  (NP census/NN)
+  (NP metropolitan/JJ area/NN)
+  (NP cma/NN)
+  (NP majority/NN)
+  within/IN
+  greater/JJR
+  (NP toronto/JJ area/NN)
+  (NP gta/NN)
+  (NP population/NN)
+  5,928,040/CD
+  making/VBG
+  canada/NNS
+  (NP populous/JJ cma/NN)
+  (NP global/JJ city/NN)
+  (NP toronto/NN)
+  (NP centre/NN)
+  (NP business/NN)
+  (NP finance/NN)
+  (NP art/NN)
+  (NP culture/NN)
+  recognized/VBD
+  one/CD
+  (NP multicultural/JJ cosmopolitan/NN)
+  (NP city/NN)
+  (NP world/NN)
+  indigenous/JJ
+  people/NNS
+  travelled/VBD
+  inhabited/JJ
+  toronto/IN
+  (NP area/NN)
+  situated/VBN
+  broad/JJ
+  sloping/VBG
+  (NP plateau/NN)
+  interspersed/VBD
+  river/RB
+  (NP deep/JJ ravine/NN)
+  urban/JJ
+  forest/JJS
+  10,000/CD
+  (NP year/NN)
+  broadly/RB
+  disputed/VBD
+  (NP toronto/JJ purchase/NN)
+  (NP mississaugas/NN)
+  surrendered/VBD
+  (NP area/NN)
+  british/JJ
+  crown/JJ
+  british/JJ
+  established/VBN
+  (NP town/NN)
+  (NP york/NN)
+  1793/CD
+  later/RB
+  designated/VBN
+  (NP capital/NN)
+  upper/IN
+  canada/NNS
+  (NP war/NN)
+  1812/CD
+  (NP town/NN)
+  (NP site/NN)
+  (NP battle/NN)
+  (NP york/NN)
+  suffered/VBD
+  (NP heavy/JJ damage/NN)
+  (NP u.s./JJ troop/NN)
+  (NP york/NN)
+  renamed/VBD
+  (NP incorporated/JJ city/NN)
+  (NP toronto/NN)
+  1834/CD
+  became/VBD
+  (NP capital/NN)
+  (NP province/NN)
+  (NP ontario/NN)
+  (NP canadian/JJ confederation/NN)
+  1867./CD
+  (NP city/NN)
+  (NP proper/NN)
+  since/IN
+  expanded/VBN
+  past/IN
+  (NP original/JJ border/NN)
+  (NP annexation/NN)
+  (NP amalgamation/NN)
+  (NP current/JJ area/NN)
+  630.2/CD
+  (NP km2/NN)
+  243.3/CD
+  (NP diverse/JJ population/NN)
+  (NP toronto/NN)
+  reflects/VBZ
+  (NP current/JJ historical/JJ role/NN)
+  (NP important/JJ destination/NN)
+  (NP immigrant/NN)
+  (NP canada/NN)
+  (NP resident/NN)
+  belonging/VBG
+  (NP visible/JJ minority/NN)
+  (NP population/NN)
+  (NP group/NN)
+  200/CD
+  (NP distinct/NN)
+  (NP ethnic/JJ origin/NN)
+  represented/VBN
+  among/IN
+  (NP inhabitant/JJ majority/NN)
+  (NP torontonians/NNS speak/VBP)
+  (NP english/JJ primary/JJ language/NN)
+  160/CD
+  (NP different/JJ language/NN)
+  spoken/VBN
+  (NP city/NN)
+  (NP toronto/NN)
+  (NP prominent/JJ centre/NN)
+  (NP music/NN)
+  (NP theatre/NN)
+  (NP motion/NN)
+  (NP picture/NN)
+  (NP production/NN)
+  (NP television/NN)
+  (NP production/NN)
+  (NP home/NN)
+  (NP headquarters/NN)
+  canada/VBP
+  (NP major/JJ national/JJ broadcast/NN)
+  (NP network/NN)
+  (NP medium/NN)
+  (NP outlet/NN)
+  varied/VBD
+  (NP cultural/JJ institution/NN)
+  include/VBP
+  (NP numerous/JJ museum/NN)
+  (NP gallery/NN)
+  (NP festival/JJ public/JJ event/NN)
+  (NP entertainment/NN)
+  (NP district/NN)
+  (NP national/JJ historic/JJ site/NN)
+  (NP sport/NN)
+  (NP activity/NN)
+  (NP attract/NN)
+  million/CD
+  (NP tourist/NN)
+  (NP year/NN)
+  toronto/IN
+  known/VBN
+  many/JJ
+  skyscraper/JJR
+  (NP high-rise/NN)
+  (NP building/NN)
+  particular/JJ
+  tallest/JJS
+  (NP free-standing/JJ structure/NN)
+  (NP western/NN)
+  hemisphere/RB
+  tower/JJR
+  (NP city/NN)
+  (NP home/NN)
+  toronto/IN
+  (NP stock/NN)
+  (NP exchange/NN)
+  (NP headquarters/NN)
+  canada/VBP
+  five/CD
+  largest/JJS
+  (NP bank/NN)
+  (NP headquarters/NN)
+  (NP many/JJ large/JJ canadian/JJ multinational/JJ corporation/NN)
+  (NP economy/NN)
+  highly/RB
+  (NP diversified/JJ strength/NN)
+  (NP technology/NN)
+  (NP design/NN)
+  (NP financial/JJ service/NN)
+  (NP life/NN)
+  (NP science/NN)
+  (NP education/NN)
+  (NP art/NN)
+  (NP fashion/NN)
+  (NP business/NN)
+  (NP service/NN)
+  (NP environmental/JJ innovation/NN)
+  (NP food/NN)
+  (NP service/NN)
+  (NP tourism/NN))
+
+
+Shallow Parsing :
+['toronto', 'capital', 'province', 'ontario', 'horseshoe', 'ontario', 'resident', 'city', 'canada', 'city', 'north', 'population', 'census', 'area', 'cma', 'majority', 'area', 'gta', 'population', 'cma', 'city', 'toronto', 'centre', 'business', 'finance', 'art', 'culture', 'cosmopolitan', 'city', 'world', 'area', 'plateau', 'ravine', 'year', 'purchase', 'mississaugas', 'area', 'town', 'york', 'capital', 'war', 'town', 'site', 'battle', 'york', 'damage', 'troop', 'york', 'city', 'toronto', 'capital', 'province', 'ontario', 'confederation', 'city', 'proper', 'border', 'annexation', 'amalgamation', 'area', 'km2', 'population', 'toronto', 'role', 'destination', 'immigrant', 'canada', 'resident', 'minority', 'population', 'group', 'distinct', 'origin', 'majority', 'torontonians', 'language', 'language', 'city', 'toronto', 'centre', 'music', 'theatre', 'motion', 'picture', 'production', 'television', 'production', 'home', 'headquarters', 'broadcast', 'network', 'medium', 'outlet', 'institution', 'museum', 'gallery', 'event', 'entertainment', 'district', 'site', 'sport', 'activity', 'attract', 'tourist', 'year', 'high-rise', 'building', 'structure', 'western', 'city', 'home', 'stock', 'exchange', 'headquarters', 'bank', 'headquarters', 'corporation', 'economy', 'strength', 'technology', 'design', 'service', 'life', 'science', 'education', 'art', 'fashion', 'business', 'service', 'innovation', 'food', 'service', 'tourism']
+
+
+Hypernym :
+['toronto', 'capital', 'province', 'ontario', 'horseshoe', 'ontario', 'resident', 'city', 'canada', 'city', 'north', 'population', 'census', 'area', 'cma', 'majority', 'area', 'gta', 'population', 'cma', 'city', 'toronto', 'centre', 'business', 'finance', 'art', 'culture', 'cosmopolitan', 'city', 'world', 'area', 'plateau', 'ravine', 'year', 'purchase', 'mississaugas', 'area', 'town', 'york', 'capital', 'war', 'town', 'site', 'battle', 'york', 'damage', 'troop', 'york', 'city', 'toronto', 'capital', 'province', 'ontario', 'confederation', 'city', 'proper', 'border', 'annexation', 'amalgamation', 'area', 'km2', 'population', 'toronto', 'role', 'destination', 'immigrant', 'canada', 'resident', 'minority', 'population', 'group', 'distinct', 'origin', 'majority', 'torontonians', 'language', 'language', 'city', 'toronto', 'centre', 'music', 'theatre', 'motion', 'picture', 'production', 'television', 'production', 'home', 'headquarters', 'broadcast', 'network', 'medium', 'outlet', 'institution', 'museum', 'gallery', 'event', 'entertainment', 'district', 'site', 'sport', 'activity', 'attract', 'tourist', 'year', 'high-rise', 'building', 'structure', 'western', 'city', 'home', 'stock', 'exchange', 'headquarters', 'bank', 'headquarters', 'corporation', 'economy', 'strength', 'technology', 'design', 'service', 'life', 'science', 'education', 'art', 'fashion', 'business', 'service', 'innovation', 'food', 'service', 'tourism']
+
+
+Meronym matching : 
+['toronto', 'capital', 'province', 'ontario', 'horseshoe', 'ontario', 'resident', 'city', 'canada', 'city', 'north', 'population', 'census', 'area', 'cma', 'majority', 'area', 'gta', 'population', 'cma', 'city', 'toronto', 'centre', 'business', 'finance', 'art', 'culture', 'cosmopolitan', 'city', 'world', 'area', 'plateau', 'ravine', 'year', 'purchase', 'mississaugas', 'area', 'town', 'york', 'capital', 'war', 'town', 'site', 'battle', 'york', 'damage', 'troop', 'york', 'city', 'toronto', 'capital', 'province', 'ontario', 'confederation', 'city', 'proper', 'border', 'annexation', 'amalgamation', 'area', 'km2', 'population', 'toronto', 'role', 'destination', 'immigrant', 'canada', 'resident', 'minority', 'population', 'group', 'distinct', 'origin', 'majority', 'torontonians', 'language', 'language', 'city', 'toronto', 'centre', 'music', 'theatre', 'motion', 'picture', 'production', 'television', 'production', 'home', 'headquarters', 'broadcast', 'network', 'medium', 'outlet', 'institution', 'museum', 'gallery', 'event', 'entertainment', 'district', 'site', 'sport', 'activity', 'attract', 'tourist', 'year', 'high-rise', 'building', 'structure', 'western', 'city', 'home', 'stock', 'exchange', 'headquarters', 'bank', 'headquarters', 'corporation', 'economy', 'strength', 'technology', 'design', 'service', 'life', 'science', 'education', 'art', 'fashion', 'business', 'service', 'innovation', 'food', 'service', 'tourism']
+
+
+Data : ['Uber (Company)', ' Business']
+Tokenizing Words : 
+['uber', 'technologies', 'inc.', 'is', 'a', 'global', 'transportation', 'technology', 'company', 'headquartered', 'in', 'san', 'francisco', ',', 'california', ',', 'united', 'states', ',', 'operating', 'in', '633', 'cities', 'worldwide', '.', 'it', 'develops', ',', 'markets', 'and', 'operates', 'the', 'uber', 'car', 'transportation', 'and', 'food', 'delivery', 'mobile', 'apps', '.', 'uber', 'drivers', 'use', 'their', 'own', 'cars', 'although', 'drivers', 'can', 'rent', 'a', 'car', 'to', 'drive', 'with', 'uber', '.', 'the', 'name', '``', 'uber', "''", 'is', 'a', 'reference', 'to', 'the', 'common', '(', 'and', 'somewhat', 'colloquial', ')', 'word', '``', 'uber', "''", ',', 'meaning', '``', 'topmost', "''", 'or', '``', 'super', "''", ',', 'and', 'having', 'its', 'origins', 'in', 'the', 'german', 'word', 'über', ',', 'meaning', '``', 'above', "''", '.', 'uber', 'has', 'been', 'a', 'pioneer', 'in', 'the', 'sharing', 'economy', 'and', 'the', 'changes', 'in', 'industries', 'as', 'a', 'result', 'of', 'the', 'sharing', 'economy', 'have', 'been', 'referred', 'to', 'as', '``', 'uberification', "''", 'or', '``', 'uberisation', "''", '.', 'uber', 'has', 'also', 'been', 'the', 'subject', 'of', 'protests', 'and', 'legal', 'actions', '.']
+
+
+After Removing stopwords : 
+['uber', 'technologies', 'inc.', 'global', 'transportation', 'technology', 'company', 'headquartered', 'san', 'francisco', 'california', 'united', 'states', 'operating', '633', 'cities', 'worldwide', 'develops', 'markets', 'operates', 'uber', 'car', 'transportation', 'food', 'delivery', 'mobile', 'apps', 'uber', 'drivers', 'use', 'cars', 'although', 'drivers', 'rent', 'car', 'drive', 'uber', 'name', 'uber', 'reference', 'common', 'somewhat', 'colloquial', 'word', 'uber', 'meaning', 'topmost', 'super', 'origins', 'german', 'word', 'über', 'meaning', 'uber', 'pioneer', 'sharing', 'economy', 'changes', 'industries', 'result', 'sharing', 'economy', 'referred', 'uberification', 'uberisation', 'uber', 'also', 'subject', 'protests', 'legal', 'actions']
+
+
+Lemmatization :
+['uber', 'technology', 'inc.', 'global', 'transportation', 'technology', 'company', 'headquartered', 'san', 'francisco', 'california', 'united', 'state', 'operating', '633', 'city', 'worldwide', 'develops', 'market', 'operates', 'uber', 'car', 'transportation', 'food', 'delivery', 'mobile', 'apps', 'uber', 'driver', 'use', 'car', 'although', 'driver', 'rent', 'car', 'drive', 'uber', 'name', 'uber', 'reference', 'common', 'somewhat', 'colloquial', 'word', 'uber', 'meaning', 'topmost', 'super', 'origin', 'german', 'word', 'über', 'meaning', 'uber', 'pioneer', 'sharing', 'economy', 'change', 'industry', 'result', 'sharing', 'economy', 'referred', 'uberification', 'uberisation', 'uber', 'also', 'subject', 'protest', 'legal', 'action']
+
+
+POS Tagging :
+[('uber', 'NNP'), ('technology', 'NN'), ('inc.', 'NN'), ('global', 'JJ'), ('transportation', 'NN'), ('technology', 'NN'), ('company', 'NN'), ('headquartered', 'VBD'), ('san', 'JJ'), ('francisco', 'JJ'), ('california', 'NN'), ('united', 'JJ'), ('state', 'NN'), ('operating', 'VBG'), ('633', 'CD'), ('city', 'NN'), ('worldwide', 'NN'), ('develops', 'VBZ'), ('market', 'NN'), ('operates', 'VBZ'), ('uber', 'JJ'), ('car', 'NN'), ('transportation', 'NN'), ('food', 'NN'), ('delivery', 'NN'), ('mobile', 'NN'), ('apps', 'IN'), ('uber', 'JJ'), ('driver', 'NN'), ('use', 'NN'), ('car', 'NN'), ('although', 'IN'), ('driver', 'NN'), ('rent', 'NN'), ('car', 'NN'), ('drive', 'NN'), ('uber', 'NN'), ('name', 'NN'), ('uber', 'JJ'), ('reference', 'NN'), ('common', 'JJ'), ('somewhat', 'RB'), ('colloquial', 'JJ'), ('word', 'NN'), ('uber', 'IN'), ('meaning', 'VBG'), ('topmost', 'NN'), ('super', 'NN'), ('origin', 'JJ'), ('german', 'JJ'), ('word', 'NN'), ('über', 'NNP'), ('meaning', 'NN'), ('uber', 'NNP'), ('pioneer', 'NN'), ('sharing', 'VBG'), ('economy', 'NN'), ('change', 'NN'), ('industry', 'NN'), ('result', 'NN'), ('sharing', 'VBG'), ('economy', 'NN'), ('referred', 'VBD'), ('uberification', 'JJ'), ('uberisation', 'NN'), ('uber', 'NNP'), ('also', 'RB'), ('subject', 'JJ'), ('protest', 'JJ'), ('legal', 'JJ'), ('action', 'NN')]
+
+
+Chunked Tree:
+(S
+  (NP uber/NNP)
+  (NP technology/NN)
+  (NP inc./NN)
+  (NP global/JJ transportation/NN)
+  (NP technology/NN)
+  (NP company/NN)
+  headquartered/VBD
+  (NP san/JJ francisco/JJ california/NN)
+  (NP united/JJ state/NN)
+  operating/VBG
+  633/CD
+  (NP city/NN)
+  (NP worldwide/NN)
+  develops/VBZ
+  (NP market/NN)
+  operates/VBZ
+  (NP uber/JJ car/NN)
+  (NP transportation/NN)
+  (NP food/NN)
+  (NP delivery/NN)
+  (NP mobile/NN)
+  apps/IN
+  (NP uber/JJ driver/NN)
+  (NP use/NN)
+  (NP car/NN)
+  although/IN
+  (NP driver/NN)
+  (NP rent/NN)
+  (NP car/NN)
+  (NP drive/NN)
+  (NP uber/NN)
+  (NP name/NN)
+  (NP uber/JJ reference/NN)
+  common/JJ
+  somewhat/RB
+  (NP colloquial/JJ word/NN)
+  uber/IN
+  meaning/VBG
+  (NP topmost/NN)
+  (NP super/NN)
+  (NP origin/JJ german/JJ word/NN)
+  (NP über/NNP)
+  (NP meaning/NN)
+  (NP uber/NNP)
+  (NP pioneer/NN)
+  sharing/VBG
+  (NP economy/NN)
+  (NP change/NN)
+  (NP industry/NN)
+  (NP result/NN)
+  sharing/VBG
+  (NP economy/NN)
+  referred/VBD
+  (NP uberification/JJ uberisation/NN)
+  (NP uber/NNP)
+  also/RB
+  (NP subject/JJ protest/JJ legal/JJ action/NN))
+
+
+Shallow Parsing :
+['uber', 'technology', 'inc.', 'transportation', 'technology', 'company', 'california', 'state', 'city', 'worldwide', 'market', 'car', 'transportation', 'food', 'delivery', 'mobile', 'driver', 'use', 'car', 'driver', 'rent', 'car', 'drive', 'uber', 'name', 'reference', 'word', 'topmost', 'super', 'word', 'über', 'meaning', 'uber', 'pioneer', 'economy', 'change', 'industry', 'result', 'economy', 'uberisation', 'uber', 'action']
+
+
+Hypernym :
+['uber', 'technology', 'inc.', 'transportation', 'technology', 'company', 'california', 'state', 'city', 'worldwide', 'market', 'car', 'transportation', 'food', 'delivery', 'mobile', 'driver', 'use', 'car', 'driver', 'rent', 'car', 'drive', 'uber', 'name', 'reference', 'word', 'topmost', 'super', 'word', 'über', 'meaning', 'uber', 'pioneer', 'economy', 'change', 'industry', 'result', 'economy', 'uberisation', 'uber', 'action']
+
+
+Meronym matching : 
+['uber', 'technology', 'inc.', 'transportation', 'technology', 'company', 'california', 'state', 'city', 'worldwide', 'market', 'car', 'transportation', 'food', 'delivery', 'mobile', 'driver', 'use', 'car', 'driver', 'rent', 'car', 'drive', 'uber', 'name', 'reference', 'word', 'topmost', 'super', 'word', 'über', 'meaning', 'uber', 'pioneer', 'economy', 'change', 'industry', 'result', 'economy', 'uberisation', 'uber', 'action']
+
+
+Data : ['Vienna', ' Travel']
+Tokenizing Words : 
+['vienna', '(', '(', 'listen', ')', ';', 'german', ':', 'wien', ',', 'pronounced', '[', 'viːn', ']', '(', 'listen', ')', ')', 'is', 'the', 'capital', 'and', 'largest', 'city', 'of', 'austria', 'and', 'one', 'of', 'the', 'nine', 'states', 'of', 'austria', '.', 'vienna', 'is', 'austria', "'s", 'primary', 'city', ',', 'with', 'a', 'population', 'of', 'about', '1.8', 'million', '(', '2.6', 'million', 'within', 'the', 'metropolitan', 'area', ',', 'nearly', 'one', 'third', 'of', 'austria', "'s", 'population', ')', ',', 'and', 'its', 'cultural', ',', 'economic', ',', 'and', 'political', 'centre', '.', 'it', 'is', 'the', '7th-largest', 'city', 'by', 'population', 'within', 'city', 'limits', 'in', 'the', 'european', 'union', '.', 'until', 'the', 'beginning', 'of', 'the', '20th', 'century', ',', 'it', 'was', 'the', 'largest', 'german-speaking', 'city', 'in', 'the', 'world', ',', 'and', 'before', 'the', 'splitting', 'of', 'the', 'austro-hungarian', 'empire', 'in', 'world', 'war', 'i', ',', 'the', 'city', 'had', '2', 'million', 'inhabitants', '.', 'today', ',', 'it', 'has', 'the', 'second', 'largest', 'number', 'of', 'german', 'speakers', 'after', 'berlin', '.', 'vienna', 'is', 'host', 'to', 'many', 'major', 'international', 'organizations', ',', 'including', 'the', 'united', 'nations', 'and', 'opec', '.', 'the', 'city', 'is', 'located', 'in', 'the', 'eastern', 'part', 'of', 'austria', 'and', 'is', 'close', 'to', 'the', 'borders', 'of', 'the', 'czech', 'republic', ',', 'slovakia', ',', 'and', 'hungary', '.', 'these', 'regions', 'work', 'together', 'in', 'a', 'european', 'centrope', 'border', 'region', '.', 'along', 'with', 'nearby', 'bratislava', ',', 'vienna', 'forms', 'a', 'metropolitan', 'region', 'with', '3', 'million', 'inhabitants', '.', 'in', '2001', ',', 'the', 'city', 'centre', 'was', 'designated', 'a', 'unesco', 'world', 'heritage', 'site', '.', 'in', 'july', '2017', 'it', 'was', 'moved', 'to', 'the', 'list', 'of', 'world', 'heritage', 'in', 'danger', '.', 'apart', 'from', 'being', 'regarded', 'as', 'the', 'city', 'of', 'music', 'because', 'of', 'its', 'musical', 'legacy', ',', 'vienna', 'is', 'also', 'said', 'to', 'be', '``', 'the', 'city', 'of', 'dreams', "''", 'because', 'it', 'was', 'home', 'to', 'the', 'world', "'s", 'first', 'psycho-analyst', '–', 'sigmund', 'freud', '.', 'the', 'city', "'s", 'roots', 'lie', 'in', 'early', 'celtic', 'and', 'roman', 'settlements', 'that', 'transformed', 'into', 'a', 'medieval', 'and', 'baroque', 'city', ',', 'and', 'then', 'the', 'capital', 'of', 'the', 'austro-hungarian', 'empire', '.', 'it', 'is', 'well', 'known', 'for', 'having', 'played', 'an', 'essential', 'role', 'as', 'a', 'leading', 'european', 'music', 'centre', ',', 'from', 'the', 'great', 'age', 'of', 'viennese', 'classicism', 'through', 'the', 'early', 'part', 'of', 'the', '20th', 'century', '.', 'the', 'historic', 'centre', 'of', 'vienna', 'is', 'rich', 'in', 'architectural', 'ensembles', ',', 'including', 'baroque', 'castles', 'and', 'gardens', ',', 'and', 'the', 'late-19th-century', 'ringstraße', 'lined', 'with', 'grand', 'buildings', ',', 'monuments', 'and', 'parks', '.', 'vienna', 'is', 'known', 'for', 'its', 'high', 'quality', 'of', 'life', '.', 'in', 'a', '2005', 'study', 'of', '127', 'world', 'cities', ',', 'the', 'economist', 'intelligence', 'unit', 'ranked', 'the', 'city', 'first', '(', 'in', 'a', 'tie', 'with', 'vancouver', ',', 'canada', 'and', 'san', 'francisco', ',', 'usa', ')', 'for', 'the', 'world', "'s", 'most', 'liveable', 'cities', '.', 'between', '2011', 'and', '2015', ',', 'vienna', 'was', 'ranked', 'second', ',', 'behind', 'melbourne', ',', 'australia', '.', 'for', 'eight', 'consecutive', 'years', '(', '2009–2016', ')', ',', 'the', 'human-resource-consulting', 'firm', 'mercer', 'ranked', 'vienna', 'first', 'in', 'its', 'annual', '``', 'quality', 'of', 'living', "''", 'survey', 'of', 'hundreds', 'of', 'cities', 'around', 'the', 'world', ',', 'a', 'title', 'the', 'city', 'still', 'held', 'in', '2016.', 'monocle', "'s", '2015', '``', 'quality', 'of', 'life', 'survey', "''", 'ranked', 'vienna', 'second', 'on', 'a', 'list', 'of', 'the', 'top', '25', 'cities', 'in', 'the', 'world', '``', 'to', 'make', 'a', 'base', 'within', '.', "''", 'the', 'un-habitat', 'has', 'classified', 'vienna', 'as', 'being', 'the', 'most', 'prosperous', 'city', 'in', 'the', 'world', 'in', '2012/2013', '.', 'the', 'city', 'was', 'ranked', '1st', 'globally', 'for', 'its', 'culture', 'of', 'innovation', 'in', '2007', 'and', '2008', ',', 'and', 'sixth', 'globally', '(', 'out', 'of', '256', 'cities', ')', 'in', 'the', '2014', 'innovation', 'cities', 'index', ',', 'which', 'analyzed', '162', 'indicators', 'in', 'covering', 'three', 'areas', ':', 'culture', ',', 'infrastructure', ',', 'and', 'markets', '.', 'vienna', 'regularly', 'hosts', 'urban', 'planning', 'conferences', 'and', 'is', 'often', 'used', 'as', 'a', 'case', 'study', 'by', 'urban', 'planners', '.', 'between', '2005', 'and', '2010', ',', 'vienna', 'was', 'the', 'world', "'s", 'number-one', 'destination', 'for', 'international', 'congresses', 'and', 'conventions', '.', 'it', 'attracts', 'over', '6.8', 'million', 'tourists', 'a', 'year', '.']
+
+
+After Removing stopwords : 
+['vienna', 'listen', 'german', 'wien', 'pronounced', 'viːn', 'listen', 'capital', 'largest', 'city', 'austria', 'one', 'nine', 'states', 'austria', 'vienna', 'austria', 'primary', 'city', 'population', '1.8', 'million', '2.6', 'million', 'within', 'metropolitan', 'area', 'nearly', 'one', 'third', 'austria', 'population', 'cultural', 'economic', 'political', 'centre', '7th-largest', 'city', 'population', 'within', 'city', 'limits', 'european', 'union', 'beginning', '20th', 'century', 'largest', 'german-speaking', 'city', 'world', 'splitting', 'austro-hungarian', 'empire', 'world', 'war', 'city', 'million', 'inhabitants', 'today', 'second', 'largest', 'number', 'german', 'speakers', 'berlin', 'vienna', 'host', 'many', 'major', 'international', 'organizations', 'including', 'united', 'nations', 'opec', 'city', 'located', 'eastern', 'part', 'austria', 'close', 'borders', 'czech', 'republic', 'slovakia', 'hungary', 'regions', 'work', 'together', 'european', 'centrope', 'border', 'region', 'along', 'nearby', 'bratislava', 'vienna', 'forms', 'metropolitan', 'region', 'million', 'inhabitants', '2001', 'city', 'centre', 'designated', 'unesco', 'world', 'heritage', 'site', 'july', '2017', 'moved', 'list', 'world', 'heritage', 'danger', 'apart', 'regarded', 'city', 'music', 'musical', 'legacy', 'vienna', 'also', 'said', 'city', 'dreams', 'home', 'world', 'first', 'psycho-analyst', 'sigmund', 'freud', 'city', 'roots', 'lie', 'early', 'celtic', 'roman', 'settlements', 'transformed', 'medieval', 'baroque', 'city', 'capital', 'austro-hungarian', 'empire', 'well', 'known', 'played', 'essential', 'role', 'leading', 'european', 'music', 'centre', 'great', 'age', 'viennese', 'classicism', 'early', 'part', '20th', 'century', 'historic', 'centre', 'vienna', 'rich', 'architectural', 'ensembles', 'including', 'baroque', 'castles', 'gardens', 'late-19th-century', 'ringstraße', 'lined', 'grand', 'buildings', 'monuments', 'parks', 'vienna', 'known', 'high', 'quality', 'life', '2005', 'study', '127', 'world', 'cities', 'economist', 'intelligence', 'unit', 'ranked', 'city', 'first', 'tie', 'vancouver', 'canada', 'san', 'francisco', 'usa', 'world', 'liveable', 'cities', '2011', '2015', 'vienna', 'ranked', 'second', 'behind', 'melbourne', 'australia', 'eight', 'consecutive', 'years', '2009–2016', 'human-resource-consulting', 'firm', 'mercer', 'ranked', 'vienna', 'first', 'annual', 'quality', 'living', 'survey', 'hundreds', 'cities', 'around', 'world', 'title', 'city', 'still', 'held', '2016.', 'monocle', '2015', 'quality', 'life', 'survey', 'ranked', 'vienna', 'second', 'list', 'top', 'cities', 'world', 'make', 'base', 'within', 'un-habitat', 'classified', 'vienna', 'prosperous', 'city', 'world', '2012/2013', 'city', 'ranked', '1st', 'globally', 'culture', 'innovation', '2007', '2008', 'sixth', 'globally', '256', 'cities', '2014', 'innovation', 'cities', 'index', 'analyzed', '162', 'indicators', 'covering', 'three', 'areas', 'culture', 'infrastructure', 'markets', 'vienna', 'regularly', 'hosts', 'urban', 'planning', 'conferences', 'often', 'used', 'case', 'study', 'urban', 'planners', '2005', '2010', 'vienna', 'world', 'number-one', 'destination', 'international', 'congresses', 'conventions', 'attracts', '6.8', 'million', 'tourists', 'year']
+
+
+Lemmatization :
+['vienna', 'listen', 'german', 'wien', 'pronounced', 'viːn', 'listen', 'capital', 'largest', 'city', 'austria', 'one', 'nine', 'state', 'austria', 'vienna', 'austria', 'primary', 'city', 'population', '1.8', 'million', '2.6', 'million', 'within', 'metropolitan', 'area', 'nearly', 'one', 'third', 'austria', 'population', 'cultural', 'economic', 'political', 'centre', '7th-largest', 'city', 'population', 'within', 'city', 'limit', 'european', 'union', 'beginning', '20th', 'century', 'largest', 'german-speaking', 'city', 'world', 'splitting', 'austro-hungarian', 'empire', 'world', 'war', 'city', 'million', 'inhabitant', 'today', 'second', 'largest', 'number', 'german', 'speaker', 'berlin', 'vienna', 'host', 'many', 'major', 'international', 'organization', 'including', 'united', 'nation', 'opec', 'city', 'located', 'eastern', 'part', 'austria', 'close', 'border', 'czech', 'republic', 'slovakia', 'hungary', 'region', 'work', 'together', 'european', 'centrope', 'border', 'region', 'along', 'nearby', 'bratislava', 'vienna', 'form', 'metropolitan', 'region', 'million', 'inhabitant', '2001', 'city', 'centre', 'designated', 'unesco', 'world', 'heritage', 'site', 'july', '2017', 'moved', 'list', 'world', 'heritage', 'danger', 'apart', 'regarded', 'city', 'music', 'musical', 'legacy', 'vienna', 'also', 'said', 'city', 'dream', 'home', 'world', 'first', 'psycho-analyst', 'sigmund', 'freud', 'city', 'root', 'lie', 'early', 'celtic', 'roman', 'settlement', 'transformed', 'medieval', 'baroque', 'city', 'capital', 'austro-hungarian', 'empire', 'well', 'known', 'played', 'essential', 'role', 'leading', 'european', 'music', 'centre', 'great', 'age', 'viennese', 'classicism', 'early', 'part', '20th', 'century', 'historic', 'centre', 'vienna', 'rich', 'architectural', 'ensemble', 'including', 'baroque', 'castle', 'garden', 'late-19th-century', 'ringstraße', 'lined', 'grand', 'building', 'monument', 'park', 'vienna', 'known', 'high', 'quality', 'life', '2005', 'study', '127', 'world', 'city', 'economist', 'intelligence', 'unit', 'ranked', 'city', 'first', 'tie', 'vancouver', 'canada', 'san', 'francisco', 'usa', 'world', 'liveable', 'city', '2011', '2015', 'vienna', 'ranked', 'second', 'behind', 'melbourne', 'australia', 'eight', 'consecutive', 'year', '2009–2016', 'human-resource-consulting', 'firm', 'mercer', 'ranked', 'vienna', 'first', 'annual', 'quality', 'living', 'survey', 'hundred', 'city', 'around', 'world', 'title', 'city', 'still', 'held', '2016.', 'monocle', '2015', 'quality', 'life', 'survey', 'ranked', 'vienna', 'second', 'list', 'top', 'city', 'world', 'make', 'base', 'within', 'un-habitat', 'classified', 'vienna', 'prosperous', 'city', 'world', '2012/2013', 'city', 'ranked', '1st', 'globally', 'culture', 'innovation', '2007', '2008', 'sixth', 'globally', '256', 'city', '2014', 'innovation', 'city', 'index', 'analyzed', '162', 'indicator', 'covering', 'three', 'area', 'culture', 'infrastructure', 'market', 'vienna', 'regularly', 'host', 'urban', 'planning', 'conference', 'often', 'used', 'case', 'study', 'urban', 'planner', '2005', '2010', 'vienna', 'world', 'number-one', 'destination', 'international', 'congress', 'convention', 'attracts', '6.8', 'million', 'tourist', 'year']
+
+
+POS Tagging :
+[('vienna', 'NN'), ('listen', 'JJ'), ('german', 'JJ'), ('wien', 'NN'), ('pronounced', 'VBD'), ('viːn', 'JJ'), ('listen', 'JJ'), ('capital', 'NN'), ('largest', 'JJS'), ('city', 'NN'), ('austria', 'NN'), ('one', 'CD'), ('nine', 'CD'), ('state', 'NN'), ('austria', 'NNS'), ('vienna', 'VBP'), ('austria', 'JJ'), ('primary', 'JJ'), ('city', 'NN'), ('population', 'NN'), ('1.8', 'CD'), ('million', 'CD'), ('2.6', 'CD'), ('million', 'CD'), ('within', 'IN'), ('metropolitan', 'JJ'), ('area', 'NN'), ('nearly', 'RB'), ('one', 'CD'), ('third', 'JJ'), ('austria', 'JJ'), ('population', 'NN'), ('cultural', 'JJ'), ('economic', 'JJ'), ('political', 'JJ'), ('centre', 'NN'), ('7th-largest', 'JJ'), ('city', 'NN'), ('population', 'NN'), ('within', 'IN'), ('city', 'NN'), ('limit', 'NN'), ('european', 'JJ'), ('union', 'NN'), ('beginning', 'VBG'), ('20th', 'JJ'), ('century', 'NN'), ('largest', 'JJS'), ('german-speaking', 'JJ'), ('city', 'NN'), ('world', 'NN'), ('splitting', 'VBG'), ('austro-hungarian', 'JJ'), ('empire', 'NN'), ('world', 'NN'), ('war', 'NN'), ('city', 'NN'), ('million', 'CD'), ('inhabitant', 'JJ'), ('today', 'NN'), ('second', 'JJ'), ('largest', 'JJS'), ('number', 'NN'), ('german', 'JJ'), ('speaker', 'NN'), ('berlin', 'NN'), ('vienna', 'VBD'), ('host', 'RB'), ('many', 'JJ'), ('major', 'JJ'), ('international', 'JJ'), ('organization', 'NN'), ('including', 'VBG'), ('united', 'JJ'), ('nation', 'NN'), ('opec', 'IN'), ('city', 'NN'), ('located', 'VBN'), ('eastern', 'JJ'), ('part', 'NN'), ('austria', 'NNS'), ('close', 'RB'), ('border', 'VBP'), ('czech', 'NN'), ('republic', 'JJ'), ('slovakia', 'NN'), ('hungary', 'JJ'), ('region', 'NN'), ('work', 'NN'), ('together', 'RB'), ('european', 'JJ'), ('centrope', 'NN'), ('border', 'NN'), ('region', 'NN'), ('along', 'IN'), ('nearby', 'JJ'), ('bratislava', 'NN'), ('vienna', 'NN'), ('form', 'NN'), ('metropolitan', 'JJ'), ('region', 'NN'), ('million', 'CD'), ('inhabitant', 'JJ'), ('2001', 'CD'), ('city', 'NN'), ('centre', 'NN'), ('designated', 'VBN'), ('unesco', 'JJ'), ('world', 'NN'), ('heritage', 'NN'), ('site', 'NN'), ('july', 'NN'), ('2017', 'CD'), ('moved', 'VBD'), ('list', 'JJ'), ('world', 'NN'), ('heritage', 'NN'), ('danger', 'NN'), ('apart', 'RB'), ('regarded', 'VBD'), ('city', 'NN'), ('music', 'NN'), ('musical', 'JJ'), ('legacy', 'NN'), ('vienna', 'NN'), ('also', 'RB'), ('said', 'VBD'), ('city', 'NN'), ('dream', 'NN'), ('home', 'NN'), ('world', 'NN'), ('first', 'RB'), ('psycho-analyst', 'JJ'), ('sigmund', 'NN'), ('freud', 'NN'), ('city', 'NN'), ('root', 'NN'), ('lie', 'VBD'), ('early', 'JJ'), ('celtic', 'JJ'), ('roman', 'NN'), ('settlement', 'NN'), ('transformed', 'VBD'), ('medieval', 'JJ'), ('baroque', 'JJ'), ('city', 'NN'), ('capital', 'NN'), ('austro-hungarian', 'JJ'), ('empire', 'NN'), ('well', 'RB'), ('known', 'VBN'), ('played', 'VBN'), ('essential', 'JJ'), ('role', 'NN'), ('leading', 'VBG'), ('european', 'JJ'), ('music', 'NN'), ('centre', 'VBZ'), ('great', 'JJ'), ('age', 'NN'), ('viennese', 'JJ'), ('classicism', 'NN'), ('early', 'JJ'), ('part', 'NN'), ('20th', 'JJ'), ('century', 'NN'), ('historic', 'JJ'), ('centre', 'NN'), ('vienna', 'NN'), ('rich', 'JJ'), ('architectural', 'JJ'), ('ensemble', 'JJ'), ('including', 'VBG'), ('baroque', 'JJ'), ('castle', 'JJ'), ('garden', 'NN'), ('late-19th-century', 'NN'), ('ringstraße', 'NN'), ('lined', 'VBD'), ('grand', 'JJ'), ('building', 'NN'), ('monument', 'NN'), ('park', 'NN'), ('vienna', 'NN'), ('known', 'VBN'), ('high', 'JJ'), ('quality', 'NN'), ('life', 'NN'), ('2005', 'CD'), ('study', 'NN'), ('127', 'CD'), ('world', 'NN'), ('city', 'NN'), ('economist', 'NN'), ('intelligence', 'NN'), ('unit', 'NN'), ('ranked', 'VBD'), ('city', 'NN'), ('first', 'RB'), ('tie', 'JJ'), ('vancouver', 'NN'), ('canada', 'NN'), ('san', 'JJ'), ('francisco', 'NN'), ('usa', 'JJ'), ('world', 'NN'), ('liveable', 'JJ'), ('city', 'NN'), ('2011', 'CD'), ('2015', 'CD'), ('vienna', 'NN'), ('ranked', 'VBD'), ('second', 'JJ'), ('behind', 'IN'), ('melbourne', 'JJ'), ('australia', 'NNS'), ('eight', 'CD'), ('consecutive', 'JJ'), ('year', 'NN'), ('2009–2016', 'CD'), ('human-resource-consulting', 'JJ'), ('firm', 'NN'), ('mercer', 'NN'), ('ranked', 'VBD'), ('vienna', 'JJ'), ('first', 'JJ'), ('annual', 'JJ'), ('quality', 'NN'), ('living', 'VBG'), ('survey', 'NN'), ('hundred', 'VBD'), ('city', 'NN'), ('around', 'RB'), ('world', 'NN'), ('title', 'NN'), ('city', 'NN'), ('still', 'RB'), ('held', 'VBD'), ('2016.', 'CD'), ('monocle', 'NN'), ('2015', 'CD'), ('quality', 'NN'), ('life', 'NN'), ('survey', 'NN'), ('ranked', 'VBD'), ('vienna', 'JJ'), ('second', 'JJ'), ('list', 'NN'), ('top', 'JJ'), ('city', 'NN'), ('world', 'NN'), ('make', 'VBP'), ('base', 'NN'), ('within', 'IN'), ('un-habitat', 'JJ'), ('classified', 'JJ'), ('vienna', 'NN'), ('prosperous', 'JJ'), ('city', 'NN'), ('world', 'NN'), ('2012/2013', 'CD'), ('city', 'NN'), ('ranked', 'VBD'), ('1st', 'CD'), ('globally', 'RB'), ('culture', 'NN'), ('innovation', 'NN'), ('2007', 'CD'), ('2008', 'CD'), ('sixth', 'JJ'), ('globally', 'RB'), ('256', 'CD'), ('city', 'NN'), ('2014', 'CD'), ('innovation', 'NN'), ('city', 'NN'), ('index', 'NN'), ('analyzed', 'VBD'), ('162', 'CD'), ('indicator', 'NN'), ('covering', 'VBG'), ('three', 'CD'), ('area', 'NN'), ('culture', 'NN'), ('infrastructure', 'NN'), ('market', 'NN'), ('vienna', 'VBD'), ('regularly', 'RB'), ('host', 'JJ'), ('urban', 'JJ'), ('planning', 'NN'), ('conference', 'NN'), ('often', 'RB'), ('used', 'VBD'), ('case', 'NN'), ('study', 'NN'), ('urban', 'JJ'), ('planner', 'NN'), ('2005', 'CD'), ('2010', 'CD'), ('vienna', 'JJ'), ('world', 'NN'), ('number-one', 'NN'), ('destination', 'NN'), ('international', 'JJ'), ('congress', 'NN'), ('convention', 'NN'), ('attracts', 'VBZ'), ('6.8', 'CD'), ('million', 'CD'), ('tourist', 'NN'), ('year', 'NN')]
+
+
+Chunked Tree:
+(S
+  (NP vienna/NN)
+  (NP listen/JJ german/JJ wien/NN)
+  pronounced/VBD
+  (NP viːn/JJ listen/JJ capital/NN)
+  largest/JJS
+  (NP city/NN)
+  (NP austria/NN)
+  one/CD
+  nine/CD
+  (NP state/NN)
+  (NP austria/NNS vienna/VBP)
+  (NP austria/JJ primary/JJ city/NN)
+  (NP population/NN)
+  1.8/CD
+  million/CD
+  2.6/CD
+  million/CD
+  within/IN
+  (NP metropolitan/JJ area/NN)
+  nearly/RB
+  one/CD
+  (NP third/JJ austria/JJ population/NN)
+  (NP cultural/JJ economic/JJ political/JJ centre/NN)
+  (NP 7th-largest/JJ city/NN)
+  (NP population/NN)
+  within/IN
+  (NP city/NN)
+  (NP limit/NN)
+  (NP european/JJ union/NN)
+  beginning/VBG
+  (NP 20th/JJ century/NN)
+  largest/JJS
+  (NP german-speaking/JJ city/NN)
+  (NP world/NN)
+  splitting/VBG
+  (NP austro-hungarian/JJ empire/NN)
+  (NP world/NN)
+  (NP war/NN)
+  (NP city/NN)
+  million/CD
+  (NP inhabitant/JJ today/NN)
+  second/JJ
+  largest/JJS
+  (NP number/NN)
+  (NP german/JJ speaker/NN)
+  (NP berlin/NN)
+  vienna/VBD
+  host/RB
+  (NP many/JJ major/JJ international/JJ organization/NN)
+  including/VBG
+  (NP united/JJ nation/NN)
+  opec/IN
+  (NP city/NN)
+  located/VBN
+  (NP eastern/JJ part/NN)
+  austria/NNS
+  close/RB
+  border/VBP
+  (NP czech/NN)
+  (NP republic/JJ slovakia/NN)
+  (NP hungary/JJ region/NN)
+  (NP work/NN)
+  together/RB
+  (NP european/JJ centrope/NN)
+  (NP border/NN)
+  (NP region/NN)
+  along/IN
+  (NP nearby/JJ bratislava/NN)
+  (NP vienna/NN)
+  (NP form/NN)
+  (NP metropolitan/JJ region/NN)
+  million/CD
+  inhabitant/JJ
+  2001/CD
+  (NP city/NN)
+  (NP centre/NN)
+  designated/VBN
+  (NP unesco/JJ world/NN)
+  (NP heritage/NN)
+  (NP site/NN)
+  (NP july/NN)
+  2017/CD
+  moved/VBD
+  (NP list/JJ world/NN)
+  (NP heritage/NN)
+  (NP danger/NN)
+  apart/RB
+  regarded/VBD
+  (NP city/NN)
+  (NP music/NN)
+  (NP musical/JJ legacy/NN)
+  (NP vienna/NN)
+  also/RB
+  said/VBD
+  (NP city/NN)
+  (NP dream/NN)
+  (NP home/NN)
+  (NP world/NN)
+  first/RB
+  (NP psycho-analyst/JJ sigmund/NN)
+  (NP freud/NN)
+  (NP city/NN)
+  (NP root/NN)
+  lie/VBD
+  (NP early/JJ celtic/JJ roman/NN)
+  (NP settlement/NN)
+  transformed/VBD
+  (NP medieval/JJ baroque/JJ city/NN)
+  (NP capital/NN)
+  (NP austro-hungarian/JJ empire/NN)
+  well/RB
+  known/VBN
+  played/VBN
+  (NP essential/JJ role/NN)
+  leading/VBG
+  (NP european/JJ music/NN)
+  centre/VBZ
+  (NP great/JJ age/NN)
+  (NP viennese/JJ classicism/NN)
+  (NP early/JJ part/NN)
+  (NP 20th/JJ century/NN)
+  (NP historic/JJ centre/NN)
+  (NP vienna/NN)
+  rich/JJ
+  architectural/JJ
+  ensemble/JJ
+  including/VBG
+  (NP baroque/JJ castle/JJ garden/NN)
+  (NP late-19th-century/NN)
+  (NP ringstraße/NN)
+  lined/VBD
+  (NP grand/JJ building/NN)
+  (NP monument/NN)
+  (NP park/NN)
+  (NP vienna/NN)
+  known/VBN
+  (NP high/JJ quality/NN)
+  (NP life/NN)
+  2005/CD
+  (NP study/NN)
+  127/CD
+  (NP world/NN)
+  (NP city/NN)
+  (NP economist/NN)
+  (NP intelligence/NN)
+  (NP unit/NN)
+  ranked/VBD
+  (NP city/NN)
+  first/RB
+  (NP tie/JJ vancouver/NN)
+  (NP canada/NN)
+  (NP san/JJ francisco/NN)
+  (NP usa/JJ world/NN)
+  (NP liveable/JJ city/NN)
+  2011/CD
+  2015/CD
+  (NP vienna/NN)
+  ranked/VBD
+  second/JJ
+  behind/IN
+  melbourne/JJ
+  australia/NNS
+  eight/CD
+  (NP consecutive/JJ year/NN)
+  2009–2016/CD
+  (NP human-resource-consulting/JJ firm/NN)
+  (NP mercer/NN)
+  ranked/VBD
+  (NP vienna/JJ first/JJ annual/JJ quality/NN)
+  living/VBG
+  (NP survey/NN)
+  hundred/VBD
+  (NP city/NN)
+  around/RB
+  (NP world/NN)
+  (NP title/NN)
+  (NP city/NN)
+  still/RB
+  held/VBD
+  2016./CD
+  (NP monocle/NN)
+  2015/CD
+  (NP quality/NN)
+  (NP life/NN)
+  (NP survey/NN)
+  ranked/VBD
+  (NP vienna/JJ second/JJ list/NN)
+  (NP top/JJ city/NN)
+  (NP world/NN)
+  make/VBP
+  (NP base/NN)
+  within/IN
+  (NP un-habitat/JJ classified/JJ vienna/NN)
+  (NP prosperous/JJ city/NN)
+  (NP world/NN)
+  2012/2013/CD
+  (NP city/NN)
+  ranked/VBD
+  1st/CD
+  globally/RB
+  (NP culture/NN)
+  (NP innovation/NN)
+  2007/CD
+  2008/CD
+  sixth/JJ
+  globally/RB
+  256/CD
+  (NP city/NN)
+  2014/CD
+  (NP innovation/NN)
+  (NP city/NN)
+  (NP index/NN)
+  analyzed/VBD
+  162/CD
+  (NP indicator/NN)
+  covering/VBG
+  three/CD
+  (NP area/NN)
+  (NP culture/NN)
+  (NP infrastructure/NN)
+  (NP market/NN)
+  vienna/VBD
+  regularly/RB
+  (NP host/JJ urban/JJ planning/NN)
+  (NP conference/NN)
+  often/RB
+  used/VBD
+  (NP case/NN)
+  (NP study/NN)
+  (NP urban/JJ planner/NN)
+  2005/CD
+  2010/CD
+  (NP vienna/JJ world/NN)
+  (NP number-one/NN)
+  (NP destination/NN)
+  (NP international/JJ congress/NN)
+  (NP convention/NN)
+  attracts/VBZ
+  6.8/CD
+  million/CD
+  (NP tourist/NN)
+  (NP year/NN))
+
+
+Shallow Parsing :
+['vienna', 'wien', 'capital', 'city', 'austria', 'state', 'austria', 'city', 'population', 'area', 'population', 'centre', 'city', 'population', 'city', 'limit', 'union', 'century', 'city', 'world', 'empire', 'world', 'war', 'city', 'today', 'number', 'speaker', 'berlin', 'organization', 'nation', 'city', 'part', 'czech', 'slovakia', 'region', 'work', 'centrope', 'border', 'region', 'bratislava', 'vienna', 'form', 'region', 'city', 'centre', 'world', 'heritage', 'site', 'july', 'world', 'heritage', 'danger', 'city', 'music', 'legacy', 'vienna', 'city', 'dream', 'home', 'world', 'sigmund', 'freud', 'city', 'root', 'roman', 'settlement', 'city', 'capital', 'empire', 'role', 'music', 'age', 'classicism', 'part', 'century', 'centre', 'vienna', 'garden', 'late-19th-century', 'ringstraße', 'building', 'monument', 'park', 'vienna', 'quality', 'life', 'study', 'world', 'city', 'economist', 'intelligence', 'unit', 'city', 'vancouver', 'canada', 'francisco', 'world', 'city', 'vienna', 'year', 'firm', 'mercer', 'quality', 'survey', 'city', 'world', 'title', 'city', 'monocle', 'quality', 'life', 'survey', 'list', 'city', 'world', 'base', 'vienna', 'city', 'world', 'city', 'culture', 'innovation', 'city', 'innovation', 'city', 'index', 'indicator', 'area', 'culture', 'infrastructure', 'market', 'planning', 'conference', 'case', 'study', 'planner', 'world', 'number-one', 'destination', 'congress', 'convention', 'tourist', 'year']
+
+
+Hypernym :
+['vienna', 'wien', 'capital', 'city', 'austria', 'state', 'austria', 'city', 'population', 'area', 'population', 'centre', 'city', 'population', 'city', 'limit', 'union', 'century', 'city', 'world', 'empire', 'world', 'war', 'city', 'today', 'number', 'speaker', 'berlin', 'organization', 'nation', 'city', 'part', 'czech', 'slovakia', 'region', 'work', 'centrope', 'border', 'region', 'bratislava', 'vienna', 'form', 'region', 'city', 'centre', 'world', 'heritage', 'site', 'july', 'world', 'heritage', 'danger', 'city', 'music', 'legacy', 'vienna', 'city', 'dream', 'home', 'world', 'sigmund', 'freud', 'city', 'root', 'roman', 'settlement', 'city', 'capital', 'empire', 'role', 'music', 'age', 'classicism', 'part', 'century', 'centre', 'vienna', 'garden', 'late-19th-century', 'ringstraße', 'building', 'monument', 'park', 'vienna', 'quality', 'life', 'study', 'world', 'city', 'economist', 'intelligence', 'unit', 'city', 'vancouver', 'canada', 'francisco', 'world', 'city', 'vienna', 'year', 'firm', 'mercer', 'quality', 'survey', 'city', 'world', 'title', 'city', 'monocle', 'quality', 'life', 'survey', 'list', 'city', 'world', 'base', 'vienna', 'city', 'world', 'city', 'culture', 'innovation', 'city', 'innovation', 'city', 'index', 'indicator', 'area', 'culture', 'infrastructure', 'market', 'planning', 'conference', 'case', 'study', 'planner', 'world', 'number-one', 'destination', 'congress', 'convention', 'tourist', 'year']
+
+
+Meronym matching : 
+['vienna', 'wien', 'capital', 'city', 'austria', 'state', 'austria', 'city', 'population', 'area', 'population', 'centre', 'city', 'population', 'city', 'limit', 'union', 'century', 'city', 'world', 'empire', 'world', 'war', 'city', 'today', 'number', 'speaker', 'berlin', 'organization', 'nation', 'city', 'part', 'czech', 'slovakia', 'region', 'work', 'centrope', 'border', 'region', 'bratislava', 'vienna', 'form', 'region', 'city', 'centre', 'world', 'heritage', 'site', 'july', 'world', 'heritage', 'danger', 'city', 'music', 'legacy', 'vienna', 'city', 'dream', 'home', 'world', 'sigmund', 'freud', 'city', 'root', 'roman', 'settlement', 'city', 'capital', 'empire', 'role', 'music', 'age', 'classicism', 'part', 'century', 'centre', 'vienna', 'garden', 'late-19th-century', 'ringstraße', 'building', 'monument', 'park', 'vienna', 'quality', 'life', 'study', 'world', 'city', 'economist', 'intelligence', 'unit', 'city', 'vancouver', 'canada', 'francisco', 'world', 'city', 'vienna', 'year', 'firm', 'mercer', 'quality', 'survey', 'city', 'world', 'title', 'city', 'monocle', 'quality', 'life', 'survey', 'list', 'city', 'world', 'base', 'vienna', 'city', 'world', 'city', 'culture', 'innovation', 'city', 'innovation', 'city', 'index', 'indicator', 'area', 'culture', 'infrastructure', 'market', 'planning', 'conference', 'case', 'study', 'planner', 'world', 'number-one', 'destination', 'congress', 'convention', 'tourist', 'year']
+
+
+Data : ['Vladmir Putin', ' Politics']
+Tokenizing Words : 
+['vladimir', 'vladimirovich', 'putin', '(', ';', 'russian', ':', 'влади́мир', 'влади́мирович', 'пу́тин', ',', 'ipa', ':', '[', 'vɫɐˈdʲimʲɪr', 'vɫɐˈdʲimʲɪrəvʲɪtɕ', 'ˈputʲɪn', ']', '(', 'listen', ')', ';', 'born', '7', 'october', '1952', ')', 'is', 'a', 'russian', 'statesman', 'serving', 'as', 'president', 'of', 'the', 'russian', 'federation', 'since', '7', 'may', '2012', ',', 'previously', 'holding', 'the', 'position', 'from', '2000', 'until', '2008.', 'he', 'was', 'prime', 'minister', 'of', 'the', 'russian', 'federation', 'from', '1999', 'until', '2000', ',', 'and', 'again', 'from', '2008', 'until', '2012.', 'during', 'his', 'second', 'term', 'as', 'prime', 'minister', ',', 'he', 'was', 'the', 'chairman', 'of', 'the', 'ruling', 'united', 'russia', 'party', '.', 'vladimir', 'putin', 'was', 'born', 'in', 'leningrad', ',', 'then', 'part', 'of', 'the', 'soviet', 'union', ',', 'putin', 'studied', 'law', 'at', 'the', 'saint', 'petersburg', 'state', 'university', ',', 'graduating', 'in', '1975.', 'putin', 'was', 'a', 'kgb', 'foreign', 'intelligence', 'officer', 'for', '16', 'years', ',', 'rising', 'to', 'the', 'rank', 'of', 'lieutenant', 'colonel', 'before', 'retiring', 'in', '1991', 'to', 'enter', 'politics', 'in', 'saint', 'petersburg', '.', 'he', 'moved', 'to', 'moscow', 'in', '1996', 'and', 'joined', 'president', 'boris', 'yeltsin', "'s", 'administration', ',', 'rising', 'quickly', 'through', 'the', 'ranks', 'and', 'becoming', 'acting', 'president', 'on', '31', 'december', '1999', ',', 'when', 'yeltsin', 'resigned', '.', 'putin', 'won', 'the', 'subsequent', '2000', 'presidential', 'election', 'by', 'a', '53', '%', 'to', '30', '%', 'margin', ',', 'thus', 'avoiding', 'a', 'runoff', 'with', 'his', 'communist', 'party', 'of', 'the', 'russian', 'federation', 'opponent', ',', 'gennady', 'zyuganov', '.', 'he', 'was', 're-elected', 'president', 'in', '2004', 'with', '72', '%', 'of', 'the', 'vote', '.', 'during', 'vladimir', 'putin', "'s", 'first', 'presidency', ',', 'the', 'russian', 'economy', 'grew', 'for', 'eight', 'straight', 'years', ',', 'and', 'gdp', 'measured', 'in', 'purchasing', 'power', 'increased', 'by', '72', '%', '.', 'the', 'growth', 'was', 'a', 'result', 'of', 'the', '2000s', 'commodities', 'boom', ',', 'high', 'oil', 'prices', ',', 'and', 'prudent', 'economic', 'and', 'fiscal', 'policies', '.', 'because', 'of', 'constitutionally', 'mandated', 'term', 'limits', ',', 'putin', 'was', 'ineligible', 'to', 'run', 'for', 'a', 'third', 'consecutive', 'presidential', 'term', 'in', '2008.', 'the', '2008', 'presidential', 'election', 'was', 'won', 'by', 'dmitry', 'medvedev', ',', 'who', 'appointed', 'putin', 'prime', 'minister', ',', 'what', 'some', 'opponents', 'considered', 'the', 'beginning', 'of', 'a', 'period', 'of', '``', 'tandemocracy', "''", '.', 'in', 'september', '2011', ',', 'after', 'presidential', 'terms', 'were', 'extended', 'from', 'four', 'to', 'six', 'years', ',', 'putin', 'announced', 'he', 'would', 'seek', 'a', 'third', 'term', 'as', 'president', '.', 'he', 'won', 'the', 'march', '2012', 'presidential', 'election', 'with', '64', '%', 'of', 'the', 'vote', ',', 'a', 'result', 'which', 'aligned', 'with', 'pre-election', 'polling', '.', 'falling', 'oil', 'prices', 'coupled', 'with', 'international', 'sanctions', 'imposed', 'at', 'the', 'beginning', 'of', '2014', 'after', 'russia', "'s", 'annexation', 'of', 'crimea', 'and', 'military', 'intervention', 'in', 'eastern', 'ukraine', 'led', 'to', 'gdp', 'shrinking', 'by', '3.7', '%', 'in', '2015', ',', 'though', 'the', 'russian', 'economy', 'rebounded', 'in', '2016', 'with', '0.3', '%', 'gdp', 'growth', 'and', 'is', 'officially', 'out', 'of', 'the', 'recession', '.', 'under', 'putin', "'s", 'leadership', ',', 'russia', 'has', 'scored', 'poorly', 'in', 'transparency', 'international', "'s", 'corruption', 'perceptions', 'index', 'and', 'experienced', 'democratic', 'backsliding', 'according', 'to', 'both', 'the', 'economist', 'intelligence', 'unit', "'s", 'democracy', 'index', 'and', 'freedom', 'house', "'s", 'freedom', 'in', 'the', 'world', 'index', '.', 'experts', 'no', 'longer', 'consider', 'russia', 'a', 'democracy', '.', 'putin', 'has', 'enjoyed', 'high', 'domestic', 'approval', 'ratings', 'during', 'his', 'career', ',', 'and', 'received', 'extensive', 'international', 'attention', 'as', 'one', 'of', 'the', 'world', "'s", 'most', 'powerful', 'leaders', '.', 'u.s.', 'intelligence', 'agencies', 'have', 'accused', 'him', 'of', 'launching', 'an', 'influence', 'campaign', 'against', 'hillary', 'clinton', 'in', 'the', '2016', 'united', 'states', 'presidential', 'election', '.']
+
+
+After Removing stopwords : 
+['vladimir', 'vladimirovich', 'putin', 'russian', 'влади́мир', 'влади́мирович', 'пу́тин', 'ipa', 'vɫɐˈdʲimʲɪr', 'vɫɐˈdʲimʲɪrəvʲɪtɕ', 'ˈputʲɪn', 'listen', 'born', 'october', '1952', 'russian', 'statesman', 'serving', 'president', 'russian', 'federation', 'since', 'may', '2012', 'previously', 'holding', 'position', '2000', '2008.', 'prime', 'minister', 'russian', 'federation', '1999', '2000', '2008', '2012.', 'second', 'term', 'prime', 'minister', 'chairman', 'ruling', 'united', 'russia', 'party', 'vladimir', 'putin', 'born', 'leningrad', 'part', 'soviet', 'union', 'putin', 'studied', 'law', 'saint', 'petersburg', 'state', 'university', 'graduating', '1975.', 'putin', 'kgb', 'foreign', 'intelligence', 'officer', 'years', 'rising', 'rank', 'lieutenant', 'colonel', 'retiring', '1991', 'enter', 'politics', 'saint', 'petersburg', 'moved', 'moscow', '1996', 'joined', 'president', 'boris', 'yeltsin', 'administration', 'rising', 'quickly', 'ranks', 'becoming', 'acting', 'president', 'december', '1999', 'yeltsin', 'resigned', 'putin', 'subsequent', '2000', 'presidential', 'election', 'margin', 'thus', 'avoiding', 'runoff', 'communist', 'party', 'russian', 'federation', 'opponent', 'gennady', 'zyuganov', 're-elected', 'president', '2004', 'vote', 'vladimir', 'putin', 'first', 'presidency', 'russian', 'economy', 'grew', 'eight', 'straight', 'years', 'gdp', 'measured', 'purchasing', 'power', 'increased', 'growth', 'result', '2000s', 'commodities', 'boom', 'high', 'oil', 'prices', 'prudent', 'economic', 'fiscal', 'policies', 'constitutionally', 'mandated', 'term', 'limits', 'putin', 'ineligible', 'run', 'third', 'consecutive', 'presidential', 'term', '2008.', '2008', 'presidential', 'election', 'dmitry', 'medvedev', 'appointed', 'putin', 'prime', 'minister', 'opponents', 'considered', 'beginning', 'period', 'tandemocracy', 'september', '2011', 'presidential', 'terms', 'extended', 'four', 'six', 'years', 'putin', 'announced', 'would', 'seek', 'third', 'term', 'president', 'march', '2012', 'presidential', 'election', 'vote', 'result', 'aligned', 'pre-election', 'polling', 'falling', 'oil', 'prices', 'coupled', 'international', 'sanctions', 'imposed', 'beginning', '2014', 'russia', 'annexation', 'crimea', 'military', 'intervention', 'eastern', 'ukraine', 'led', 'gdp', 'shrinking', '3.7', '2015', 'though', 'russian', 'economy', 'rebounded', '2016', '0.3', 'gdp', 'growth', 'officially', 'recession', 'putin', 'leadership', 'russia', 'scored', 'poorly', 'transparency', 'international', 'corruption', 'perceptions', 'index', 'experienced', 'democratic', 'backsliding', 'according', 'economist', 'intelligence', 'unit', 'democracy', 'index', 'freedom', 'house', 'freedom', 'world', 'index', 'experts', 'longer', 'consider', 'russia', 'democracy', 'putin', 'enjoyed', 'high', 'domestic', 'approval', 'ratings', 'career', 'received', 'extensive', 'international', 'attention', 'one', 'world', 'powerful', 'leaders', 'u.s.', 'intelligence', 'agencies', 'accused', 'launching', 'influence', 'campaign', 'hillary', 'clinton', '2016', 'united', 'states', 'presidential', 'election']
+
+
+Lemmatization :
+['vladimir', 'vladimirovich', 'putin', 'russian', 'влади́мир', 'влади́мирович', 'пу́тин', 'ipa', 'vɫɐˈdʲimʲɪr', 'vɫɐˈdʲimʲɪrəvʲɪtɕ', 'ˈputʲɪn', 'listen', 'born', 'october', '1952', 'russian', 'statesman', 'serving', 'president', 'russian', 'federation', 'since', 'may', '2012', 'previously', 'holding', 'position', '2000', '2008.', 'prime', 'minister', 'russian', 'federation', '1999', '2000', '2008', '2012.', 'second', 'term', 'prime', 'minister', 'chairman', 'ruling', 'united', 'russia', 'party', 'vladimir', 'putin', 'born', 'leningrad', 'part', 'soviet', 'union', 'putin', 'studied', 'law', 'saint', 'petersburg', 'state', 'university', 'graduating', '1975.', 'putin', 'kgb', 'foreign', 'intelligence', 'officer', 'year', 'rising', 'rank', 'lieutenant', 'colonel', 'retiring', '1991', 'enter', 'politics', 'saint', 'petersburg', 'moved', 'moscow', '1996', 'joined', 'president', 'boris', 'yeltsin', 'administration', 'rising', 'quickly', 'rank', 'becoming', 'acting', 'president', 'december', '1999', 'yeltsin', 'resigned', 'putin', 'subsequent', '2000', 'presidential', 'election', 'margin', 'thus', 'avoiding', 'runoff', 'communist', 'party', 'russian', 'federation', 'opponent', 'gennady', 'zyuganov', 're-elected', 'president', '2004', 'vote', 'vladimir', 'putin', 'first', 'presidency', 'russian', 'economy', 'grew', 'eight', 'straight', 'year', 'gdp', 'measured', 'purchasing', 'power', 'increased', 'growth', 'result', '2000s', 'commodity', 'boom', 'high', 'oil', 'price', 'prudent', 'economic', 'fiscal', 'policy', 'constitutionally', 'mandated', 'term', 'limit', 'putin', 'ineligible', 'run', 'third', 'consecutive', 'presidential', 'term', '2008.', '2008', 'presidential', 'election', 'dmitry', 'medvedev', 'appointed', 'putin', 'prime', 'minister', 'opponent', 'considered', 'beginning', 'period', 'tandemocracy', 'september', '2011', 'presidential', 'term', 'extended', 'four', 'six', 'year', 'putin', 'announced', 'would', 'seek', 'third', 'term', 'president', 'march', '2012', 'presidential', 'election', 'vote', 'result', 'aligned', 'pre-election', 'polling', 'falling', 'oil', 'price', 'coupled', 'international', 'sanction', 'imposed', 'beginning', '2014', 'russia', 'annexation', 'crimea', 'military', 'intervention', 'eastern', 'ukraine', 'led', 'gdp', 'shrinking', '3.7', '2015', 'though', 'russian', 'economy', 'rebounded', '2016', '0.3', 'gdp', 'growth', 'officially', 'recession', 'putin', 'leadership', 'russia', 'scored', 'poorly', 'transparency', 'international', 'corruption', 'perception', 'index', 'experienced', 'democratic', 'backsliding', 'according', 'economist', 'intelligence', 'unit', 'democracy', 'index', 'freedom', 'house', 'freedom', 'world', 'index', 'expert', 'longer', 'consider', 'russia', 'democracy', 'putin', 'enjoyed', 'high', 'domestic', 'approval', 'rating', 'career', 'received', 'extensive', 'international', 'attention', 'one', 'world', 'powerful', 'leader', 'u.s.', 'intelligence', 'agency', 'accused', 'launching', 'influence', 'campaign', 'hillary', 'clinton', '2016', 'united', 'state', 'presidential', 'election']
+
+
+POS Tagging :
+[('vladimir', 'NN'), ('vladimirovich', 'NN'), ('putin', 'NN'), ('russian', 'JJ'), ('влади́мир', 'NNP'), ('влади́мирович', 'NNP'), ('пу́тин', 'NNP'), ('ipa', 'NN'), ('vɫɐˈdʲimʲɪr', 'NN'), ('vɫɐˈdʲimʲɪrəvʲɪtɕ', 'NN'), ('ˈputʲɪn', 'NNP'), ('listen', 'VBZ'), ('born', 'VBN'), ('october', 'IN'), ('1952', 'CD'), ('russian', 'JJ'), ('statesman', 'NN'), ('serving', 'VBG'), ('president', 'NN'), ('russian', 'JJ'), ('federation', 'NN'), ('since', 'IN'), ('may', 'MD'), ('2012', 'CD'), ('previously', 'RB'), ('holding', 'VBG'), ('position', 'NN'), ('2000', 'CD'), ('2008.', 'CD'), ('prime', 'JJ'), ('minister', 'NN'), ('russian', 'JJ'), ('federation', 'NN'), ('1999', 'CD'), ('2000', 'CD'), ('2008', 'CD'), ('2012.', 'CD'), ('second', 'JJ'), ('term', 'NN'), ('prime', 'JJ'), ('minister', 'NN'), ('chairman', 'NN'), ('ruling', 'VBG'), ('united', 'JJ'), ('russia', 'NN'), ('party', 'NN'), ('vladimir', 'NN'), ('putin', 'NN'), ('born', 'VBN'), ('leningrad', 'JJ'), ('part', 'NN'), ('soviet', 'JJ'), ('union', 'NN'), ('putin', 'NN'), ('studied', 'VBD'), ('law', 'NN'), ('saint', 'NN'), ('petersburg', 'NN'), ('state', 'NN'), ('university', 'NN'), ('graduating', 'VBG'), ('1975.', 'CD'), ('putin', 'JJ'), ('kgb', 'JJ'), ('foreign', 'JJ'), ('intelligence', 'NN'), ('officer', 'NN'), ('year', 'NN'), ('rising', 'VBG'), ('rank', 'NN'), ('lieutenant', 'JJ'), ('colonel', 'NN'), ('retiring', 'VBG'), ('1991', 'CD'), ('enter', 'NN'), ('politics', 'NNS'), ('saint', 'VBP'), ('petersburg', 'NN'), ('moved', 'VBD'), ('moscow', 'JJ'), ('1996', 'CD'), ('joined', 'VBD'), ('president', 'NN'), ('boris', 'NN'), ('yeltsin', 'NN'), ('administration', 'NN'), ('rising', 'VBG'), ('quickly', 'RB'), ('rank', 'VB'), ('becoming', 'VBG'), ('acting', 'VBG'), ('president', 'NN'), ('december', 'NN'), ('1999', 'CD'), ('yeltsin', 'NN'), ('resigned', 'VBD'), ('putin', 'JJ'), ('subsequent', 'JJ'), ('2000', 'CD'), ('presidential', 'JJ'), ('election', 'NN'), ('margin', 'NN'), ('thus', 'RB'), ('avoiding', 'VBG'), ('runoff', 'RP'), ('communist', 'JJ'), ('party', 'NN'), ('russian', 'JJ'), ('federation', 'NN'), ('opponent', 'NN'), ('gennady', 'JJ'), ('zyuganov', 'JJ'), ('re-elected', 'JJ'), ('president', 'NN'), ('2004', 'CD'), ('vote', 'NN'), ('vladimir', 'NN'), ('putin', 'NN'), ('first', 'JJ'), ('presidency', 'NN'), ('russian', 'JJ'), ('economy', 'NN'), ('grew', 'VBD'), ('eight', 'CD'), ('straight', 'JJ'), ('year', 'NN'), ('gdp', 'NN'), ('measured', 'VBD'), ('purchasing', 'VBG'), ('power', 'NN'), ('increased', 'VBD'), ('growth', 'NN'), ('result', 'NN'), ('2000s', 'CD'), ('commodity', 'NN'), ('boom', 'NN'), ('high', 'JJ'), ('oil', 'NN'), ('price', 'NN'), ('prudent', 'NN'), ('economic', 'JJ'), ('fiscal', 'JJ'), ('policy', 'NN'), ('constitutionally', 'RB'), ('mandated', 'JJ'), ('term', 'NN'), ('limit', 'NN'), ('putin', 'NN'), ('ineligible', 'JJ'), ('run', 'NN'), ('third', 'JJ'), ('consecutive', 'JJ'), ('presidential', 'JJ'), ('term', 'NN'), ('2008.', 'CD'), ('2008', 'CD'), ('presidential', 'JJ'), ('election', 'NN'), ('dmitry', 'NN'), ('medvedev', 'NN'), ('appointed', 'VBD'), ('putin', 'JJ'), ('prime', 'JJ'), ('minister', 'NN'), ('opponent', 'NN'), ('considered', 'VBN'), ('beginning', 'JJ'), ('period', 'NN'), ('tandemocracy', 'NN'), ('september', 'JJ'), ('2011', 'CD'), ('presidential', 'JJ'), ('term', 'NN'), ('extended', 'VBD'), ('four', 'CD'), ('six', 'CD'), ('year', 'NN'), ('putin', 'NN'), ('announced', 'VBD'), ('would', 'MD'), ('seek', 'VB'), ('third', 'JJ'), ('term', 'NN'), ('president', 'NN'), ('march', 'NN'), ('2012', 'CD'), ('presidential', 'JJ'), ('election', 'NN'), ('vote', 'NN'), ('result', 'NN'), ('aligned', 'VBD'), ('pre-election', 'NN'), ('polling', 'NN'), ('falling', 'VBG'), ('oil', 'NN'), ('price', 'NN'), ('coupled', 'VBD'), ('international', 'JJ'), ('sanction', 'NN'), ('imposed', 'VBN'), ('beginning', 'VBG'), ('2014', 'CD'), ('russia', 'JJ'), ('annexation', 'NN'), ('crimea', 'NN'), ('military', 'JJ'), ('intervention', 'NN'), ('eastern', 'JJ'), ('ukraine', 'NN'), ('led', 'VBD'), ('gdp', 'JJ'), ('shrinking', 'VBG'), ('3.7', 'CD'), ('2015', 'CD'), ('though', 'IN'), ('russian', 'JJ'), ('economy', 'NN'), ('rebounded', 'VBD'), ('2016', 'CD'), ('0.3', 'CD'), ('gdp', 'JJ'), ('growth', 'NN'), ('officially', 'RB'), ('recession', 'NN'), ('putin', 'JJ'), ('leadership', 'NN'), ('russia', 'NN'), ('scored', 'VBD'), ('poorly', 'RB'), ('transparency', 'JJ'), ('international', 'JJ'), ('corruption', 'NN'), ('perception', 'NN'), ('index', 'NN'), ('experienced', 'VBD'), ('democratic', 'JJ'), ('backsliding', 'NN'), ('according', 'VBG'), ('economist', 'NN'), ('intelligence', 'NN'), ('unit', 'NN'), ('democracy', 'NN'), ('index', 'NN'), ('freedom', 'NN'), ('house', 'NN'), ('freedom', 'NN'), ('world', 'NN'), ('index', 'NN'), ('expert', 'NN'), ('longer', 'JJR'), ('consider', 'VB'), ('russia', 'JJ'), ('democracy', 'NN'), ('putin', 'NN'), ('enjoyed', 'VBN'), ('high', 'JJ'), ('domestic', 'JJ'), ('approval', 'NN'), ('rating', 'NN'), ('career', 'NN'), ('received', 'VBD'), ('extensive', 'JJ'), ('international', 'JJ'), ('attention', 'NN'), ('one', 'CD'), ('world', 'NN'), ('powerful', 'JJ'), ('leader', 'NN'), ('u.s.', 'JJ'), ('intelligence', 'NN'), ('agency', 'NN'), ('accused', 'VBD'), ('launching', 'VBG'), ('influence', 'NN'), ('campaign', 'NN'), ('hillary', 'JJ'), ('clinton', 'NN'), ('2016', 'CD'), ('united', 'JJ'), ('state', 'NN'), ('presidential', 'JJ'), ('election', 'NN')]
+
+
+Chunked Tree:
+(S
+  (NP vladimir/NN)
+  (NP vladimirovich/NN)
+  (NP putin/NN)
+  russian/JJ
+  (NP влади́мир/NNP влади́мирович/NNP пу́тин/NNP)
+  (NP ipa/NN)
+  (NP vɫɐˈdʲimʲɪr/NN)
+  (NP vɫɐˈdʲimʲɪrəvʲɪtɕ/NN)
+  (NP ˈputʲɪn/NNP)
+  listen/VBZ
+  born/VBN
+  october/IN
+  1952/CD
+  (NP russian/JJ statesman/NN)
+  serving/VBG
+  (NP president/NN)
+  (NP russian/JJ federation/NN)
+  since/IN
+  may/MD
+  2012/CD
+  previously/RB
+  holding/VBG
+  (NP position/NN)
+  2000/CD
+  2008./CD
+  (NP prime/JJ minister/NN)
+  (NP russian/JJ federation/NN)
+  1999/CD
+  2000/CD
+  2008/CD
+  2012./CD
+  (NP second/JJ term/NN)
+  (NP prime/JJ minister/NN)
+  (NP chairman/NN)
+  ruling/VBG
+  (NP united/JJ russia/NN)
+  (NP party/NN)
+  (NP vladimir/NN)
+  (NP putin/NN)
+  born/VBN
+  (NP leningrad/JJ part/NN)
+  (NP soviet/JJ union/NN)
+  (NP putin/NN)
+  studied/VBD
+  (NP law/NN)
+  (NP saint/NN)
+  (NP petersburg/NN)
+  (NP state/NN)
+  (NP university/NN)
+  graduating/VBG
+  1975./CD
+  (NP putin/JJ kgb/JJ foreign/JJ intelligence/NN)
+  (NP officer/NN)
+  (NP year/NN)
+  rising/VBG
+  (NP rank/NN)
+  (NP lieutenant/JJ colonel/NN)
+  retiring/VBG
+  1991/CD
+  (NP enter/NN)
+  (NP politics/NNS saint/VBP)
+  (NP petersburg/NN)
+  moved/VBD
+  moscow/JJ
+  1996/CD
+  joined/VBD
+  (NP president/NN)
+  (NP boris/NN)
+  (NP yeltsin/NN)
+  (NP administration/NN)
+  rising/VBG
+  quickly/RB
+  rank/VB
+  becoming/VBG
+  acting/VBG
+  (NP president/NN)
+  (NP december/NN)
+  1999/CD
+  (NP yeltsin/NN)
+  resigned/VBD
+  putin/JJ
+  subsequent/JJ
+  2000/CD
+  (NP presidential/JJ election/NN)
+  (NP margin/NN)
+  thus/RB
+  avoiding/VBG
+  runoff/RP
+  (NP communist/JJ party/NN)
+  (NP russian/JJ federation/NN)
+  (NP opponent/NN)
+  (NP gennady/JJ zyuganov/JJ re-elected/JJ president/NN)
+  2004/CD
+  (NP vote/NN)
+  (NP vladimir/NN)
+  (NP putin/NN)
+  (NP first/JJ presidency/NN)
+  (NP russian/JJ economy/NN)
+  grew/VBD
+  eight/CD
+  (NP straight/JJ year/NN)
+  (NP gdp/NN)
+  measured/VBD
+  purchasing/VBG
+  (NP power/NN)
+  increased/VBD
+  (NP growth/NN)
+  (NP result/NN)
+  2000s/CD
+  (NP commodity/NN)
+  (NP boom/NN)
+  (NP high/JJ oil/NN)
+  (NP price/NN)
+  (NP prudent/NN)
+  (NP economic/JJ fiscal/JJ policy/NN)
+  constitutionally/RB
+  (NP mandated/JJ term/NN)
+  (NP limit/NN)
+  (NP putin/NN)
+  (NP ineligible/JJ run/NN)
+  (NP third/JJ consecutive/JJ presidential/JJ term/NN)
+  2008./CD
+  2008/CD
+  (NP presidential/JJ election/NN)
+  (NP dmitry/NN)
+  (NP medvedev/NN)
+  appointed/VBD
+  (NP putin/JJ prime/JJ minister/NN)
+  (NP opponent/NN)
+  considered/VBN
+  (NP beginning/JJ period/NN)
+  (NP tandemocracy/NN)
+  september/JJ
+  2011/CD
+  (NP presidential/JJ term/NN)
+  extended/VBD
+  four/CD
+  six/CD
+  (NP year/NN)
+  (NP putin/NN)
+  announced/VBD
+  would/MD
+  seek/VB
+  (NP third/JJ term/NN)
+  (NP president/NN)
+  (NP march/NN)
+  2012/CD
+  (NP presidential/JJ election/NN)
+  (NP vote/NN)
+  (NP result/NN)
+  aligned/VBD
+  (NP pre-election/NN)
+  (NP polling/NN)
+  falling/VBG
+  (NP oil/NN)
+  (NP price/NN)
+  coupled/VBD
+  (NP international/JJ sanction/NN)
+  imposed/VBN
+  beginning/VBG
+  2014/CD
+  (NP russia/JJ annexation/NN)
+  (NP crimea/NN)
+  (NP military/JJ intervention/NN)
+  (NP eastern/JJ ukraine/NN)
+  led/VBD
+  gdp/JJ
+  shrinking/VBG
+  3.7/CD
+  2015/CD
+  though/IN
+  (NP russian/JJ economy/NN)
+  rebounded/VBD
+  2016/CD
+  0.3/CD
+  (NP gdp/JJ growth/NN)
+  officially/RB
+  (NP recession/NN)
+  (NP putin/JJ leadership/NN)
+  (NP russia/NN)
+  scored/VBD
+  poorly/RB
+  (NP transparency/JJ international/JJ corruption/NN)
+  (NP perception/NN)
+  (NP index/NN)
+  experienced/VBD
+  (NP democratic/JJ backsliding/NN)
+  according/VBG
+  (NP economist/NN)
+  (NP intelligence/NN)
+  (NP unit/NN)
+  (NP democracy/NN)
+  (NP index/NN)
+  (NP freedom/NN)
+  (NP house/NN)
+  (NP freedom/NN)
+  (NP world/NN)
+  (NP index/NN)
+  (NP expert/NN)
+  longer/JJR
+  consider/VB
+  (NP russia/JJ democracy/NN)
+  (NP putin/NN)
+  enjoyed/VBN
+  (NP high/JJ domestic/JJ approval/NN)
+  (NP rating/NN)
+  (NP career/NN)
+  received/VBD
+  (NP extensive/JJ international/JJ attention/NN)
+  one/CD
+  (NP world/NN)
+  (NP powerful/JJ leader/NN)
+  (NP u.s./JJ intelligence/NN)
+  (NP agency/NN)
+  accused/VBD
+  launching/VBG
+  (NP influence/NN)
+  (NP campaign/NN)
+  (NP hillary/JJ clinton/NN)
+  2016/CD
+  (NP united/JJ state/NN)
+  (NP presidential/JJ election/NN))
+
+
+Shallow Parsing :
+['vladimir', 'vladimirovich', 'putin', 'влади́мир', 'влади́мирович', 'пу́тин', 'ipa', 'vɫɐˈdʲimʲɪr', 'vɫɐˈdʲimʲɪrəvʲɪtɕ', 'ˈputʲɪn', 'statesman', 'president', 'federation', 'position', 'minister', 'federation', 'term', 'minister', 'chairman', 'russia', 'party', 'vladimir', 'putin', 'part', 'union', 'putin', 'law', 'saint', 'petersburg', 'state', 'university', 'intelligence', 'officer', 'year', 'rank', 'colonel', 'enter', 'politics', 'petersburg', 'president', 'boris', 'yeltsin', 'administration', 'president', 'december', 'yeltsin', 'election', 'margin', 'party', 'federation', 'opponent', 'president', 'vote', 'vladimir', 'putin', 'presidency', 'economy', 'year', 'gdp', 'power', 'growth', 'result', 'commodity', 'boom', 'oil', 'price', 'prudent', 'policy', 'term', 'limit', 'putin', 'run', 'term', 'election', 'dmitry', 'medvedev', 'minister', 'opponent', 'period', 'tandemocracy', 'term', 'year', 'putin', 'term', 'president', 'march', 'election', 'vote', 'result', 'pre-election', 'polling', 'oil', 'price', 'sanction', 'annexation', 'crimea', 'intervention', 'ukraine', 'economy', 'growth', 'recession', 'leadership', 'russia', 'corruption', 'perception', 'index', 'backsliding', 'economist', 'intelligence', 'unit', 'democracy', 'index', 'freedom', 'house', 'freedom', 'world', 'index', 'expert', 'democracy', 'putin', 'approval', 'rating', 'career', 'attention', 'world', 'leader', 'intelligence', 'agency', 'influence', 'campaign', 'clinton', 'state', 'election']
+
+
+Hypernym :
+['vladimir', 'vladimirovich', 'putin', 'влади́мир', 'влади́мирович', 'пу́тин', 'ipa', 'vɫɐˈdʲimʲɪr', 'vɫɐˈdʲimʲɪrəvʲɪtɕ', 'ˈputʲɪn', 'statesman', 'president', 'federation', 'position', 'minister', 'federation', 'term', 'minister', 'chairman', 'russia', 'party', 'vladimir', 'putin', 'part', 'union', 'putin', 'law', 'saint', 'petersburg', 'state', 'university', 'intelligence', 'officer', 'year', 'rank', 'colonel', 'enter', 'politics', 'petersburg', 'president', 'boris', 'yeltsin', 'administration', 'president', 'december', 'yeltsin', 'election', 'margin', 'party', 'federation', 'opponent', 'president', 'vote', 'vladimir', 'putin', 'presidency', 'economy', 'year', 'gdp', 'power', 'growth', 'result', 'commodity', 'boom', 'oil', 'price', 'prudent', 'policy', 'term', 'limit', 'putin', 'run', 'term', 'election', 'dmitry', 'medvedev', 'minister', 'opponent', 'period', 'tandemocracy', 'term', 'year', 'putin', 'term', 'president', 'march', 'election', 'vote', 'result', 'pre-election', 'polling', 'oil', 'price', 'sanction', 'annexation', 'crimea', 'intervention', 'ukraine', 'economy', 'growth', 'recession', 'leadership', 'russia', 'corruption', 'perception', 'index', 'backsliding', 'economist', 'intelligence', 'unit', 'democracy', 'index', 'freedom', 'house', 'freedom', 'world', 'index', 'expert', 'democracy', 'putin', 'approval', 'rating', 'career', 'attention', 'world', 'leader', 'intelligence', 'agency', 'influence', 'campaign', 'clinton', 'state', 'election']
+
+
+Meronym matching : 
+['vladimir', 'vladimirovich', 'putin', 'влади́мир', 'влади́мирович', 'пу́тин', 'ipa', 'vɫɐˈdʲimʲɪr', 'vɫɐˈdʲimʲɪrəvʲɪtɕ', 'ˈputʲɪn', 'statesman', 'president', 'federation', 'position', 'minister', 'federation', 'term', 'minister', 'chairman', 'russia', 'party', 'vladimir', 'putin', 'part', 'union', 'putin', 'law', 'saint', 'petersburg', 'state', 'university', 'intelligence', 'officer', 'year', 'rank', 'colonel', 'enter', 'politics', 'petersburg', 'president', 'boris', 'yeltsin', 'administration', 'president', 'december', 'yeltsin', 'election', 'margin', 'party', 'federation', 'opponent', 'president', 'vote', 'vladimir', 'putin', 'presidency', 'economy', 'year', 'gdp', 'power', 'growth', 'result', 'commodity', 'boom', 'oil', 'price', 'prudent', 'policy', 'term', 'limit', 'putin', 'run', 'term', 'election', 'dmitry', 'medvedev', 'minister', 'opponent', 'period', 'tandemocracy', 'term', 'year', 'putin', 'term', 'president', 'march', 'election', 'vote', 'result', 'pre-election', 'polling', 'oil', 'price', 'sanction', 'annexation', 'crimea', 'intervention', 'ukraine', 'economy', 'growth', 'recession', 'leadership', 'russia', 'corruption', 'perception', 'index', 'backsliding', 'economist', 'intelligence', 'unit', 'democracy', 'index', 'freedom', 'house', 'freedom', 'world', 'index', 'expert', 'democracy', 'putin', 'approval', 'rating', 'career', 'attention', 'world', 'leader', 'intelligence', 'agency', 'influence', 'campaign', 'clinton', 'state', 'election']
+
+
+Data : ['Washington DC', ' Travel']
+Tokenizing Words : 
+['washington', ',', 'd.c.', ',', 'formally', 'the', 'district', 'of', 'columbia', 'and', 'commonly', 'referred', 'to', 'as', '``', 'washington', "''", ',', '``', 'the', 'district', "''", ',', 'or', 'simply', '``', 'd.c.', "''", ',', 'is', 'the', 'capital', 'of', 'the', 'united', 'states', '.', 'the', 'signing', 'of', 'the', 'residence', 'act', 'on', 'july', '16', ',', '1790', ',', 'approved', 'the', 'creation', 'of', 'a', 'capital', 'district', 'located', 'along', 'the', 'potomac', 'river', 'on', 'the', 'country', "'s", 'east', 'coast', '.', 'the', 'u.s.', 'constitution', 'provided', 'for', 'a', 'federal', 'district', 'under', 'the', 'exclusive', 'jurisdiction', 'of', 'the', 'congress', 'and', 'the', 'district', 'is', 'therefore', 'not', 'a', 'part', 'of', 'any', 'state', '.', 'the', 'states', 'of', 'maryland', 'and', 'virginia', 'each', 'donated', 'land', 'to', 'form', 'the', 'federal', 'district', ',', 'which', 'included', 'the', 'pre-existing', 'settlements', 'of', 'georgetown', 'and', 'alexandria', '.', 'named', 'in', 'honor', 'of', 'president', 'george', 'washington', ',', 'the', 'city', 'of', 'washington', 'was', 'founded', 'in', '1791', 'to', 'serve', 'as', 'the', 'new', 'national', 'capital', '.', 'in', '1846', ',', 'congress', 'returned', 'the', 'land', 'originally', 'ceded', 'by', 'virginia', ';', 'in', '1871', ',', 'it', 'created', 'a', 'single', 'municipal', 'government', 'for', 'the', 'remaining', 'portion', 'of', 'the', 'district', '.', 'washington', 'had', 'an', 'estimated', 'population', 'of', '681,170', 'as', 'of', 'july', '2016.', 'commuters', 'from', 'the', 'surrounding', 'maryland', 'and', 'virginia', 'suburbs', 'raise', 'the', 'city', "'s", 'population', 'to', 'more', 'than', 'one', 'million', 'during', 'the', 'workweek', '.', 'the', 'washington', 'metropolitan', 'area', ',', 'of', 'which', 'the', 'district', 'is', 'the', 'principal', 'city', ',', 'has', 'a', 'population', 'of', 'over', '6', 'million', ',', 'the', 'sixth-largest', 'metropolitan', 'statistical', 'area', 'in', 'the', 'country', '.', 'all', 'three', 'branches', 'of', 'the', 'federal', 'government', 'of', 'the', 'united', 'states', 'are', 'centered', 'in', 'the', 'district', '-', 'the', 'congress', ',', 'president', ',', 'and', 'supreme', 'court', '.', 'washington', 'is', 'home', 'to', 'many', 'national', 'monuments', 'and', 'museums', ',', 'which', 'are', 'primarily', 'situated', 'on', 'or', 'around', 'the', 'national', 'mall', '.', 'the', 'city', 'hosts', '176', 'foreign', 'embassies', 'as', 'well', 'as', 'the', 'headquarters', 'of', 'many', 'international', 'organizations', ',', 'trade', 'unions', ',', 'non-profit', 'organizations', ',', 'lobbying', 'groups', ',', 'and', 'professional', 'associations', '.', 'a', 'locally', 'elected', 'mayor', 'and', 'a', '13‑member', 'council', 'have', 'governed', 'the', 'district', 'since', '1973.', 'however', ',', 'the', 'congress', 'maintains', 'supreme', 'authority', 'over', 'the', 'city', 'and', 'may', 'overturn', 'local', 'laws', '.', 'd.c.', 'residents', 'elect', 'a', 'non-voting', ',', 'at-large', 'congressional', 'delegate', 'to', 'the', 'house', 'of', 'representatives', ',', 'but', 'the', 'district', 'has', 'no', 'representation', 'in', 'the', 'senate', '.', 'the', 'district', 'receives', 'three', 'electoral', 'votes', 'in', 'presidential', 'elections', 'as', 'permitted', 'by', 'the', 'twenty-third', 'amendment', 'to', 'the', 'united', 'states', 'constitution', ',', 'ratified', 'in', '1961', '.']
+
+
+After Removing stopwords : 
+['washington', 'd.c.', 'formally', 'district', 'columbia', 'commonly', 'referred', 'washington', 'district', 'simply', 'd.c.', 'capital', 'united', 'states', 'signing', 'residence', 'act', 'july', '1790', 'approved', 'creation', 'capital', 'district', 'located', 'along', 'potomac', 'river', 'country', 'east', 'coast', 'u.s.', 'constitution', 'provided', 'federal', 'district', 'exclusive', 'jurisdiction', 'congress', 'district', 'therefore', 'part', 'state', 'states', 'maryland', 'virginia', 'donated', 'land', 'form', 'federal', 'district', 'included', 'pre-existing', 'settlements', 'georgetown', 'alexandria', 'named', 'honor', 'president', 'george', 'washington', 'city', 'washington', 'founded', '1791', 'serve', 'new', 'national', 'capital', '1846', 'congress', 'returned', 'land', 'originally', 'ceded', 'virginia', '1871', 'created', 'single', 'municipal', 'government', 'remaining', 'portion', 'district', 'washington', 'estimated', 'population', '681,170', 'july', '2016.', 'commuters', 'surrounding', 'maryland', 'virginia', 'suburbs', 'raise', 'city', 'population', 'one', 'million', 'workweek', 'washington', 'metropolitan', 'area', 'district', 'principal', 'city', 'population', 'million', 'sixth-largest', 'metropolitan', 'statistical', 'area', 'country', 'three', 'branches', 'federal', 'government', 'united', 'states', 'centered', 'district', 'congress', 'president', 'supreme', 'court', 'washington', 'home', 'many', 'national', 'monuments', 'museums', 'primarily', 'situated', 'around', 'national', 'mall', 'city', 'hosts', '176', 'foreign', 'embassies', 'well', 'headquarters', 'many', 'international', 'organizations', 'trade', 'unions', 'non-profit', 'organizations', 'lobbying', 'groups', 'professional', 'associations', 'locally', 'elected', 'mayor', '13‑member', 'council', 'governed', 'district', 'since', '1973.', 'however', 'congress', 'maintains', 'supreme', 'authority', 'city', 'may', 'overturn', 'local', 'laws', 'd.c.', 'residents', 'elect', 'non-voting', 'at-large', 'congressional', 'delegate', 'house', 'representatives', 'district', 'representation', 'senate', 'district', 'receives', 'three', 'electoral', 'votes', 'presidential', 'elections', 'permitted', 'twenty-third', 'amendment', 'united', 'states', 'constitution', 'ratified', '1961']
+
+
+Lemmatization :
+['washington', 'd.c.', 'formally', 'district', 'columbia', 'commonly', 'referred', 'washington', 'district', 'simply', 'd.c.', 'capital', 'united', 'state', 'signing', 'residence', 'act', 'july', '1790', 'approved', 'creation', 'capital', 'district', 'located', 'along', 'potomac', 'river', 'country', 'east', 'coast', 'u.s.', 'constitution', 'provided', 'federal', 'district', 'exclusive', 'jurisdiction', 'congress', 'district', 'therefore', 'part', 'state', 'state', 'maryland', 'virginia', 'donated', 'land', 'form', 'federal', 'district', 'included', 'pre-existing', 'settlement', 'georgetown', 'alexandria', 'named', 'honor', 'president', 'george', 'washington', 'city', 'washington', 'founded', '1791', 'serve', 'new', 'national', 'capital', '1846', 'congress', 'returned', 'land', 'originally', 'ceded', 'virginia', '1871', 'created', 'single', 'municipal', 'government', 'remaining', 'portion', 'district', 'washington', 'estimated', 'population', '681,170', 'july', '2016.', 'commuter', 'surrounding', 'maryland', 'virginia', 'suburb', 'raise', 'city', 'population', 'one', 'million', 'workweek', 'washington', 'metropolitan', 'area', 'district', 'principal', 'city', 'population', 'million', 'sixth-largest', 'metropolitan', 'statistical', 'area', 'country', 'three', 'branch', 'federal', 'government', 'united', 'state', 'centered', 'district', 'congress', 'president', 'supreme', 'court', 'washington', 'home', 'many', 'national', 'monument', 'museum', 'primarily', 'situated', 'around', 'national', 'mall', 'city', 'host', '176', 'foreign', 'embassy', 'well', 'headquarters', 'many', 'international', 'organization', 'trade', 'union', 'non-profit', 'organization', 'lobbying', 'group', 'professional', 'association', 'locally', 'elected', 'mayor', '13‑member', 'council', 'governed', 'district', 'since', '1973.', 'however', 'congress', 'maintains', 'supreme', 'authority', 'city', 'may', 'overturn', 'local', 'law', 'd.c.', 'resident', 'elect', 'non-voting', 'at-large', 'congressional', 'delegate', 'house', 'representative', 'district', 'representation', 'senate', 'district', 'receives', 'three', 'electoral', 'vote', 'presidential', 'election', 'permitted', 'twenty-third', 'amendment', 'united', 'state', 'constitution', 'ratified', '1961']
+
+
+POS Tagging :
+[('washington', 'NN'), ('d.c.', 'VBZ'), ('formally', 'RB'), ('district', 'NN'), ('columbia', 'NN'), ('commonly', 'RB'), ('referred', 'VBD'), ('washington', 'JJ'), ('district', 'NN'), ('simply', 'RB'), ('d.c.', 'JJ'), ('capital', 'NN'), ('united', 'JJ'), ('state', 'NN'), ('signing', 'NN'), ('residence', 'NN'), ('act', 'NN'), ('july', 'NN'), ('1790', 'CD'), ('approved', 'VBD'), ('creation', 'NN'), ('capital', 'NN'), ('district', 'NN'), ('located', 'VBN'), ('along', 'IN'), ('potomac', 'JJ'), ('river', 'NN'), ('country', 'NN'), ('east', 'VBD'), ('coast', 'JJ'), ('u.s.', 'JJ'), ('constitution', 'NN'), ('provided', 'VBD'), ('federal', 'JJ'), ('district', 'NN'), ('exclusive', 'JJ'), ('jurisdiction', 'NN'), ('congress', 'NN'), ('district', 'NN'), ('therefore', 'IN'), ('part', 'NN'), ('state', 'NN'), ('state', 'NN'), ('maryland', 'NN'), ('virginia', 'NN'), ('donated', 'VBD'), ('land', 'NN'), ('form', 'NN'), ('federal', 'JJ'), ('district', 'NN'), ('included', 'VBD'), ('pre-existing', 'JJ'), ('settlement', 'NN'), ('georgetown', 'NN'), ('alexandria', 'NN'), ('named', 'VBN'), ('honor', 'JJ'), ('president', 'NN'), ('george', 'NN'), ('washington', 'NNP'), ('city', 'NN'), ('washington', 'NN'), ('founded', 'VBD'), ('1791', 'CD'), ('serve', 'VBP'), ('new', 'JJ'), ('national', 'JJ'), ('capital', 'NN'), ('1846', 'CD'), ('congress', 'NN'), ('returned', 'VBD'), ('land', 'RBR'), ('originally', 'RB'), ('ceded', 'VBN'), ('virginia', 'NN'), ('1871', 'CD'), ('created', 'VBD'), ('single', 'JJ'), ('municipal', 'JJ'), ('government', 'NN'), ('remaining', 'VBG'), ('portion', 'NN'), ('district', 'NN'), ('washington', 'NN'), ('estimated', 'VBN'), ('population', 'NN'), ('681,170', 'CD'), ('july', 'NN'), ('2016.', 'CD'), ('commuter', 'NN'), ('surrounding', 'VBG'), ('maryland', 'NN'), ('virginia', 'NN'), ('suburb', 'NN'), ('raise', 'NN'), ('city', 'NN'), ('population', 'NN'), ('one', 'CD'), ('million', 'CD'), ('workweek', 'IN'), ('washington', 'NN'), ('metropolitan', 'JJ'), ('area', 'NN'), ('district', 'NN'), ('principal', 'JJ'), ('city', 'NN'), ('population', 'NN'), ('million', 'CD'), ('sixth-largest', 'JJ'), ('metropolitan', 'JJ'), ('statistical', 'JJ'), ('area', 'NN'), ('country', 'NN'), ('three', 'CD'), ('branch', 'NN'), ('federal', 'JJ'), ('government', 'NN'), ('united', 'VBD'), ('state', 'NN'), ('centered', 'VBD'), ('district', 'NN'), ('congress', 'NN'), ('president', 'NN'), ('supreme', 'JJ'), ('court', 'NN'), ('washington', 'VBD'), ('home', 'RB'), ('many', 'JJ'), ('national', 'JJ'), ('monument', 'NN'), ('museum', 'NN'), ('primarily', 'RB'), ('situated', 'VBN'), ('around', 'IN'), ('national', 'JJ'), ('mall', 'NN'), ('city', 'NN'), ('host', 'NN'), ('176', 'CD'), ('foreign', 'JJ'), ('embassy', 'RB'), ('well', 'RB'), ('headquarters', 'VBZ'), ('many', 'JJ'), ('international', 'JJ'), ('organization', 'NN'), ('trade', 'NN'), ('union', 'NN'), ('non-profit', 'JJ'), ('organization', 'NN'), ('lobbying', 'VBG'), ('group', 'NN'), ('professional', 'JJ'), ('association', 'NN'), ('locally', 'RB'), ('elected', 'VBN'), ('mayor', 'NN'), ('13‑member', 'CD'), ('council', 'NN'), ('governed', 'VBD'), ('district', 'NN'), ('since', 'IN'), ('1973.', 'CD'), ('however', 'RB'), ('congress', 'JJ'), ('maintains', 'NNS'), ('supreme', 'JJ'), ('authority', 'NN'), ('city', 'NN'), ('may', 'MD'), ('overturn', 'VB'), ('local', 'JJ'), ('law', 'NN'), ('d.c.', 'NN'), ('resident', 'JJ'), ('elect', 'JJ'), ('non-voting', 'JJ'), ('at-large', 'JJ'), ('congressional', 'JJ'), ('delegate', 'NN'), ('house', 'NN'), ('representative', 'JJ'), ('district', 'NN'), ('representation', 'NN'), ('senate', 'NN'), ('district', 'NN'), ('receives', 'VBZ'), ('three', 'CD'), ('electoral', 'JJ'), ('vote', 'NN'), ('presidential', 'JJ'), ('election', 'NN'), ('permitted', 'VBD'), ('twenty-third', 'JJ'), ('amendment', 'NN'), ('united', 'JJ'), ('state', 'NN'), ('constitution', 'NN'), ('ratified', 'VBD'), ('1961', 'CD')]
+
+
+Chunked Tree:
+(S
+  (NP washington/NN)
+  d.c./VBZ
+  formally/RB
+  (NP district/NN)
+  (NP columbia/NN)
+  commonly/RB
+  referred/VBD
+  (NP washington/JJ district/NN)
+  simply/RB
+  (NP d.c./JJ capital/NN)
+  (NP united/JJ state/NN)
+  (NP signing/NN)
+  (NP residence/NN)
+  (NP act/NN)
+  (NP july/NN)
+  1790/CD
+  approved/VBD
+  (NP creation/NN)
+  (NP capital/NN)
+  (NP district/NN)
+  located/VBN
+  along/IN
+  (NP potomac/JJ river/NN)
+  (NP country/NN)
+  east/VBD
+  (NP coast/JJ u.s./JJ constitution/NN)
+  provided/VBD
+  (NP federal/JJ district/NN)
+  (NP exclusive/JJ jurisdiction/NN)
+  (NP congress/NN)
+  (NP district/NN)
+  therefore/IN
+  (NP part/NN)
+  (NP state/NN)
+  (NP state/NN)
+  (NP maryland/NN)
+  (NP virginia/NN)
+  donated/VBD
+  (NP land/NN)
+  (NP form/NN)
+  (NP federal/JJ district/NN)
+  included/VBD
+  (NP pre-existing/JJ settlement/NN)
+  (NP georgetown/NN)
+  (NP alexandria/NN)
+  named/VBN
+  (NP honor/JJ president/NN)
+  (NP george/NN)
+  (NP washington/NNP)
+  (NP city/NN)
+  (NP washington/NN)
+  founded/VBD
+  1791/CD
+  serve/VBP
+  (NP new/JJ national/JJ capital/NN)
+  1846/CD
+  (NP congress/NN)
+  returned/VBD
+  land/RBR
+  originally/RB
+  ceded/VBN
+  (NP virginia/NN)
+  1871/CD
+  created/VBD
+  (NP single/JJ municipal/JJ government/NN)
+  remaining/VBG
+  (NP portion/NN)
+  (NP district/NN)
+  (NP washington/NN)
+  estimated/VBN
+  (NP population/NN)
+  681,170/CD
+  (NP july/NN)
+  2016./CD
+  (NP commuter/NN)
+  surrounding/VBG
+  (NP maryland/NN)
+  (NP virginia/NN)
+  (NP suburb/NN)
+  (NP raise/NN)
+  (NP city/NN)
+  (NP population/NN)
+  one/CD
+  million/CD
+  workweek/IN
+  (NP washington/NN)
+  (NP metropolitan/JJ area/NN)
+  (NP district/NN)
+  (NP principal/JJ city/NN)
+  (NP population/NN)
+  million/CD
+  (NP sixth-largest/JJ metropolitan/JJ statistical/JJ area/NN)
+  (NP country/NN)
+  three/CD
+  (NP branch/NN)
+  (NP federal/JJ government/NN)
+  united/VBD
+  (NP state/NN)
+  centered/VBD
+  (NP district/NN)
+  (NP congress/NN)
+  (NP president/NN)
+  (NP supreme/JJ court/NN)
+  washington/VBD
+  home/RB
+  (NP many/JJ national/JJ monument/NN)
+  (NP museum/NN)
+  primarily/RB
+  situated/VBN
+  around/IN
+  (NP national/JJ mall/NN)
+  (NP city/NN)
+  (NP host/NN)
+  176/CD
+  foreign/JJ
+  embassy/RB
+  well/RB
+  headquarters/VBZ
+  (NP many/JJ international/JJ organization/NN)
+  (NP trade/NN)
+  (NP union/NN)
+  (NP non-profit/JJ organization/NN)
+  lobbying/VBG
+  (NP group/NN)
+  (NP professional/JJ association/NN)
+  locally/RB
+  elected/VBN
+  (NP mayor/NN)
+  13‑member/CD
+  (NP council/NN)
+  governed/VBD
+  (NP district/NN)
+  since/IN
+  1973./CD
+  however/RB
+  congress/JJ
+  maintains/NNS
+  (NP supreme/JJ authority/NN)
+  (NP city/NN)
+  may/MD
+  overturn/VB
+  (NP local/JJ law/NN)
+  (NP d.c./NN)
+  (NP
+    resident/JJ
+    elect/JJ
+    non-voting/JJ
+    at-large/JJ
+    congressional/JJ
+    delegate/NN)
+  (NP house/NN)
+  (NP representative/JJ district/NN)
+  (NP representation/NN)
+  (NP senate/NN)
+  (NP district/NN)
+  receives/VBZ
+  three/CD
+  (NP electoral/JJ vote/NN)
+  (NP presidential/JJ election/NN)
+  permitted/VBD
+  (NP twenty-third/JJ amendment/NN)
+  (NP united/JJ state/NN)
+  (NP constitution/NN)
+  ratified/VBD
+  1961/CD)
+
+
+Shallow Parsing :
+['washington', 'district', 'columbia', 'district', 'capital', 'state', 'signing', 'residence', 'act', 'july', 'creation', 'capital', 'district', 'river', 'country', 'constitution', 'district', 'jurisdiction', 'congress', 'district', 'part', 'state', 'state', 'maryland', 'virginia', 'land', 'form', 'district', 'settlement', 'georgetown', 'alexandria', 'president', 'george', 'washington', 'city', 'washington', 'capital', 'congress', 'virginia', 'government', 'portion', 'district', 'washington', 'population', 'july', 'commuter', 'maryland', 'virginia', 'suburb', 'raise', 'city', 'population', 'washington', 'area', 'district', 'city', 'population', 'area', 'country', 'branch', 'government', 'state', 'district', 'congress', 'president', 'court', 'monument', 'museum', 'mall', 'city', 'host', 'organization', 'trade', 'union', 'organization', 'group', 'association', 'mayor', 'council', 'district', 'authority', 'city', 'law', 'd.c.', 'delegate', 'house', 'district', 'representation', 'senate', 'district', 'vote', 'election', 'amendment', 'state', 'constitution']
+
+
+Hypernym :
+['washington', 'district', 'columbia', 'district', 'capital', 'state', 'signing', 'residence', 'act', 'july', 'creation', 'capital', 'district', 'river', 'country', 'constitution', 'district', 'jurisdiction', 'congress', 'district', 'part', 'state', 'state', 'maryland', 'virginia', 'land', 'form', 'district', 'settlement', 'georgetown', 'alexandria', 'president', 'george', 'washington', 'city', 'washington', 'capital', 'congress', 'virginia', 'government', 'portion', 'district', 'washington', 'population', 'july', 'commuter', 'maryland', 'virginia', 'suburb', 'raise', 'city', 'population', 'washington', 'area', 'district', 'city', 'population', 'area', 'country', 'branch', 'government', 'state', 'district', 'congress', 'president', 'court', 'monument', 'museum', 'mall', 'city', 'host', 'organization', 'trade', 'union', 'organization', 'group', 'association', 'mayor', 'council', 'district', 'authority', 'city', 'law', 'd.c.', 'delegate', 'house', 'district', 'representation', 'senate', 'district', 'vote', 'election', 'amendment', 'state', 'constitution']
+
+
+Meronym matching : 
+['washington', 'district', 'columbia', 'district', 'capital', 'state', 'signing', 'residence', 'act', 'july', 'creation', 'capital', 'district', 'river', 'country', 'constitution', 'district', 'jurisdiction', 'congress', 'district', 'part', 'state', 'state', 'maryland', 'virginia', 'land', 'form', 'district', 'settlement', 'georgetown', 'alexandria', 'president', 'george', 'washington', 'city', 'washington', 'capital', 'congress', 'virginia', 'government', 'portion', 'district', 'washington', 'population', 'july', 'commuter', 'maryland', 'virginia', 'suburb', 'raise', 'city', 'population', 'washington', 'area', 'district', 'city', 'population', 'area', 'country', 'branch', 'government', 'state', 'district', 'congress', 'president', 'court', 'monument', 'museum', 'mall', 'city', 'host', 'organization', 'trade', 'union', 'organization', 'group', 'association', 'mayor', 'council', 'district', 'authority', 'city', 'law', 'd.c.', 'delegate', 'house', 'district', 'representation', 'senate', 'district', 'vote', 'election', 'amendment', 'state', 'constitution']
+
+
+Data : ['Windows PC', ' Technology']
+Tokenizing Words : 
+['microsoft', 'windows', ',', 'or', 'simply', 'windows', ',', 'is', 'a', 'metafamily', 'of', 'graphical', 'operating', 'systems', 'developed', ',', 'marketed', ',', 'and', 'sold', 'by', 'microsoft', '.', 'it', 'consists', 'of', 'several', 'families', 'of', 'operating', 'systems', ',', 'each', 'of', 'which', 'cater', 'to', 'a', 'certain', 'sector', 'of', 'the', 'computing', 'industry', 'with', 'the', 'os', 'typically', 'associated', 'with', 'ibm', 'pc', 'compatible', 'architecture', '.', 'active', 'windows', 'families', 'include', 'windows', 'nt', 'and', 'windows', 'embedded', ';', 'these', 'may', 'encompass', 'subfamilies', ',', 'e.g', '.', 'windows', 'embedded', 'compact', '(', 'windows', 'ce', ')', 'or', 'windows', 'server', '.', 'defunct', 'windows', 'families', 'include', 'windows', '9x', ',', 'windows', 'mobile', 'and', 'windows', 'phone', '.', 'microsoft', 'introduced', 'an', 'operating', 'environment', 'named', 'windows', 'on', 'november', '20', ',', '1985', ',', 'as', 'a', 'graphical', 'operating', 'system', 'shell', 'for', 'ms-dos', 'in', 'response', 'to', 'the', 'growing', 'interest', 'in', 'graphical', 'user', 'interfaces', '(', 'guis', ')', '.', 'microsoft', 'windows', 'came', 'to', 'dominate', 'the', 'world', "'s", 'personal', 'computer', '(', 'pc', ')', 'market', 'with', 'over', '90', '%', 'market', 'share', ',', 'overtaking', 'mac', 'os', ',', 'which', 'had', 'been', 'introduced', 'in', '1984.', 'apple', 'came', 'to', 'see', 'windows', 'as', 'an', 'unfair', 'encroachment', 'on', 'their', 'innovation', 'in', 'gui', 'development', 'as', 'implemented', 'on', 'products', 'such', 'as', 'the', 'lisa', 'and', 'macintosh', '(', 'eventually', 'settled', 'in', 'court', 'in', 'microsoft', "'s", 'favor', 'in', '1993', ')', '.', 'on', 'pcs', ',', 'windows', 'is', 'still', 'the', 'most', 'popular', 'operating', 'system', '.', 'however', ',', 'in', '2014', ',', 'microsoft', 'admitted', 'losing', 'the', 'majority', 'of', 'the', 'overall', 'operating', 'system', 'market', 'to', 'android', ',', 'because', 'of', 'the', 'massive', 'growth', 'in', 'sales', 'of', 'android', 'smartphones', '.', 'in', '2014', ',', 'the', 'number', 'of', 'windows', 'devices', 'sold', 'was', 'less', 'than', '25', '%', 'that', 'of', 'android', 'devices', 'sold', '.', 'this', 'comparison', 'however', 'may', 'not', 'be', 'fully', 'relevant', ',', 'as', 'the', 'two', 'operating', 'systems', 'traditionally', 'target', 'different', 'platforms', '.', 'still', ',', 'numbers', 'for', 'server', 'use', 'of', 'windows', '(', 'that', 'are', 'comparable', 'to', 'competitors', ')', 'show', 'one', 'third', 'market', 'share', ',', 'similar', 'to', 'for', 'end', 'user', 'use', '.', 'as', 'of', 'september', '2016', ',', 'the', 'most', 'recent', 'version', 'of', 'windows', 'for', 'pcs', ',', 'tablets', ',', 'smartphones', 'and', 'embedded', 'devices', 'is', 'windows', '10.', 'the', 'most', 'recent', 'versions', 'for', 'server', 'computers', 'is', 'windows', 'server', '2016.', 'a', 'specialized', 'version', 'of', 'windows', 'runs', 'on', 'the', 'xbox', 'one', 'video', 'game', 'console', '.']
+
+
+After Removing stopwords : 
+['microsoft', 'windows', 'simply', 'windows', 'metafamily', 'graphical', 'operating', 'systems', 'developed', 'marketed', 'sold', 'microsoft', 'consists', 'several', 'families', 'operating', 'systems', 'cater', 'certain', 'sector', 'computing', 'industry', 'typically', 'associated', 'ibm', 'compatible', 'architecture', 'active', 'windows', 'families', 'include', 'windows', 'windows', 'embedded', 'may', 'encompass', 'subfamilies', 'e.g', 'windows', 'embedded', 'compact', 'windows', 'windows', 'server', 'defunct', 'windows', 'families', 'include', 'windows', 'windows', 'mobile', 'windows', 'phone', 'microsoft', 'introduced', 'operating', 'environment', 'named', 'windows', 'november', '1985', 'graphical', 'operating', 'system', 'shell', 'ms-dos', 'response', 'growing', 'interest', 'graphical', 'user', 'interfaces', 'guis', 'microsoft', 'windows', 'came', 'dominate', 'world', 'personal', 'computer', 'market', 'market', 'share', 'overtaking', 'mac', 'introduced', '1984.', 'apple', 'came', 'see', 'windows', 'unfair', 'encroachment', 'innovation', 'gui', 'development', 'implemented', 'products', 'lisa', 'macintosh', 'eventually', 'settled', 'court', 'microsoft', 'favor', '1993', 'pcs', 'windows', 'still', 'popular', 'operating', 'system', 'however', '2014', 'microsoft', 'admitted', 'losing', 'majority', 'overall', 'operating', 'system', 'market', 'android', 'massive', 'growth', 'sales', 'android', 'smartphones', '2014', 'number', 'windows', 'devices', 'sold', 'less', 'android', 'devices', 'sold', 'comparison', 'however', 'may', 'fully', 'relevant', 'two', 'operating', 'systems', 'traditionally', 'target', 'different', 'platforms', 'still', 'numbers', 'server', 'use', 'windows', 'comparable', 'competitors', 'show', 'one', 'third', 'market', 'share', 'similar', 'end', 'user', 'use', 'september', '2016', 'recent', 'version', 'windows', 'pcs', 'tablets', 'smartphones', 'embedded', 'devices', 'windows', '10.', 'recent', 'versions', 'server', 'computers', 'windows', 'server', '2016.', 'specialized', 'version', 'windows', 'runs', 'xbox', 'one', 'video', 'game', 'console']
+
+
+Lemmatization :
+['microsoft', 'window', 'simply', 'window', 'metafamily', 'graphical', 'operating', 'system', 'developed', 'marketed', 'sold', 'microsoft', 'consists', 'several', 'family', 'operating', 'system', 'cater', 'certain', 'sector', 'computing', 'industry', 'typically', 'associated', 'ibm', 'compatible', 'architecture', 'active', 'window', 'family', 'include', 'window', 'window', 'embedded', 'may', 'encompass', 'subfamily', 'e.g', 'window', 'embedded', 'compact', 'window', 'window', 'server', 'defunct', 'window', 'family', 'include', 'window', 'window', 'mobile', 'window', 'phone', 'microsoft', 'introduced', 'operating', 'environment', 'named', 'window', 'november', '1985', 'graphical', 'operating', 'system', 'shell', 'ms-dos', 'response', 'growing', 'interest', 'graphical', 'user', 'interface', 'gui', 'microsoft', 'window', 'came', 'dominate', 'world', 'personal', 'computer', 'market', 'market', 'share', 'overtaking', 'mac', 'introduced', '1984.', 'apple', 'came', 'see', 'window', 'unfair', 'encroachment', 'innovation', 'gui', 'development', 'implemented', 'product', 'lisa', 'macintosh', 'eventually', 'settled', 'court', 'microsoft', 'favor', '1993', 'pc', 'window', 'still', 'popular', 'operating', 'system', 'however', '2014', 'microsoft', 'admitted', 'losing', 'majority', 'overall', 'operating', 'system', 'market', 'android', 'massive', 'growth', 'sale', 'android', 'smartphones', '2014', 'number', 'window', 'device', 'sold', 'le', 'android', 'device', 'sold', 'comparison', 'however', 'may', 'fully', 'relevant', 'two', 'operating', 'system', 'traditionally', 'target', 'different', 'platform', 'still', 'number', 'server', 'use', 'window', 'comparable', 'competitor', 'show', 'one', 'third', 'market', 'share', 'similar', 'end', 'user', 'use', 'september', '2016', 'recent', 'version', 'window', 'pc', 'tablet', 'smartphones', 'embedded', 'device', 'window', '10.', 'recent', 'version', 'server', 'computer', 'window', 'server', '2016.', 'specialized', 'version', 'window', 'run', 'xbox', 'one', 'video', 'game', 'console']
+
+
+POS Tagging :
+[('microsoft', 'JJ'), ('window', 'NN'), ('simply', 'RB'), ('window', 'JJ'), ('metafamily', 'RB'), ('graphical', 'JJ'), ('operating', 'NN'), ('system', 'NN'), ('developed', 'VBD'), ('marketed', 'VBN'), ('sold', 'VBN'), ('microsoft', 'JJ'), ('consists', 'VBZ'), ('several', 'JJ'), ('family', 'NN'), ('operating', 'VBG'), ('system', 'NN'), ('cater', 'NN'), ('certain', 'JJ'), ('sector', 'NN'), ('computing', 'VBG'), ('industry', 'NN'), ('typically', 'RB'), ('associated', 'VBN'), ('ibm', 'NN'), ('compatible', 'JJ'), ('architecture', 'NN'), ('active', 'JJ'), ('window', 'JJ'), ('family', 'NN'), ('include', 'VBP'), ('window', 'NN'), ('window', 'NN'), ('embedded', 'VBD'), ('may', 'MD'), ('encompass', 'VB'), ('subfamily', 'RB'), ('e.g', 'VB'), ('window', 'NN'), ('embedded', 'VBN'), ('compact', 'JJ'), ('window', 'NN'), ('window', 'NN'), ('server', 'NN'), ('defunct', 'NN'), ('window', 'VBD'), ('family', 'NN'), ('include', 'VBP'), ('window', 'NN'), ('window', 'NN'), ('mobile', 'NN'), ('window', 'NN'), ('phone', 'NN'), ('microsoft', 'NN'), ('introduced', 'VBD'), ('operating', 'NN'), ('environment', 'NN'), ('named', 'VBN'), ('window', 'IN'), ('november', 'JJ'), ('1985', 'CD'), ('graphical', 'JJ'), ('operating', 'VBG'), ('system', 'NN'), ('shell', 'VBD'), ('ms-dos', 'JJ'), ('response', 'NN'), ('growing', 'VBG'), ('interest', 'NN'), ('graphical', 'JJ'), ('user', 'NN'), ('interface', 'NN'), ('gui', 'NN'), ('microsoft', 'NN'), ('window', 'NN'), ('came', 'VBD'), ('dominate', 'JJ'), ('world', 'NN'), ('personal', 'JJ'), ('computer', 'NN'), ('market', 'NN'), ('market', 'NN'), ('share', 'NN'), ('overtaking', 'VBG'), ('mac', 'NN'), ('introduced', 'VBD'), ('1984.', 'CD'), ('apple', 'NN'), ('came', 'VBD'), ('see', 'VBP'), ('window', 'JJ'), ('unfair', 'JJ'), ('encroachment', 'JJ'), ('innovation', 'NN'), ('gui', 'NN'), ('development', 'NN'), ('implemented', 'VBD'), ('product', 'NN'), ('lisa', 'NN'), ('macintosh', 'NNP'), ('eventually', 'RB'), ('settled', 'VBD'), ('court', 'NN'), ('microsoft', 'NN'), ('favor', 'NN'), ('1993', 'CD'), ('pc', 'NN'), ('window', 'NN'), ('still', 'RB'), ('popular', 'JJ'), ('operating', 'NN'), ('system', 'NN'), ('however', 'RB'), ('2014', 'CD'), ('microsoft', 'JJ'), ('admitted', 'VBD'), ('losing', 'VBG'), ('majority', 'NN'), ('overall', 'RB'), ('operating', 'VBG'), ('system', 'NN'), ('market', 'NN'), ('android', 'JJ'), ('massive', 'JJ'), ('growth', 'NN'), ('sale', 'NN'), ('android', 'NN'), ('smartphones', 'NNS'), ('2014', 'CD'), ('number', 'NN'), ('window', 'NN'), ('device', 'NN'), ('sold', 'VBD'), ('le', 'JJ'), ('android', 'JJ'), ('device', 'NN'), ('sold', 'VBD'), ('comparison', 'NN'), ('however', 'RB'), ('may', 'MD'), ('fully', 'RB'), ('relevant', 'VB'), ('two', 'CD'), ('operating', 'VBG'), ('system', 'NN'), ('traditionally', 'RB'), ('target', 'VB'), ('different', 'JJ'), ('platform', 'NN'), ('still', 'RB'), ('number', 'NN'), ('server', 'NN'), ('use', 'NN'), ('window', 'NN'), ('comparable', 'JJ'), ('competitor', 'NN'), ('show', 'VBP'), ('one', 'CD'), ('third', 'JJ'), ('market', 'NN'), ('share', 'NN'), ('similar', 'JJ'), ('end', 'NN'), ('user', 'NN'), ('use', 'NN'), ('september', 'NN'), ('2016', 'CD'), ('recent', 'JJ'), ('version', 'NN'), ('window', 'VBD'), ('pc', 'JJ'), ('tablet', 'NN'), ('smartphones', 'NNS'), ('embedded', 'VBD'), ('device', 'NN'), ('window', 'NN'), ('10.', 'CD'), ('recent', 'JJ'), ('version', 'NN'), ('server', 'RB'), ('computer', 'NN'), ('window', 'VBD'), ('server', 'RB'), ('2016.', 'CD'), ('specialized', 'JJ'), ('version', 'NN'), ('window', 'NN'), ('run', 'VB'), ('xbox', 'NNP'), ('one', 'CD'), ('video', 'NN'), ('game', 'NN'), ('console', 'NN')]
+
+
+Chunked Tree:
+(S
+  (NP microsoft/JJ window/NN)
+  simply/RB
+  window/JJ
+  metafamily/RB
+  (NP graphical/JJ operating/NN)
+  (NP system/NN)
+  developed/VBD
+  marketed/VBN
+  sold/VBN
+  microsoft/JJ
+  consists/VBZ
+  (NP several/JJ family/NN)
+  operating/VBG
+  (NP system/NN)
+  (NP cater/NN)
+  (NP certain/JJ sector/NN)
+  computing/VBG
+  (NP industry/NN)
+  typically/RB
+  associated/VBN
+  (NP ibm/NN)
+  (NP compatible/JJ architecture/NN)
+  (NP active/JJ window/JJ family/NN)
+  include/VBP
+  (NP window/NN)
+  (NP window/NN)
+  embedded/VBD
+  may/MD
+  encompass/VB
+  subfamily/RB
+  e.g/VB
+  (NP window/NN)
+  embedded/VBN
+  (NP compact/JJ window/NN)
+  (NP window/NN)
+  (NP server/NN)
+  (NP defunct/NN)
+  window/VBD
+  (NP family/NN)
+  include/VBP
+  (NP window/NN)
+  (NP window/NN)
+  (NP mobile/NN)
+  (NP window/NN)
+  (NP phone/NN)
+  (NP microsoft/NN)
+  introduced/VBD
+  (NP operating/NN)
+  (NP environment/NN)
+  named/VBN
+  window/IN
+  november/JJ
+  1985/CD
+  graphical/JJ
+  operating/VBG
+  (NP system/NN)
+  shell/VBD
+  (NP ms-dos/JJ response/NN)
+  growing/VBG
+  (NP interest/NN)
+  (NP graphical/JJ user/NN)
+  (NP interface/NN)
+  (NP gui/NN)
+  (NP microsoft/NN)
+  (NP window/NN)
+  came/VBD
+  (NP dominate/JJ world/NN)
+  (NP personal/JJ computer/NN)
+  (NP market/NN)
+  (NP market/NN)
+  (NP share/NN)
+  overtaking/VBG
+  (NP mac/NN)
+  introduced/VBD
+  1984./CD
+  (NP apple/NN)
+  came/VBD
+  see/VBP
+  (NP window/JJ unfair/JJ encroachment/JJ innovation/NN)
+  (NP gui/NN)
+  (NP development/NN)
+  implemented/VBD
+  (NP product/NN)
+  (NP lisa/NN)
+  (NP macintosh/NNP)
+  eventually/RB
+  settled/VBD
+  (NP court/NN)
+  (NP microsoft/NN)
+  (NP favor/NN)
+  1993/CD
+  (NP pc/NN)
+  (NP window/NN)
+  still/RB
+  (NP popular/JJ operating/NN)
+  (NP system/NN)
+  however/RB
+  2014/CD
+  microsoft/JJ
+  admitted/VBD
+  losing/VBG
+  (NP majority/NN)
+  overall/RB
+  operating/VBG
+  (NP system/NN)
+  (NP market/NN)
+  (NP android/JJ massive/JJ growth/NN)
+  (NP sale/NN)
+  (NP android/NN)
+  smartphones/NNS
+  2014/CD
+  (NP number/NN)
+  (NP window/NN)
+  (NP device/NN)
+  sold/VBD
+  (NP le/JJ android/JJ device/NN)
+  sold/VBD
+  (NP comparison/NN)
+  however/RB
+  may/MD
+  fully/RB
+  relevant/VB
+  two/CD
+  operating/VBG
+  (NP system/NN)
+  traditionally/RB
+  target/VB
+  (NP different/JJ platform/NN)
+  still/RB
+  (NP number/NN)
+  (NP server/NN)
+  (NP use/NN)
+  (NP window/NN)
+  (NP comparable/JJ competitor/NN)
+  show/VBP
+  one/CD
+  (NP third/JJ market/NN)
+  (NP share/NN)
+  (NP similar/JJ end/NN)
+  (NP user/NN)
+  (NP use/NN)
+  (NP september/NN)
+  2016/CD
+  (NP recent/JJ version/NN)
+  window/VBD
+  (NP pc/JJ tablet/NN)
+  smartphones/NNS
+  embedded/VBD
+  (NP device/NN)
+  (NP window/NN)
+  10./CD
+  (NP recent/JJ version/NN)
+  server/RB
+  (NP computer/NN)
+  window/VBD
+  server/RB
+  2016./CD
+  (NP specialized/JJ version/NN)
+  (NP window/NN)
+  run/VB
+  (NP xbox/NNP)
+  one/CD
+  (NP video/NN)
+  (NP game/NN)
+  (NP console/NN))
+
+
+Shallow Parsing :
+['window', 'operating', 'system', 'family', 'system', 'cater', 'sector', 'industry', 'ibm', 'architecture', 'family', 'window', 'window', 'window', 'window', 'window', 'server', 'defunct', 'family', 'window', 'window', 'mobile', 'window', 'phone', 'microsoft', 'operating', 'environment', 'system', 'response', 'interest', 'user', 'interface', 'gui', 'microsoft', 'window', 'world', 'computer', 'market', 'market', 'share', 'mac', 'apple', 'innovation', 'gui', 'development', 'product', 'lisa', 'macintosh', 'court', 'microsoft', 'favor', 'pc', 'window', 'operating', 'system', 'majority', 'system', 'market', 'growth', 'sale', 'android', 'number', 'window', 'device', 'device', 'comparison', 'system', 'platform', 'number', 'server', 'use', 'window', 'competitor', 'market', 'share', 'end', 'user', 'use', 'september', 'version', 'tablet', 'device', 'window', 'version', 'computer', 'version', 'window', 'xbox', 'video', 'game', 'console']
+
+
+Hypernym :
+['window', 'operating', 'system', 'family', 'system', 'cater', 'sector', 'industry', 'ibm', 'architecture', 'family', 'window', 'window', 'window', 'window', 'window', 'server', 'defunct', 'family', 'window', 'window', 'mobile', 'window', 'phone', 'microsoft', 'operating', 'environment', 'system', 'response', 'interest', 'user', 'interface', 'gui', 'microsoft', 'window', 'world', 'computer', 'market', 'market', 'share', 'mac', 'apple', 'innovation', 'gui', 'development', 'product', 'lisa', 'macintosh', 'court', 'microsoft', 'favor', 'pc', 'window', 'operating', 'system', 'majority', 'system', 'market', 'growth', 'sale', 'android', 'number', 'window', 'device', 'device', 'comparison', 'system', 'platform', 'number', 'server', 'use', 'window', 'competitor', 'market', 'share', 'end', 'user', 'use', 'september', 'version', 'tablet', 'device', 'window', 'version', 'computer', 'version', 'window', 'xbox', 'video', 'game', 'console']
+
+
+Meronym matching : 
+['window', 'operating', 'system', 'family', 'system', 'cater', 'sector', 'industry', 'ibm', 'architecture', 'family', 'window', 'window', 'window', 'window', 'window', 'server', 'defunct', 'family', 'window', 'window', 'mobile', 'window', 'phone', 'microsoft', 'operating', 'environment', 'system', 'response', 'interest', 'user', 'interface', 'gui', 'microsoft', 'window', 'world', 'computer', 'market', 'market', 'share', 'mac', 'apple', 'innovation', 'gui', 'development', 'product', 'lisa', 'macintosh', 'court', 'microsoft', 'favor', 'pc', 'window', 'operating', 'system', 'majority', 'system', 'market', 'growth', 'sale', 'android', 'number', 'window', 'device', 'device', 'comparison', 'system', 'platform', 'number', 'server', 'use', 'window', 'competitor', 'market', 'share', 'end', 'user', 'use', 'september', 'version', 'tablet', 'device', 'window', 'version', 'computer', 'version', 'window', 'xbox', 'video', 'game', 'console']
+
+
+Data : ['Zurich', ' Travel']
+Tokenizing Words : 
+['zürich', 'or', 'zurich', '(', 'zewr-ik', ')', 'is', 'the', 'largest', 'city', 'in', 'switzerland', 'and', 'the', 'capital', 'of', 'the', 'canton', 'of', 'zürich', '.', 'it', 'is', 'located', 'in', 'north-central', 'switzerland', 'at', 'the', 'northwestern', 'tip', 'of', 'lake', 'zürich', '.', 'the', 'municipality', 'has', 'approximately', '400,028', 'inhabitants', ',', 'the', 'urban', 'agglomeration', '1.315', 'million', 'and', 'the', 'zürich', 'metropolitan', 'area', '1.83', 'million', '.', 'zürich', 'is', 'a', 'hub', 'for', 'railways', ',', 'roads', ',', 'and', 'air', 'traffic', '.', 'both', 'zürich', 'airport', 'and', 'railway', 'station', 'are', 'the', 'largest', 'and', 'busiest', 'in', 'the', 'country', '.', 'permanently', 'settled', 'for', 'about', '2000', 'years', ',', 'zürich', 'was', 'founded', 'by', 'the', 'romans', ',', 'who', ',', 'in', '15', 'bc', ',', 'called', 'it', 'turicum', '.', 'however', ',', 'early', 'settlements', 'have', 'been', 'found', 'dating', 'back', 'more', 'than', '6400', 'years', 'ago', '.', 'during', 'the', 'middle', 'ages', ',', 'zürich', 'gained', 'the', 'independent', 'and', 'privileged', 'status', 'of', 'imperial', 'immediacy', 'and', ',', 'in', '1519', ',', 'became', 'a', 'primary', 'centre', 'of', 'the', 'protestant', 'reformation', 'in', 'europe', 'under', 'the', 'leadership', 'of', 'huldrych', 'zwingli', '.', 'the', 'official', 'language', 'of', 'zürich', 'is', 'german', ',', 'but', 'the', 'main', 'spoken', 'language', 'is', 'the', 'local', 'variant', 'of', 'the', 'alemannic', 'swiss', 'german', 'dialect', '.', 'many', 'museums', 'and', 'art', 'galleries', 'can', 'be', 'found', 'in', 'the', 'city', ',', 'including', 'the', 'swiss', 'national', 'museum', 'and', 'the', 'kunsthaus', '.', 'schauspielhaus', 'zürich', 'is', 'one', 'of', 'the', 'most', 'important', 'theatres', 'in', 'the', 'german-speaking', 'world', '.', 'zürich', 'is', 'a', 'leading', 'global', 'city', 'and', 'among', 'the', 'world', "'s", 'largest', 'financial', 'centres', 'despite', 'having', 'a', 'relatively', 'small', 'population', '.', 'the', 'city', 'is', 'home', 'to', 'a', 'large', 'number', 'of', 'financial', 'institutions', 'and', 'banking', 'companies', '.', 'most', 'of', 'switzerland', "'s", 'research', 'and', 'development', 'centres', 'are', 'concentrated', 'in', 'zürich', 'and', 'the', 'low', 'tax', 'rates', 'attract', 'overseas', 'companies', 'to', 'set', 'up', 'their', 'headquarters', 'there', '.', 'monocle', "'s", '2012', '``', 'quality', 'of', 'life', 'survey', "''", 'ranked', 'zürich', 'first', 'on', 'a', 'list', 'of', 'the', 'top', '25', 'cities', 'in', 'the', 'world', '``', 'to', 'make', 'a', 'base', 'within', "''", '.', 'according', 'to', 'several', 'surveys', 'from', '2006', 'to', '2008', ',', 'zürich', 'was', 'named', 'the', 'city', 'with', 'the', 'best', 'quality', 'of', 'life', 'in', 'the', 'world', 'as', 'well', 'as', 'the', 'wealthiest', 'city', 'in', 'europe', '.', 'the', 'economist', 'intelligence', 'unit', "'s", 'global', 'liveability', 'ranking', 'sees', 'zürich', 'rank', 'among', 'the', 'top', 'ten', 'most', 'liveable', 'cities', 'in', 'the', 'world', '.']
+
+
+After Removing stopwords : 
+['zürich', 'zurich', 'zewr-ik', 'largest', 'city', 'switzerland', 'capital', 'canton', 'zürich', 'located', 'north-central', 'switzerland', 'northwestern', 'tip', 'lake', 'zürich', 'municipality', 'approximately', '400,028', 'inhabitants', 'urban', 'agglomeration', '1.315', 'million', 'zürich', 'metropolitan', 'area', '1.83', 'million', 'zürich', 'hub', 'railways', 'roads', 'air', 'traffic', 'zürich', 'airport', 'railway', 'station', 'largest', 'busiest', 'country', 'permanently', 'settled', '2000', 'years', 'zürich', 'founded', 'romans', 'called', 'turicum', 'however', 'early', 'settlements', 'found', 'dating', 'back', '6400', 'years', 'ago', 'middle', 'ages', 'zürich', 'gained', 'independent', 'privileged', 'status', 'imperial', 'immediacy', '1519', 'became', 'primary', 'centre', 'protestant', 'reformation', 'europe', 'leadership', 'huldrych', 'zwingli', 'official', 'language', 'zürich', 'german', 'main', 'spoken', 'language', 'local', 'variant', 'alemannic', 'swiss', 'german', 'dialect', 'many', 'museums', 'art', 'galleries', 'found', 'city', 'including', 'swiss', 'national', 'museum', 'kunsthaus', 'schauspielhaus', 'zürich', 'one', 'important', 'theatres', 'german-speaking', 'world', 'zürich', 'leading', 'global', 'city', 'among', 'world', 'largest', 'financial', 'centres', 'despite', 'relatively', 'small', 'population', 'city', 'home', 'large', 'number', 'financial', 'institutions', 'banking', 'companies', 'switzerland', 'research', 'development', 'centres', 'concentrated', 'zürich', 'low', 'tax', 'rates', 'attract', 'overseas', 'companies', 'set', 'headquarters', 'monocle', '2012', 'quality', 'life', 'survey', 'ranked', 'zürich', 'first', 'list', 'top', 'cities', 'world', 'make', 'base', 'within', 'according', 'several', 'surveys', '2006', '2008', 'zürich', 'named', 'city', 'best', 'quality', 'life', 'world', 'well', 'wealthiest', 'city', 'europe', 'economist', 'intelligence', 'unit', 'global', 'liveability', 'ranking', 'sees', 'zürich', 'rank', 'among', 'top', 'ten', 'liveable', 'cities', 'world']
+
+
+Lemmatization :
+['zürich', 'zurich', 'zewr-ik', 'largest', 'city', 'switzerland', 'capital', 'canton', 'zürich', 'located', 'north-central', 'switzerland', 'northwestern', 'tip', 'lake', 'zürich', 'municipality', 'approximately', '400,028', 'inhabitant', 'urban', 'agglomeration', '1.315', 'million', 'zürich', 'metropolitan', 'area', '1.83', 'million', 'zürich', 'hub', 'railway', 'road', 'air', 'traffic', 'zürich', 'airport', 'railway', 'station', 'largest', 'busiest', 'country', 'permanently', 'settled', '2000', 'year', 'zürich', 'founded', 'roman', 'called', 'turicum', 'however', 'early', 'settlement', 'found', 'dating', 'back', '6400', 'year', 'ago', 'middle', 'age', 'zürich', 'gained', 'independent', 'privileged', 'status', 'imperial', 'immediacy', '1519', 'became', 'primary', 'centre', 'protestant', 'reformation', 'europe', 'leadership', 'huldrych', 'zwingli', 'official', 'language', 'zürich', 'german', 'main', 'spoken', 'language', 'local', 'variant', 'alemannic', 'swiss', 'german', 'dialect', 'many', 'museum', 'art', 'gallery', 'found', 'city', 'including', 'swiss', 'national', 'museum', 'kunsthaus', 'schauspielhaus', 'zürich', 'one', 'important', 'theatre', 'german-speaking', 'world', 'zürich', 'leading', 'global', 'city', 'among', 'world', 'largest', 'financial', 'centre', 'despite', 'relatively', 'small', 'population', 'city', 'home', 'large', 'number', 'financial', 'institution', 'banking', 'company', 'switzerland', 'research', 'development', 'centre', 'concentrated', 'zürich', 'low', 'tax', 'rate', 'attract', 'overseas', 'company', 'set', 'headquarters', 'monocle', '2012', 'quality', 'life', 'survey', 'ranked', 'zürich', 'first', 'list', 'top', 'city', 'world', 'make', 'base', 'within', 'according', 'several', 'survey', '2006', '2008', 'zürich', 'named', 'city', 'best', 'quality', 'life', 'world', 'well', 'wealthiest', 'city', 'europe', 'economist', 'intelligence', 'unit', 'global', 'liveability', 'ranking', 'see', 'zürich', 'rank', 'among', 'top', 'ten', 'liveable', 'city', 'world']
+
+
+POS Tagging :
+[('zürich', 'NN'), ('zurich', 'VBD'), ('zewr-ik', 'JJ'), ('largest', 'JJS'), ('city', 'NN'), ('switzerland', 'NN'), ('capital', 'NN'), ('canton', 'NN'), ('zürich', 'NNP'), ('located', 'VBD'), ('north-central', 'JJ'), ('switzerland', 'NN'), ('northwestern', 'JJ'), ('tip', 'JJ'), ('lake', 'NN'), ('zürich', 'JJ'), ('municipality', 'NN'), ('approximately', 'RB'), ('400,028', 'CD'), ('inhabitant', 'JJ'), ('urban', 'JJ'), ('agglomeration', 'NN'), ('1.315', 'CD'), ('million', 'CD'), ('zürich', 'JJ'), ('metropolitan', 'JJ'), ('area', 'NN'), ('1.83', 'CD'), ('million', 'CD'), ('zürich', 'NN'), ('hub', 'NN'), ('railway', 'NN'), ('road', 'NN'), ('air', 'NN'), ('traffic', 'NN'), ('zürich', 'NN'), ('airport', 'NN'), ('railway', 'NN'), ('station', 'NN'), ('largest', 'JJS'), ('busiest', 'JJS'), ('country', 'NN'), ('permanently', 'RB'), ('settled', 'VBN'), ('2000', 'CD'), ('year', 'NN'), ('zürich', 'NN'), ('founded', 'VBD'), ('roman', 'NN'), ('called', 'VBN'), ('turicum', 'NN'), ('however', 'RB'), ('early', 'JJ'), ('settlement', 'NN'), ('found', 'VBD'), ('dating', 'VBG'), ('back', 'RB'), ('6400', 'CD'), ('year', 'NN'), ('ago', 'RB'), ('middle', 'JJ'), ('age', 'NN'), ('zürich', 'NN'), ('gained', 'VBD'), ('independent', 'JJ'), ('privileged', 'JJ'), ('status', 'NN'), ('imperial', 'JJ'), ('immediacy', 'NN'), ('1519', 'CD'), ('became', 'VBD'), ('primary', 'JJ'), ('centre', 'NN'), ('protestant', 'JJ'), ('reformation', 'NN'), ('europe', 'NN'), ('leadership', 'NN'), ('huldrych', 'NN'), ('zwingli', 'NNP'), ('official', 'NN'), ('language', 'NN'), ('zürich', 'JJ'), ('german', 'JJ'), ('main', 'JJ'), ('spoken', 'VBN'), ('language', 'NN'), ('local', 'JJ'), ('variant', 'NN'), ('alemannic', 'JJ'), ('swiss', 'JJ'), ('german', 'JJ'), ('dialect', 'VBP'), ('many', 'JJ'), ('museum', 'NN'), ('art', 'NN'), ('gallery', 'NN'), ('found', 'VBD'), ('city', 'NN'), ('including', 'VBG'), ('swiss', 'JJ'), ('national', 'JJ'), ('museum', 'NN'), ('kunsthaus', 'NN'), ('schauspielhaus', 'NN'), ('zürich', 'VBP'), ('one', 'CD'), ('important', 'JJ'), ('theatre', 'IN'), ('german-speaking', 'JJ'), ('world', 'NN'), ('zürich', 'NN'), ('leading', 'VBG'), ('global', 'JJ'), ('city', 'NN'), ('among', 'IN'), ('world', 'NN'), ('largest', 'JJS'), ('financial', 'JJ'), ('centre', 'NN'), ('despite', 'IN'), ('relatively', 'RB'), ('small', 'JJ'), ('population', 'NN'), ('city', 'NN'), ('home', 'NN'), ('large', 'JJ'), ('number', 'NN'), ('financial', 'JJ'), ('institution', 'NN'), ('banking', 'NN'), ('company', 'NN'), ('switzerland', 'VBP'), ('research', 'NN'), ('development', 'NN'), ('centre', 'NN'), ('concentrated', 'VBD'), ('zürich', 'NNP'), ('low', 'JJ'), ('tax', 'NN'), ('rate', 'NN'), ('attract', 'NN'), ('overseas', 'RB'), ('company', 'NN'), ('set', 'VBD'), ('headquarters', 'NNS'), ('monocle', 'NN'), ('2012', 'CD'), ('quality', 'NN'), ('life', 'NN'), ('survey', 'NN'), ('ranked', 'VBD'), ('zürich', 'JJ'), ('first', 'JJ'), ('list', 'NN'), ('top', 'JJ'), ('city', 'NN'), ('world', 'NN'), ('make', 'VBP'), ('base', 'NN'), ('within', 'IN'), ('according', 'VBG'), ('several', 'JJ'), ('survey', 'NN'), ('2006', 'CD'), ('2008', 'CD'), ('zürich', 'NN'), ('named', 'VBN'), ('city', 'NN'), ('best', 'JJS'), ('quality', 'NN'), ('life', 'NN'), ('world', 'NN'), ('well', 'RB'), ('wealthiest', 'JJS'), ('city', 'NN'), ('europe', 'NN'), ('economist', 'NN'), ('intelligence', 'NN'), ('unit', 'NN'), ('global', 'JJ'), ('liveability', 'NN'), ('ranking', 'VBG'), ('see', 'NN'), ('zürich', 'JJ'), ('rank', 'NN'), ('among', 'IN'), ('top', 'JJ'), ('ten', 'NNS'), ('liveable', 'JJ'), ('city', 'NN'), ('world', 'NN')]
+
+
+Chunked Tree:
+(S
+  (NP zürich/NN)
+  zurich/VBD
+  zewr-ik/JJ
+  largest/JJS
+  (NP city/NN)
+  (NP switzerland/NN)
+  (NP capital/NN)
+  (NP canton/NN)
+  (NP zürich/NNP)
+  located/VBD
+  (NP north-central/JJ switzerland/NN)
+  (NP northwestern/JJ tip/JJ lake/NN)
+  (NP zürich/JJ municipality/NN)
+  approximately/RB
+  400,028/CD
+  (NP inhabitant/JJ urban/JJ agglomeration/NN)
+  1.315/CD
+  million/CD
+  (NP zürich/JJ metropolitan/JJ area/NN)
+  1.83/CD
+  million/CD
+  (NP zürich/NN)
+  (NP hub/NN)
+  (NP railway/NN)
+  (NP road/NN)
+  (NP air/NN)
+  (NP traffic/NN)
+  (NP zürich/NN)
+  (NP airport/NN)
+  (NP railway/NN)
+  (NP station/NN)
+  largest/JJS
+  busiest/JJS
+  (NP country/NN)
+  permanently/RB
+  settled/VBN
+  2000/CD
+  (NP year/NN)
+  (NP zürich/NN)
+  founded/VBD
+  (NP roman/NN)
+  called/VBN
+  (NP turicum/NN)
+  however/RB
+  (NP early/JJ settlement/NN)
+  found/VBD
+  dating/VBG
+  back/RB
+  6400/CD
+  (NP year/NN)
+  ago/RB
+  (NP middle/JJ age/NN)
+  (NP zürich/NN)
+  gained/VBD
+  (NP independent/JJ privileged/JJ status/NN)
+  (NP imperial/JJ immediacy/NN)
+  1519/CD
+  became/VBD
+  (NP primary/JJ centre/NN)
+  (NP protestant/JJ reformation/NN)
+  (NP europe/NN)
+  (NP leadership/NN)
+  (NP huldrych/NN)
+  (NP zwingli/NNP)
+  (NP official/NN)
+  (NP language/NN)
+  zürich/JJ
+  german/JJ
+  main/JJ
+  spoken/VBN
+  (NP language/NN)
+  (NP local/JJ variant/NN)
+  alemannic/JJ
+  swiss/JJ
+  german/JJ
+  dialect/VBP
+  (NP many/JJ museum/NN)
+  (NP art/NN)
+  (NP gallery/NN)
+  found/VBD
+  (NP city/NN)
+  including/VBG
+  (NP swiss/JJ national/JJ museum/NN)
+  (NP kunsthaus/NN)
+  (NP schauspielhaus/NN)
+  zürich/VBP
+  one/CD
+  important/JJ
+  theatre/IN
+  (NP german-speaking/JJ world/NN)
+  (NP zürich/NN)
+  leading/VBG
+  (NP global/JJ city/NN)
+  among/IN
+  (NP world/NN)
+  largest/JJS
+  (NP financial/JJ centre/NN)
+  despite/IN
+  relatively/RB
+  (NP small/JJ population/NN)
+  (NP city/NN)
+  (NP home/NN)
+  (NP large/JJ number/NN)
+  (NP financial/JJ institution/NN)
+  (NP banking/NN)
+  (NP company/NN)
+  switzerland/VBP
+  (NP research/NN)
+  (NP development/NN)
+  (NP centre/NN)
+  concentrated/VBD
+  (NP zürich/NNP)
+  (NP low/JJ tax/NN)
+  (NP rate/NN)
+  (NP attract/NN)
+  overseas/RB
+  (NP company/NN)
+  set/VBD
+  headquarters/NNS
+  (NP monocle/NN)
+  2012/CD
+  (NP quality/NN)
+  (NP life/NN)
+  (NP survey/NN)
+  ranked/VBD
+  (NP zürich/JJ first/JJ list/NN)
+  (NP top/JJ city/NN)
+  (NP world/NN)
+  make/VBP
+  (NP base/NN)
+  within/IN
+  according/VBG
+  (NP several/JJ survey/NN)
+  2006/CD
+  2008/CD
+  (NP zürich/NN)
+  named/VBN
+  (NP city/NN)
+  best/JJS
+  (NP quality/NN)
+  (NP life/NN)
+  (NP world/NN)
+  well/RB
+  wealthiest/JJS
+  (NP city/NN)
+  (NP europe/NN)
+  (NP economist/NN)
+  (NP intelligence/NN)
+  (NP unit/NN)
+  (NP global/JJ liveability/NN)
+  ranking/VBG
+  (NP see/NN)
+  (NP zürich/JJ rank/NN)
+  among/IN
+  top/JJ
+  ten/NNS
+  (NP liveable/JJ city/NN)
+  (NP world/NN))
+
+
+Shallow Parsing :
+['zürich', 'city', 'switzerland', 'capital', 'canton', 'zürich', 'switzerland', 'lake', 'municipality', 'agglomeration', 'area', 'zürich', 'hub', 'railway', 'road', 'air', 'traffic', 'zürich', 'airport', 'railway', 'station', 'country', 'year', 'zürich', 'roman', 'turicum', 'settlement', 'year', 'age', 'zürich', 'status', 'immediacy', 'centre', 'reformation', 'europe', 'leadership', 'huldrych', 'zwingli', 'official', 'language', 'language', 'variant', 'museum', 'art', 'gallery', 'city', 'museum', 'kunsthaus', 'schauspielhaus', 'world', 'zürich', 'city', 'world', 'centre', 'population', 'city', 'home', 'number', 'institution', 'banking', 'company', 'research', 'development', 'centre', 'zürich', 'tax', 'rate', 'attract', 'company', 'monocle', 'quality', 'life', 'survey', 'list', 'city', 'world', 'base', 'survey', 'zürich', 'city', 'quality', 'life', 'world', 'city', 'europe', 'economist', 'intelligence', 'unit', 'liveability', 'see', 'rank', 'city', 'world']
+
+
+Hypernym :
+['zürich', 'city', 'switzerland', 'capital', 'canton', 'zürich', 'switzerland', 'lake', 'municipality', 'agglomeration', 'area', 'zürich', 'hub', 'railway', 'road', 'air', 'traffic', 'zürich', 'airport', 'railway', 'station', 'country', 'year', 'zürich', 'roman', 'turicum', 'settlement', 'year', 'age', 'zürich', 'status', 'immediacy', 'centre', 'reformation', 'europe', 'leadership', 'huldrych', 'zwingli', 'official', 'language', 'language', 'variant', 'museum', 'art', 'gallery', 'city', 'museum', 'kunsthaus', 'schauspielhaus', 'world', 'zürich', 'city', 'world', 'centre', 'population', 'city', 'home', 'number', 'institution', 'banking', 'company', 'research', 'development', 'centre', 'zürich', 'tax', 'rate', 'attract', 'company', 'monocle', 'quality', 'life', 'survey', 'list', 'city', 'world', 'base', 'survey', 'zürich', 'city', 'quality', 'life', 'world', 'city', 'europe', 'economist', 'intelligence', 'unit', 'liveability', 'see', 'rank', 'city', 'world']
+
+
+Meronym matching : 
+['zürich', 'city', 'switzerland', 'capital', 'canton', 'zürich', 'switzerland', 'lake', 'municipality', 'agglomeration', 'area', 'zürich', 'hub', 'railway', 'road', 'air', 'traffic', 'zürich', 'airport', 'railway', 'station', 'country', 'year', 'zürich', 'roman', 'turicum', 'settlement', 'year', 'age', 'zürich', 'status', 'immediacy', 'centre', 'reformation', 'europe', 'leadership', 'huldrych', 'zwingli', 'official', 'language', 'language', 'variant', 'museum', 'art', 'gallery', 'city', 'museum', 'kunsthaus', 'schauspielhaus', 'world', 'zürich', 'city', 'world', 'centre', 'population', 'city', 'home', 'number', 'institution', 'banking', 'company', 'research', 'development', 'centre', 'zürich', 'tax', 'rate', 'attract', 'company', 'monocle', 'quality', 'life', 'survey', 'list', 'city', 'world', 'base', 'survey', 'zürich', 'city', 'quality', 'life', 'world', 'city', 'europe', 'economist', 'intelligence', 'unit', 'liveability', 'see', 'rank', 'city', 'world']
+
+
+Topic : Tianjin
+Assigned Category : Travel
+Obtained Category :  Travel
+Topic : Tim Cook
+Assigned Category : Business
+Obtained Category :  Travel
+Topic : Tokyo
+Assigned Category : Travel
+Obtained Category :  Travel
+Topic : Toronto
+Assigned Category : Travel
+Obtained Category :  Travel
+Topic : Uber (Company)
+Assigned Category : Business
+Obtained Category :  Travel
+Topic : Vienna
+Assigned Category : Travel
+Obtained Category :  Travel
+Topic : Vladmir Putin
+Assigned Category : Politics
+Obtained Category :  Politics
+Topic : Washington DC
+Assigned Category : Travel
+Obtained Category :  Travel
+Topic : Windows PC
+Assigned Category : Technology
+Obtained Category :  Technology
+Topic : Zurich
+Assigned Category : Travel
+Obtained Category :  Travel
+Accuracy : 80.0

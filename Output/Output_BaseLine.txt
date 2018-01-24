@@ -1,0 +1,331 @@
+Topic : Abu Dhabi
+Assigned Category :  Travel
+Obtained Category : Technology
+Topic : Accenture
+Assigned Category :  Business
+Obtained Category : Technology
+Topic : Adobe Photoshop
+Assigned Category :  Technology
+Obtained Category : Travel
+Topic : Adolf Hitler
+Assigned Category :  Politics
+Obtained Category : Politics
+Topic : Amazon (Company)
+Assigned Category :  Business
+Obtained Category : Business
+Topic : Amsterdam
+Assigned Category :  Travel
+Obtained Category : Business
+Topic : Android (Operating System)
+Assigned Category :  Technology
+Obtained Category : Technology
+Topic : Apple
+Assigned Category :  Technology
+Obtained Category : Sports
+Topic : Arsenal FC
+Assigned Category : Sports
+Obtained Category : Sports
+Topic : Atletico de Madrid
+Assigned Category : Sports
+Obtained Category : Sports
+Topic : Bangkok
+Assigned Category :  Travel
+Obtained Category : Business
+Topic : Barack Obama
+Assigned Category :  Politics
+Obtained Category : Business
+Topic : Barcelona
+Assigned Category :  Travel
+Obtained Category : Sports
+Topic : Beijing
+Assigned Category :  Travel
+Obtained Category : Business
+Topic : Ben Carson
+Assigned Category :  Politics
+Obtained Category : Business
+Topic : Berlin
+Assigned Category :  Travel
+Obtained Category : Business
+Topic : Bernie Sanders
+Assigned Category :  Politics
+Obtained Category : Politics
+Topic : Bill gates
+Assigned Category :  Business
+Obtained Category : Business
+Topic : Brexit
+Assigned Category :  Politics
+Obtained Category : Travel
+Topic : Brussels
+Assigned Category :  Travel
+Obtained Category : Business
+Topic : Buenos Aires
+Assigned Category :  Travel
+Obtained Category : Travel
+Topic : Camera
+Assigned Category :  Technology
+Obtained Category : Travel
+Topic : Chelsea FC
+Assigned Category : Sports
+Obtained Category : Sports
+Topic : Chicago
+Assigned Category :  Travel
+Obtained Category : Business
+Topic : Copenhagen
+Assigned Category :  Travel
+Obtained Category : Business
+Topic : Deloitte
+Assigned Category :  Business
+Obtained Category : Business
+Topic : Doha
+Assigned Category :  Travel
+Obtained Category : Sports
+Topic : Donald Trump
+Assigned Category :  Politics
+Obtained Category : Business
+Topic : Dubai
+Assigned Category :  Travel
+Obtained Category : Business
+Topic : Ebay
+Assigned Category :  Business
+Obtained Category : Business
+Topic : Everton FC
+Assigned Category : Sports
+Obtained Category : Sports
+Topic : FC Barcelona
+Assigned Category : Sports
+Obtained Category : Sports
+Topic : FC Bayern Munich
+Assigned Category : Sports
+Obtained Category : Sports
+Topic : Frankfurt
+Assigned Category :  Travel
+Obtained Category : Business
+Topic : Google
+Assigned Category :  Technology
+Obtained Category : Technology
+Topic : Guangzhou
+Assigned Category :  Travel
+Obtained Category : Technology
+Topic : Hillary Clinton
+Assigned Category :  Politics
+Obtained Category : Politics
+Topic : Hong Kong
+Assigned Category :  Travel
+Obtained Category : Business
+Topic : HP
+Assigned Category :  Technology
+Obtained Category : Travel
+Topic : IBM
+Assigned Category :  Business
+Obtained Category : Business
+Topic : iOS
+Assigned Category :  Technology
+Obtained Category : Technology
+Topic : Istanbul
+Assigned Category :  Travel
+Obtained Category : Sports
+Topic : Jakarta
+Assigned Category :  Travel
+Obtained Category : Sports
+Topic : Joe Biden
+Assigned Category :  Politics
+Obtained Category : Politics
+Topic : Johannesburg
+Assigned Category :  Travel
+Obtained Category : Business
+Topic : Justin Trudeau
+Assigned Category :  Politics
+Obtained Category : Politics
+Topic : Juventus FC
+Assigned Category : Sports
+Obtained Category : Sports
+Topic : Kinki
+Assigned Category :  Travel
+Obtained Category : Sports
+Topic : Kuala Lumpur
+Assigned Category :  Travel
+Obtained Category : Business
+Topic : Kuwait
+Assigned Category :  Travel
+Obtained Category : Travel
+Topic : Laptop
+Assigned Category :  Technology
+Obtained Category : Technology
+Topic : LG
+Assigned Category :  Technology
+Obtained Category : Sports
+Topic : Lima
+Assigned Category :  Travel
+Obtained Category : Sports
+Topic : Liverpool FC
+Assigned Category : Sports
+Obtained Category : Sports
+Topic : London
+Assigned Category :  Travel
+Obtained Category : Business
+Topic : Los Angeles
+Assigned Category :  Travel
+Obtained Category : Sports
+Topic : Lyft
+Assigned Category :  Business
+Obtained Category : Business
+Topic : Madrid
+Assigned Category :  Travel
+Obtained Category : Business
+Topic : Mahatma Gandi
+Assigned Category :  Politics
+Obtained Category : Politics
+Topic : Manchester City FC
+Assigned Category : Sports
+Obtained Category : Sports
+Topic : Manchester United FC
+Assigned Category : Sports
+Obtained Category : Sports
+Topic : Melbourne
+Assigned Category :  Travel
+Obtained Category : Sports
+Topic : Mexico
+Assigned Category :  Travel
+Obtained Category : Travel
+Topic : Microsoft
+Assigned Category :  Technology
+Obtained Category : Business
+Topic : Mike Pence
+Assigned Category :  Politics
+Obtained Category : Business
+Topic : Milan
+Assigned Category :  Travel
+Obtained Category : Technology
+Topic : mobile phone
+Assigned Category :  Technology
+Obtained Category : Technology
+Topic : Montreal
+Assigned Category :  Travel
+Obtained Category : Business
+Topic : Moscow
+Assigned Category :  Travel
+Obtained Category : Business
+Topic : Mumbai
+Assigned Category :  Travel
+Obtained Category : Technology
+Topic : Narendra Modi
+Assigned Category :  Politics
+Obtained Category : Travel
+Topic : New Delhi
+Assigned Category :  Travel
+Obtained Category : Sports
+Topic : New York City
+Assigned Category :  Travel
+Obtained Category : Technology
+Topic : Osaka
+Assigned Category :  Travel
+Obtained Category : Business
+Topic : Paris (Texas)
+Assigned Category :  Travel
+Obtained Category : Technology
+Topic : Paypal
+Assigned Category :  Business
+Obtained Category : Business
+Topic : Paytm
+Assigned Category :  Business
+Obtained Category : Business
+Topic : Prague
+Assigned Category :  Travel
+Obtained Category : Travel
+Topic : Printer (computing)
+Assigned Category :  Technology
+Obtained Category : Technology
+Topic : Rand Paul
+Assigned Category :  Politics
+Obtained Category : Politics
+Topic : Real Madrid
+Assigned Category : Sports
+Obtained Category : Sports
+Topic : Rio de Janeiro
+Assigned Category :  Travel
+Obtained Category : Sports
+Topic : Riyadh
+Assigned Category :  Travel
+Obtained Category : Travel
+Topic : Rome
+Assigned Category :  Travel
+Obtained Category : Business
+Topic : Ronald Reagan
+Assigned Category :  Politics
+Obtained Category : Politics
+Topic : Samsung Company
+Assigned Category :  Technology
+Obtained Category : Business
+Topic : San Francisco
+Assigned Category :  Travel
+Obtained Category : Business
+Topic : Santiago
+Assigned Category :  Travel
+Obtained Category : Travel
+Topic : Sao Paulo
+Assigned Category :  Travel
+Obtained Category : Travel
+Topic : Seoul
+Assigned Category :  Travel
+Obtained Category : Technology
+Topic : Shanghai
+Assigned Category :  Travel
+Obtained Category : Sports
+Topic : Shenzhen
+Assigned Category :  Travel
+Obtained Category : Technology
+Topic : Singapore
+Assigned Category :  Travel
+Obtained Category : Business
+Topic : Spotify
+Assigned Category :  Business
+Obtained Category : Business
+Topic : Steve Jobs
+Assigned Category :  Business
+Obtained Category : Business
+Topic : Stockholm
+Assigned Category :  Travel
+Obtained Category : Travel
+Topic : Sundar Pichai
+Assigned Category :  Business
+Obtained Category : Technology
+Topic : Sydney
+Assigned Category :  Travel
+Obtained Category : Business
+Topic : Taipei
+Assigned Category :  Travel
+Obtained Category : Sports
+Topic : Tehran
+Assigned Category :  Travel
+Obtained Category : Technology
+Topic : Tianjin
+Assigned Category :  Travel
+Obtained Category : Technology
+Topic : Tim Cook
+Assigned Category :  Business
+Obtained Category : Business
+Topic : Tokyo
+Assigned Category :  Travel
+Obtained Category : Sports
+Topic : Toronto
+Assigned Category :  Travel
+Obtained Category : Sports
+Topic : Uber (Company)
+Assigned Category :  Business
+Obtained Category : Business
+Topic : Vienna
+Assigned Category :  Travel
+Obtained Category : Business
+Topic : Vladmir Putin
+Assigned Category :  Politics
+Obtained Category : Business
+Topic : Washington DC
+Assigned Category :  Travel
+Obtained Category : Sports
+Topic : Windows PC
+Assigned Category :  Technology
+Obtained Category : Business
+Topic : Zurich
+Assigned Category :  Travel
+Obtained Category : Sports
+Accuracy : 40.909090909090914%
